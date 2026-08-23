@@ -1,0 +1,857 @@
+{
+  "abandoned-ship-area": {
+    "label": "Abandoned Ship",
+    "x": 18,
+    "y": 80
+  },
+  "ancient-tomb-area": {
+    "label": "Ancient Tomb",
+    "x": 24,
+    "y": 10
+  },
+  "artisan-cave-area": {
+    "label": "Artisan Cave",
+    "x": 18,
+    "y": 50
+  },
+  "battle-resort-area": {
+    "label": "Battle Resort",
+    "x": 70,
+    "y": 72
+  },
+  "cave-of-origin-1f": {
+    "label": "Cave of Origin 1F",
+    "x": 75,
+    "y": 50
+  },
+  "cave-of-origin-b1f": {
+    "label": "Cave of Origin B1",
+    "x": 75,
+    "y": 50
+  },
+  "cave-of-origin-b2f": {
+    "label": "Cave of Origin B2",
+    "x": 75,
+    "y": 50
+  },
+  "cave-of-origin-b3f": {
+    "label": "Cave of Origin B3",
+    "x": 75,
+    "y": 50
+  },
+  "cave-of-origin-b4f": {
+    "label": "Cave of Origin B4",
+    "x": 75,
+    "y": 50
+  },
+  "cave-of-origin-entrance": {
+    "label": "Cave of Origin Entrance",
+    "x": 75,
+    "y": 50
+  },
+  "crescent-isle-area": {
+    "label": "Crescent Isle",
+    "x": 66,
+    "y": 74
+  },
+  "desert-ruins-area": {
+    "label": "Desert Ruins",
+    "x": 29,
+    "y": 36
+  },
+  "desert-underpass-area": {
+    "label": "Desert Underpass",
+    "x": 26,
+    "y": 33
+  },
+  "dewford-town-area": {
+    "label": "Dewford Town",
+    "x": 11.9,
+    "y": 85.9
+  },
+  "ever-grande-city-area": {
+    "label": "Ever Grande City",
+    "x": 95.0,
+    "y": 58.2
+  },
+  "fabled-cave-area": {
+    "label": "Fabled Cave",
+    "x": 12,
+    "y": 24
+  },
+  "fallarbor-town-contest-hall": {
+    "label": "Fallarbor Town Contest Hall",
+    "x": 15.0,
+    "y": 14.7
+  },
+  "faraway-island-area": {
+    "label": "Faraway Island",
+    "x": 72,
+    "y": 68
+  },
+  "fiery-path-area": {
+    "label": "Fiery Path",
+    "x": 25,
+    "y": 27
+  },
+  "fortree-city-area": {
+    "label": "Fortree City",
+    "x": 45.0,
+    "y": 14.7
+  },
+  "gnarled-den-area": {
+    "label": "Gnarled Den",
+    "x": 14,
+    "y": 20
+  },
+  "granite-cave-1f": {
+    "label": "Granite Cave 1F",
+    "x": 13,
+    "y": 80
+  },
+  "granite-cave-1fsmall-room": {
+    "label": "Granite Cave 1Fsmall Room",
+    "x": 13,
+    "y": 80
+  },
+  "granite-cave-b1f": {
+    "label": "Granite Cave B1",
+    "x": 13,
+    "y": 80
+  },
+  "granite-cave-b2f": {
+    "label": "Granite Cave B2",
+    "x": 13,
+    "y": 80
+  },
+  "hoenn-altering-cave-area": {
+    "label": "Altering Cave",
+    "x": 16,
+    "y": 12
+  },
+  "hoenn-battle-frontier-area": {
+    "label": "Battle Frontier",
+    "x": 68,
+    "y": 70
+  },
+  "hoenn-pokecenter-area": {
+    "label": "PokeCenter",
+    "x": 33.5,
+    "y": 45.3
+  },
+  "hoenn-pokemart-area": {
+    "label": "PokeMart",
+    "x": 33.5,
+    "y": 45.3
+  },
+  "hoenn-route-101-area": {
+    "label": "Route 101",
+    "x": 18.5,
+    "y": 65.5
+  },
+  "hoenn-route-102-area": {
+    "label": "Route 102",
+    "x": 13.5,
+    "y": 60.6
+  },
+  "hoenn-route-103-area": {
+    "label": "Route 103",
+    "x": 18.5,
+    "y": 54
+  },
+  "hoenn-route-104-area": {
+    "label": "Route 104",
+    "x": 6.5,
+    "y": 52
+  },
+  "hoenn-route-104-north-oras": {
+    "label": "Route 104 (N) Oras",
+    "x": 6.5,
+    "y": 52
+  },
+  "hoenn-route-104-south-oras": {
+    "label": "Route 104 (S) Oras",
+    "x": 6.5,
+    "y": 52
+  },
+  "hoenn-route-105-area": {
+    "label": "Route 105",
+    "x": 9,
+    "y": 68
+  },
+  "hoenn-route-106-area": {
+    "label": "Route 106",
+    "x": 10,
+    "y": 78
+  },
+  "hoenn-route-107-area": {
+    "label": "Route 107",
+    "x": 16,
+    "y": 82
+  },
+  "hoenn-route-108-area": {
+    "label": "Route 108",
+    "x": 20,
+    "y": 80
+  },
+  "hoenn-route-109-area": {
+    "label": "Route 109",
+    "x": 26,
+    "y": 74
+  },
+  "hoenn-route-110-area": {
+    "label": "Route 110",
+    "x": 32,
+    "y": 56
+  },
+  "hoenn-route-111-area": {
+    "label": "Route 111",
+    "x": 28,
+    "y": 35
+  },
+  "hoenn-route-112-area": {
+    "label": "Route 112",
+    "x": 24,
+    "y": 25
+  },
+  "hoenn-route-113-area": {
+    "label": "Route 113",
+    "x": 17,
+    "y": 22
+  },
+  "hoenn-route-114-area": {
+    "label": "Route 114",
+    "x": 22,
+    "y": 12
+  },
+  "hoenn-route-115-area": {
+    "label": "Route 115",
+    "x": 12,
+    "y": 32
+  },
+  "hoenn-route-116-area": {
+    "label": "Route 116",
+    "x": 11,
+    "y": 44
+  },
+  "hoenn-route-117-area": {
+    "label": "Route 117",
+    "x": 26,
+    "y": 45
+  },
+  "hoenn-route-118-area": {
+    "label": "Route 118",
+    "x": 42,
+    "y": 30
+  },
+  "hoenn-route-119-area": {
+    "label": "Route 119",
+    "x": 44,
+    "y": 22
+  },
+  "hoenn-route-119-weather-institute": {
+    "label": "Route 119 Weather Institute",
+    "x": 44,
+    "y": 22
+  },
+  "hoenn-route-120-area": {
+    "label": "Route 120",
+    "x": 52,
+    "y": 18
+  },
+  "hoenn-route-121-area": {
+    "label": "Route 121",
+    "x": 58,
+    "y": 28
+  },
+  "hoenn-route-122-area": {
+    "label": "Route 122",
+    "x": 60,
+    "y": 36
+  },
+  "hoenn-route-123-area": {
+    "label": "Route 123",
+    "x": 46,
+    "y": 42
+  },
+  "hoenn-route-124-area": {
+    "label": "Route 124",
+    "x": 76,
+    "y": 34
+  },
+  "hoenn-route-124-underwater": {
+    "label": "Route 124 Underwater",
+    "x": 76,
+    "y": 34
+  },
+  "hoenn-route-125-area": {
+    "label": "Route 125",
+    "x": 86,
+    "y": 48
+  },
+  "hoenn-route-126-area": {
+    "label": "Route 126",
+    "x": 80,
+    "y": 46
+  },
+  "hoenn-route-126-underwater": {
+    "label": "Route 126 Underwater",
+    "x": 80,
+    "y": 46
+  },
+  "hoenn-route-127-area": {
+    "label": "Route 127",
+    "x": 88,
+    "y": 52
+  },
+  "hoenn-route-128-area": {
+    "label": "Route 128",
+    "x": 90,
+    "y": 62
+  },
+  "hoenn-route-129-area": {
+    "label": "Route 129",
+    "x": 75,
+    "y": 62
+  },
+  "hoenn-route-130-area": {
+    "label": "Route 130",
+    "x": 55,
+    "y": 68
+  },
+  "hoenn-route-131-area": {
+    "label": "Route 131",
+    "x": 78,
+    "y": 62
+  },
+  "hoenn-route-132-area": {
+    "label": "Route 132",
+    "x": 48,
+    "y": 66
+  },
+  "hoenn-route-133-area": {
+    "label": "Route 133",
+    "x": 42,
+    "y": 66
+  },
+  "hoenn-route-134-area": {
+    "label": "Route 134",
+    "x": 36,
+    "y": 67
+  },
+  "hoenn-safari-zone-expansion-north": {
+    "label": "Hoenn Safari Zone Expansion (N)",
+    "x": 54,
+    "y": 26
+  },
+  "hoenn-safari-zone-expansion-south": {
+    "label": "Hoenn Safari Zone Expansion (S)",
+    "x": 54,
+    "y": 26
+  },
+  "hoenn-safari-zone-neacro-bike-area": {
+    "label": "Hoenn Safari Zone Neacro Bike Area",
+    "x": 54,
+    "y": 26
+  },
+  "hoenn-safari-zone-nwmach-bike-area": {
+    "label": "Hoenn Safari Zone Nwmach Bike Area",
+    "x": 54,
+    "y": 26
+  },
+  "hoenn-safari-zone-se": {
+    "label": "Hoenn Safari Zone Se",
+    "x": 54,
+    "y": 26
+  },
+  "hoenn-safari-zone-sw": {
+    "label": "Hoenn Safari Zone Sw",
+    "x": 54,
+    "y": 26
+  },
+  "hoenn-victory-road-1f": {
+    "label": "Victory Road 1F",
+    "x": 92,
+    "y": 56
+  },
+  "hoenn-victory-road-b1f": {
+    "label": "Victory Road B1",
+    "x": 92,
+    "y": 56
+  },
+  "hoenn-victory-road-b2f": {
+    "label": "Victory Road B2",
+    "x": 92,
+    "y": 56
+  },
+  "island-cave-area": {
+    "label": "Island Cave",
+    "x": 8,
+    "y": 72
+  },
+  "jagged-pass-area": {
+    "label": "Jagged Pass",
+    "x": 23,
+    "y": 22
+  },
+  "lavaridge-town-area": {
+    "label": "Lavaridge Town",
+    "x": 21.9,
+    "y": 30.0
+  },
+  "lilycove-city-area": {
+    "label": "Lilycove City",
+    "x": 66.5,
+    "y": 30.0
+  },
+  "lilycove-city-contest-hall": {
+    "label": "Lilycove City Contest Hall",
+    "x": 66.5,
+    "y": 30.0
+  },
+  "littleroot-town-area": {
+    "label": "Littleroot Town",
+    "x": 18.5,
+    "y": 70.6
+  },
+  "magma-hideout-area": {
+    "label": "Magma Hideout",
+    "x": 24,
+    "y": 24
+  },
+  "marine-cave-area": {
+    "label": "Marine Cave",
+    "x": 28,
+    "y": 76
+  },
+  "meteor-falls-area": {
+    "label": "Meteor Falls",
+    "x": 18,
+    "y": 18
+  },
+  "meteor-falls-b1f": {
+    "label": "Meteor Falls B1",
+    "x": 18,
+    "y": 18
+  },
+  "meteor-falls-back": {
+    "label": "Meteor Falls Back",
+    "x": 18,
+    "y": 18
+  },
+  "meteor-falls-backsmall-room": {
+    "label": "Meteor Falls Backsmall Room",
+    "x": 18,
+    "y": 18
+  },
+  "mirage-island-area": {
+    "label": "Mirage Island",
+    "x": 52,
+    "y": 68
+  },
+  "mirage-spot-cave-north-of-fallarbor": {
+    "label": "Mirage Cave (N) Of Fallarbor",
+    "x": 15,
+    "y": 7
+  },
+  "mirage-spot-cave-north-of-fortree": {
+    "label": "Mirage Cave (N) Of Fortree",
+    "x": 45,
+    "y": 7
+  },
+  "mirage-spot-cave-north-of-route-124": {
+    "label": "Mirage Cave (N) Of Route 124",
+    "x": 76,
+    "y": 26
+  },
+  "mirage-spot-cave-north-of-route-132": {
+    "label": "Mirage Cave (N) Of Route 132",
+    "x": 48,
+    "y": 58
+  },
+  "mirage-spot-cave-south-east-of-route-129": {
+    "label": "Mirage Cave (S) (E) Of Route 129",
+    "x": 82,
+    "y": 68
+  },
+  "mirage-spot-cave-south-of-pacifidlog": {
+    "label": "Mirage Cave (S) Of Pacifidlog",
+    "x": 62,
+    "y": 74
+  },
+  "mirage-spot-cave-south-of-route-107": {
+    "label": "Mirage Cave (S) Of Route 107",
+    "x": 16,
+    "y": 88
+  },
+  "mirage-spot-cave-west-of-rustburo": {
+    "label": "Mirage Cave (W) Of Rustburo",
+    "x": 1,
+    "y": 43
+  },
+  "mirage-spot-forest-east-of-mossdeep": {
+    "label": "Mirage Forest (E) Of Mossdeep",
+    "x": 94,
+    "y": 40
+  },
+  "mirage-spot-forest-north-of-lilycove": {
+    "label": "Mirage Forest (N) Of Lilycove",
+    "x": 66,
+    "y": 22
+  },
+  "mirage-spot-forest-north-of-route-124": {
+    "label": "Mirage Forest (N) Of Route 124",
+    "x": 74,
+    "y": 25
+  },
+  "mirage-spot-forest-south-of-route-109": {
+    "label": "Mirage Forest (S) Of Route 109",
+    "x": 26,
+    "y": 80
+  },
+  "mirage-spot-forest-south-of-route-111": {
+    "label": "Mirage Forest (S) Of Route 111",
+    "x": 28,
+    "y": 41
+  },
+  "mirage-spot-forest-south-of-route-132": {
+    "label": "Mirage Forest (S) Of Route 132",
+    "x": 48,
+    "y": 72
+  },
+  "mirage-spot-forest-west-of-route-105": {
+    "label": "Mirage Forest (W) Of Route 105",
+    "x": 3,
+    "y": 68
+  },
+  "mirage-spot-forest-west-of-route-114": {
+    "label": "Mirage Forest (W) Of Route 114",
+    "x": 16,
+    "y": 12
+  },
+  "mirage-spot-island-east-of-shoal-cave": {
+    "label": "Mirage Island Spot (E) Of Shoal Cave",
+    "x": 88,
+    "y": 32
+  },
+  "mirage-spot-island-route-114": {
+    "label": "Mirage Island Spot Route 114",
+    "x": 24,
+    "y": 14
+  },
+  "mirage-spot-island-route-124": {
+    "label": "Mirage Island Spot Route 124",
+    "x": 78,
+    "y": 36
+  },
+  "mirage-spot-island-route-132": {
+    "label": "Mirage Island Spot Route 132",
+    "x": 50,
+    "y": 64
+  },
+  "mirage-spot-island-south-of-pacifidlog": {
+    "label": "Mirage Island Spot (S) Of Pacifidlog",
+    "x": 60,
+    "y": 72
+  },
+  "mirage-spot-island-south-of-route-134": {
+    "label": "Mirage Island Spot (S) Of Route 134",
+    "x": 36,
+    "y": 73
+  },
+  "mirage-spot-island-west-of-dewford-town": {
+    "label": "Mirage Island Spot (W) Of Dewford Town",
+    "x": 6,
+    "y": 86
+  },
+  "mirage-spot-island-west-of-route-104": {
+    "label": "Mirage Island Spot (W) Of Route 104",
+    "x": 2,
+    "y": 52
+  },
+  "mirage-spot-mountain-east-of-mossdeep": {
+    "label": "Mirage Mountain (E) Of Mossdeep",
+    "x": 93,
+    "y": 44
+  },
+  "mirage-spot-mountain-north-east-of-route-125": {
+    "label": "Mirage Mountain (N) (E) Of Route 125",
+    "x": 92,
+    "y": 42
+  },
+  "mirage-spot-mountain-north-of-lilycove": {
+    "label": "Mirage Mountain (N) Of Lilycove",
+    "x": 68,
+    "y": 20
+  },
+  "mirage-spot-mountain-north-of-mossdeep": {
+    "label": "Mirage Mountain (N) Of Mossdeep",
+    "x": 87,
+    "y": 30
+  },
+  "mirage-spot-mountain-south-east-of-route-129": {
+    "label": "Mirage Mountain (S) (E) Of Route 129",
+    "x": 84,
+    "y": 70
+  },
+  "mirage-spot-mountain-south-of-route-129": {
+    "label": "Mirage Mountain (S) Of Route 129",
+    "x": 75,
+    "y": 68
+  },
+  "mirage-spot-mountain-south-of-route-131": {
+    "label": "Mirage Mountain (S) Of Route 131",
+    "x": 78,
+    "y": 68
+  },
+  "mirage-spot-mountain-west-of-route-104": {
+    "label": "Mirage Mountain (W) Of Route 104",
+    "x": 2,
+    "y": 56
+  },
+  "mirage-tower-area": {
+    "label": "Mirage Tower",
+    "x": 27,
+    "y": 34
+  },
+  "mossdeep-city-area": {
+    "label": "Mossdeep City",
+    "x": 86.5,
+    "y": 40.0
+  },
+  "mossdeep-city-stevens-house": {
+    "label": "Mossdeep City Stevens House",
+    "x": 86.5,
+    "y": 40.0
+  },
+  "mossdeep-space-center-area": {
+    "label": "Mossdeep Space Center",
+    "x": 86.5,
+    "y": 40.0
+  },
+  "mt-pyre-1f": {
+    "label": "Mt Pyre 1F",
+    "x": 58,
+    "y": 38
+  },
+  "mt-pyre-2f": {
+    "label": "Mt Pyre 2F",
+    "x": 58,
+    "y": 38
+  },
+  "mt-pyre-3f": {
+    "label": "Mt Pyre 3F",
+    "x": 58,
+    "y": 38
+  },
+  "mt-pyre-4f": {
+    "label": "Mt Pyre 4F",
+    "x": 58,
+    "y": 38
+  },
+  "mt-pyre-5f": {
+    "label": "Mt Pyre 5F",
+    "x": 58,
+    "y": 38
+  },
+  "mt-pyre-6f": {
+    "label": "Mt Pyre 6F",
+    "x": 58,
+    "y": 38
+  },
+  "mt-pyre-outside": {
+    "label": "Mt Pyre Outside",
+    "x": 58,
+    "y": 38
+  },
+  "mt-pyre-summit": {
+    "label": "Mt Pyre Summit",
+    "x": 58,
+    "y": 38
+  },
+  "nameless-cavern-area": {
+    "label": "Nameless Cavern",
+    "x": 16,
+    "y": 16
+  },
+  "new-mauville-area": {
+    "label": "New Mauville",
+    "x": 34,
+    "y": 48
+  },
+  "new-mauville-entrance": {
+    "label": "New Mauville Entrance",
+    "x": 34,
+    "y": 48
+  },
+  "pacifidlog-town-area": {
+    "label": "Pacifidlog Town",
+    "x": 61.9,
+    "y": 65.9
+  },
+  "pathless-plain-area": {
+    "label": "Pathless Plain",
+    "x": 20,
+    "y": 10
+  },
+  "petalburg-city-area": {
+    "label": "Petalburg City",
+    "x": 8.5,
+    "y": 60.6
+  },
+  "petalburg-woods-area": {
+    "label": "Petalburg Woods",
+    "x": 10,
+    "y": 55
+  },
+  "roaming-hoenn-area": {
+    "label": "Roaming Hoenn",
+    "x": 33.5,
+    "y": 45.3
+  },
+  "rustboro-city-area": {
+    "label": "Rustboro City",
+    "x": 5.0,
+    "y": 42.9
+  },
+  "rusturf-tunnel-area": {
+    "label": "Rusturf Tunnel",
+    "x": 10,
+    "y": 44
+  },
+  "scorched-slab-1f": {
+    "label": "Scorched Slab 1F",
+    "x": 54,
+    "y": 15
+  },
+  "scorched-slab-b1f": {
+    "label": "Scorched Slab B1",
+    "x": 54,
+    "y": 15
+  },
+  "scorched-slab-b2f": {
+    "label": "Scorched Slab B2",
+    "x": 54,
+    "y": 15
+  },
+  "scorched-slab-b3f": {
+    "label": "Scorched Slab B3",
+    "x": 54,
+    "y": 15
+  },
+  "sea-mauville-area": {
+    "label": "Sea Mauville",
+    "x": 22,
+    "y": 78
+  },
+  "sea-mauville-inside": {
+    "label": "Sea Mauville Inside",
+    "x": 22,
+    "y": 78
+  },
+  "sea-mauville-outside": {
+    "label": "Sea Mauville Outside",
+    "x": 22,
+    "y": 78
+  },
+  "seafloor-cavern-area": {
+    "label": "Seafloor Cavern",
+    "x": 78,
+    "y": 52
+  },
+  "shoal-cave-b1f": {
+    "label": "Shoal Cave B1",
+    "x": 82,
+    "y": 32
+  },
+  "shoal-cave-b2f": {
+    "label": "Shoal Cave B2",
+    "x": 82,
+    "y": 32
+  },
+  "shoal-cave-b3f": {
+    "label": "Shoal Cave B3",
+    "x": 82,
+    "y": 32
+  },
+  "shoal-cave-high-tide": {
+    "label": "Shoal Cave High Tide",
+    "x": 82,
+    "y": 32
+  },
+  "shoal-cave-low-tide": {
+    "label": "Shoal Cave Low Tide",
+    "x": 82,
+    "y": 32
+  },
+  "sky-pillar-1f": {
+    "label": "Sky Pillar 1F",
+    "x": 70,
+    "y": 56
+  },
+  "sky-pillar-3f": {
+    "label": "Sky Pillar 3F",
+    "x": 70,
+    "y": 56
+  },
+  "sky-pillar-5f": {
+    "label": "Sky Pillar 5F",
+    "x": 70,
+    "y": 56
+  },
+  "sky-pillar-apex": {
+    "label": "Sky Pillar Apex",
+    "x": 70,
+    "y": 56
+  },
+  "slateport-city-area": {
+    "label": "Slateport City",
+    "x": 31.5,
+    "y": 68.2
+  },
+  "slateport-city-contest-hall": {
+    "label": "Slateport City Contest Hall",
+    "x": 31.5,
+    "y": 68.2
+  },
+  "soaring-in-the-sky-area": {
+    "label": "Soaring In The Sky",
+    "x": 33.5,
+    "y": 45.3
+  },
+  "sootopolis-city-area": {
+    "label": "Sootopolis City",
+    "x": 75.0,
+    "y": 50.6
+  },
+  "southern-island-area": {
+    "label": "Southern Island",
+    "x": 65,
+    "y": 72
+  },
+  "team-aqua-hideout-area": {
+    "label": "Team Aqua Hideout",
+    "x": 64,
+    "y": 32
+  },
+  "team-magma-hideout-area": {
+    "label": "Team Magma Hideout",
+    "x": 23,
+    "y": 20
+  },
+  "terra-cave-area": {
+    "label": "Terra Cave",
+    "x": 14,
+    "y": 76
+  },
+  "trackless-forest-area": {
+    "label": "Trackless Forest",
+    "x": 43,
+    "y": 16
+  },
+  "verdanturf-town-contest-hall": {
+    "label": "Verdanturf Town Contest Hall",
+    "x": 18.5,
+    "y": 45.3
+  }
+}

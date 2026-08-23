@@ -1,0 +1,807 @@
+{
+  "acuity-lakefront-area": {
+    "label": "Acuity Lakefront",
+    "x": 36,
+    "y": 15
+  },
+  "canalave-city-area": {
+    "label": "Canalave City",
+    "x": 5.4,
+    "y": 73.1
+  },
+  "celestic-town-area": {
+    "label": "Celestic Town",
+    "x": 47.9,
+    "y": 45.7
+  },
+  "distortion-world-area": {
+    "label": "Distortion World",
+    "x": 48,
+    "y": 55
+  },
+  "eterna-city-area": {
+    "label": "Eterna City",
+    "x": 32.9,
+    "y": 47.8
+  },
+  "eterna-city-west-gate": {
+    "label": "Eterna City (W) Gate",
+    "x": 32.9,
+    "y": 47.8
+  },
+  "eterna-forest-area": {
+    "label": "Eterna Forest",
+    "x": 26,
+    "y": 55
+  },
+  "floaroma-meadow-area": {
+    "label": "Floaroma Meadow",
+    "x": 18,
+    "y": 58
+  },
+  "flower-paradise-area": {
+    "label": "Flower Paradise",
+    "x": 78,
+    "y": 78
+  },
+  "fuego-ironworks-area": {
+    "label": "Fuego Ironworks",
+    "x": 20,
+    "y": 64
+  },
+  "great-marsh-area-1": {
+    "label": "Great Marsh Area 1",
+    "x": 64,
+    "y": 87
+  },
+  "great-marsh-area-2": {
+    "label": "Great Marsh Area 2",
+    "x": 64,
+    "y": 87
+  },
+  "great-marsh-area-3": {
+    "label": "Great Marsh Area 3",
+    "x": 64,
+    "y": 87
+  },
+  "great-marsh-area-4": {
+    "label": "Great Marsh Area 4",
+    "x": 64,
+    "y": 87
+  },
+  "great-marsh-area-5": {
+    "label": "Great Marsh Area 5",
+    "x": 64,
+    "y": 87
+  },
+  "great-marsh-area-6": {
+    "label": "Great Marsh Area 6",
+    "x": 64,
+    "y": 87
+  },
+  "hearthome-city-area": {
+    "label": "Hearthome City",
+    "x": 49.2,
+    "y": 68.8
+  },
+  "hearthome-city-west-gate": {
+    "label": "Hearthome City (W) Gate",
+    "x": 49.2,
+    "y": 68.8
+  },
+  "iron-island-1f": {
+    "label": "Iron Island 1F",
+    "x": 2,
+    "y": 68
+  },
+  "iron-island-area": {
+    "label": "Iron Island",
+    "x": 2,
+    "y": 68
+  },
+  "iron-island-b1f-left": {
+    "label": "Iron Island B1 Left",
+    "x": 2,
+    "y": 68
+  },
+  "iron-island-b1f-right": {
+    "label": "Iron Island B1 Right",
+    "x": 2,
+    "y": 68
+  },
+  "iron-island-b2f-left": {
+    "label": "Iron Island B2 Left",
+    "x": 2,
+    "y": 68
+  },
+  "iron-island-b2f-right": {
+    "label": "Iron Island B2 Right",
+    "x": 2,
+    "y": 68
+  },
+  "iron-island-b3f": {
+    "label": "Iron Island B3",
+    "x": 2,
+    "y": 68
+  },
+  "lake-acuity-area": {
+    "label": "Lake Acuity",
+    "x": 35,
+    "y": 12
+  },
+  "lake-acuity-cavern": {
+    "label": "Lake Acuity Cavern",
+    "x": 35,
+    "y": 12
+  },
+  "lake-valor-area": {
+    "label": "Lake Valor",
+    "x": 68,
+    "y": 62
+  },
+  "lake-valor-cavern": {
+    "label": "Lake Valor Cavern",
+    "x": 68,
+    "y": 62
+  },
+  "lake-verity-after-galactic-intervention": {
+    "label": "Lake Verity After Galactic Intervention",
+    "x": 10,
+    "y": 88
+  },
+  "lake-verity-before-galactic-intervention": {
+    "label": "Lake Verity Before Galactic Intervention",
+    "x": 10,
+    "y": 88
+  },
+  "lost-tower-1f": {
+    "label": "Lost Tower 1F",
+    "x": 58,
+    "y": 65
+  },
+  "lost-tower-2f": {
+    "label": "Lost Tower 2F",
+    "x": 58,
+    "y": 65
+  },
+  "lost-tower-3f": {
+    "label": "Lost Tower 3F",
+    "x": 58,
+    "y": 65
+  },
+  "lost-tower-4f": {
+    "label": "Lost Tower 4F",
+    "x": 58,
+    "y": 65
+  },
+  "lost-tower-5f": {
+    "label": "Lost Tower 5F",
+    "x": 58,
+    "y": 65
+  },
+  "maniac-tunnel-26-plus-different-unown-caught": {
+    "label": "Maniac Tunnel 26 Plus Different Unown Caught",
+    "x": 56,
+    "y": 66
+  },
+  "mt-coronet-1f-from-exterior": {
+    "label": "Mt Coronet 1F From Exterior",
+    "x": 42,
+    "y": 50
+  },
+  "mt-coronet-1f-route-207": {
+    "label": "Mt Coronet 1F Route 207",
+    "x": 42,
+    "y": 50
+  },
+  "mt-coronet-1f-route-211": {
+    "label": "Mt Coronet 1F Route 211",
+    "x": 42,
+    "y": 50
+  },
+  "mt-coronet-1f-route-216": {
+    "label": "Mt Coronet 1F Route 216",
+    "x": 42,
+    "y": 50
+  },
+  "mt-coronet-2f": {
+    "label": "Mt Coronet 2F",
+    "x": 42,
+    "y": 50
+  },
+  "mt-coronet-3f": {
+    "label": "Mt Coronet 3F",
+    "x": 42,
+    "y": 50
+  },
+  "mt-coronet-4f": {
+    "label": "Mt Coronet 4F",
+    "x": 42,
+    "y": 50
+  },
+  "mt-coronet-4f-small-room": {
+    "label": "Mt Coronet 4F Small Room",
+    "x": 42,
+    "y": 50
+  },
+  "mt-coronet-5f": {
+    "label": "Mt Coronet 5F",
+    "x": 42,
+    "y": 50
+  },
+  "mt-coronet-6f": {
+    "label": "Mt Coronet 6F",
+    "x": 42,
+    "y": 50
+  },
+  "mt-coronet-b1f": {
+    "label": "Mt Coronet B1",
+    "x": 42,
+    "y": 50
+  },
+  "mt-coronet-exterior-blizzard": {
+    "label": "Mt Coronet Exterior Blizzard",
+    "x": 42,
+    "y": 50
+  },
+  "mt-coronet-exterior-snowfall": {
+    "label": "Mt Coronet Exterior Snowfall",
+    "x": 42,
+    "y": 50
+  },
+  "newmoon-island-area": {
+    "label": "Newmoon Island",
+    "x": 2,
+    "y": 60
+  },
+  "old-chateau-2f": {
+    "label": "Old Chateau 2F",
+    "x": 27,
+    "y": 53
+  },
+  "old-chateau-2f-left-room": {
+    "label": "Old Chateau 2F Left Room",
+    "x": 27,
+    "y": 53
+  },
+  "old-chateau-2f-leftmost-room": {
+    "label": "Old Chateau 2F Leftmost Room",
+    "x": 27,
+    "y": 53
+  },
+  "old-chateau-2f-middle-room": {
+    "label": "Old Chateau 2F Middle Room",
+    "x": 27,
+    "y": 53
+  },
+  "old-chateau-2f-private-room": {
+    "label": "Old Chateau 2F Private Room",
+    "x": 27,
+    "y": 53
+  },
+  "old-chateau-2f-right-room": {
+    "label": "Old Chateau 2F Right Room",
+    "x": 27,
+    "y": 53
+  },
+  "old-chateau-2f-rightmost-room": {
+    "label": "Old Chateau 2F Rightmost Room",
+    "x": 27,
+    "y": 53
+  },
+  "old-chateau-dining-room": {
+    "label": "Old Chateau Dining Room",
+    "x": 27,
+    "y": 53
+  },
+  "old-chateau-entrance": {
+    "label": "Old Chateau Entrance",
+    "x": 27,
+    "y": 53
+  },
+  "oreburgh-city-oreburgh-mining-museum": {
+    "label": "Oreburgh City Oreburgh Mining Museum",
+    "x": 30.0,
+    "y": 76.9
+  },
+  "oreburgh-gate-1f": {
+    "label": "Oreburgh Gate 1F",
+    "x": 30,
+    "y": 72
+  },
+  "oreburgh-gate-b1f": {
+    "label": "Oreburgh Gate B1",
+    "x": 30,
+    "y": 72
+  },
+  "oreburgh-mine-1f": {
+    "label": "Oreburgh Mine 1F",
+    "x": 30,
+    "y": 79
+  },
+  "oreburgh-mine-b1f": {
+    "label": "Oreburgh Mine B1",
+    "x": 30,
+    "y": 79
+  },
+  "pastoria-city-area": {
+    "label": "Pastoria City",
+    "x": 62.5,
+    "y": 85.5
+  },
+  "ravaged-path-area": {
+    "label": "Ravaged Path",
+    "x": 22,
+    "y": 70
+  },
+  "resort-area-area": {
+    "label": "Resort Area",
+    "x": 83.3,
+    "y": 37.6
+  },
+  "roaming-sinnoh-area": {
+    "label": "Roaming Sinnoh",
+    "x": 49.2,
+    "y": 68.8
+  },
+  "ruin-maniac-cave-0-9-different-unown-caught": {
+    "label": "Ruin Maniac Cave 0 9 Different Unown Caught",
+    "x": 57,
+    "y": 67
+  },
+  "ruin-maniac-cave-10-25-different-unown-caught": {
+    "label": "Ruin Maniac Cave 10 25 Different Unown Caught",
+    "x": 57,
+    "y": 67
+  },
+  "sendoff-spring-area": {
+    "label": "Sendoff Spring",
+    "x": 14,
+    "y": 85
+  },
+  "sinnoh-hall-of-origin-1-area": {
+    "label": "Hall of Origin",
+    "x": 49.2,
+    "y": 68.8
+  },
+  "sinnoh-pokemart-area": {
+    "label": "PokeMart",
+    "x": 49.2,
+    "y": 68.8
+  },
+  "sinnoh-pokemon-league-area": {
+    "label": "Pokemon League",
+    "x": 86.7,
+    "y": 50.0
+  },
+  "sinnoh-route-201-area": {
+    "label": "Route 201",
+    "x": 15,
+    "y": 90
+  },
+  "sinnoh-route-202-area": {
+    "label": "Route 202",
+    "x": 18,
+    "y": 82
+  },
+  "sinnoh-route-203-area": {
+    "label": "Route 203",
+    "x": 24,
+    "y": 77
+  },
+  "sinnoh-route-204-north-towards-floaroma-town": {
+    "label": "Route 204 (N) Towards Floaroma Town",
+    "x": 19,
+    "y": 68
+  },
+  "sinnoh-route-204-south-towards-jubilife-city": {
+    "label": "Route 204 (S) Towards Jubilife City",
+    "x": 19,
+    "y": 68
+  },
+  "sinnoh-route-205-east-towards-eterna-city": {
+    "label": "Route 205 (E) Towards Eterna City",
+    "x": 25,
+    "y": 54
+  },
+  "sinnoh-route-205-south-towards-floaroma-town": {
+    "label": "Route 205 (S) Towards Floaroma Town",
+    "x": 25,
+    "y": 54
+  },
+  "sinnoh-route-206-area": {
+    "label": "Route 206",
+    "x": 29,
+    "y": 64
+  },
+  "sinnoh-route-207-area": {
+    "label": "Route 207",
+    "x": 32,
+    "y": 70
+  },
+  "sinnoh-route-208-area": {
+    "label": "Route 208",
+    "x": 38,
+    "y": 63
+  },
+  "sinnoh-route-209-area": {
+    "label": "Route 209",
+    "x": 56,
+    "y": 66
+  },
+  "sinnoh-route-210-south-towards-solaceon-town": {
+    "label": "Route 210 (S) Towards Solaceon Town",
+    "x": 58,
+    "y": 58
+  },
+  "sinnoh-route-210-west-towards-celestic-town": {
+    "label": "Route 210 (W) Towards Celestic Town",
+    "x": 58,
+    "y": 58
+  },
+  "sinnoh-route-211-east-towards-celestic-town": {
+    "label": "Route 211 (E) Towards Celestic Town",
+    "x": 40,
+    "y": 47
+  },
+  "sinnoh-route-211-west-towards-eterna-city": {
+    "label": "Route 211 (W) Towards Eterna City",
+    "x": 40,
+    "y": 47
+  },
+  "sinnoh-route-212-east-towards-pastoria-city": {
+    "label": "Route 212 (E) Towards Pastoria City",
+    "x": 55,
+    "y": 76
+  },
+  "sinnoh-route-212-north-towards-hearthome-city": {
+    "label": "Route 212 (N) Towards Hearthome City",
+    "x": 55,
+    "y": 76
+  },
+  "sinnoh-route-213-area": {
+    "label": "Route 213",
+    "x": 66,
+    "y": 82
+  },
+  "sinnoh-route-214-area": {
+    "label": "Route 214",
+    "x": 68,
+    "y": 70
+  },
+  "sinnoh-route-215-area": {
+    "label": "Route 215",
+    "x": 68,
+    "y": 64
+  },
+  "sinnoh-route-216-area": {
+    "label": "Route 216",
+    "x": 44,
+    "y": 40
+  },
+  "sinnoh-route-217-area": {
+    "label": "Route 217",
+    "x": 40,
+    "y": 25
+  },
+  "sinnoh-route-218-area": {
+    "label": "Route 218",
+    "x": 2,
+    "y": 72
+  },
+  "sinnoh-route-219-area": {
+    "label": "Route 219",
+    "x": 3,
+    "y": 64
+  },
+  "sinnoh-route-221-area": {
+    "label": "Route 221",
+    "x": 20,
+    "y": 62
+  },
+  "sinnoh-route-222-area": {
+    "label": "Route 222",
+    "x": 80,
+    "y": 66
+  },
+  "sinnoh-route-224-area": {
+    "label": "Route 224",
+    "x": 80,
+    "y": 70
+  },
+  "sinnoh-route-225-area": {
+    "label": "Route 225",
+    "x": 68,
+    "y": 25
+  },
+  "sinnoh-route-227-area": {
+    "label": "Route 227",
+    "x": 70,
+    "y": 18
+  },
+  "sinnoh-route-228-area": {
+    "label": "Route 228",
+    "x": 74,
+    "y": 12
+  },
+  "sinnoh-route-229-area": {
+    "label": "Route 229",
+    "x": 76,
+    "y": 10
+  },
+  "sinnoh-sea-route-220-area": {
+    "label": "Sea Route 220",
+    "x": 0,
+    "y": 66
+  },
+  "sinnoh-sea-route-223-area": {
+    "label": "Sea Route 223",
+    "x": 94,
+    "y": 60
+  },
+  "sinnoh-sea-route-226-area": {
+    "label": "Sea Route 226",
+    "x": 90,
+    "y": 42
+  },
+  "sinnoh-sea-route-230-area": {
+    "label": "Sea Route 230",
+    "x": 88,
+    "y": 30
+  },
+  "sinnoh-victory-road-1f": {
+    "label": "Victory Road 1F",
+    "x": 85,
+    "y": 52
+  },
+  "sinnoh-victory-road-2f": {
+    "label": "Victory Road 2F",
+    "x": 85,
+    "y": 52
+  },
+  "sinnoh-victory-road-b1f": {
+    "label": "Victory Road B1",
+    "x": 85,
+    "y": 52
+  },
+  "sinnoh-victory-road-inside": {
+    "label": "Victory Road Inside",
+    "x": 85,
+    "y": 52
+  },
+  "sinnoh-victory-road-inside-b1f": {
+    "label": "Victory Road Inside B1",
+    "x": 85,
+    "y": 52
+  },
+  "sinnoh-victory-road-inside-exit": {
+    "label": "Victory Road Inside Exit",
+    "x": 85,
+    "y": 52
+  },
+  "snowpoint-temple-1f": {
+    "label": "Snowpoint Temple 1F",
+    "x": 38,
+    "y": 10
+  },
+  "snowpoint-temple-b1f": {
+    "label": "Snowpoint Temple B1",
+    "x": 38,
+    "y": 10
+  },
+  "snowpoint-temple-b2f": {
+    "label": "Snowpoint Temple B2",
+    "x": 38,
+    "y": 10
+  },
+  "snowpoint-temple-b3f": {
+    "label": "Snowpoint Temple B3",
+    "x": 38,
+    "y": 10
+  },
+  "snowpoint-temple-b4f": {
+    "label": "Snowpoint Temple B4",
+    "x": 38,
+    "y": 10
+  },
+  "snowpoint-temple-b5f": {
+    "label": "Snowpoint Temple B5F",
+    "x": 38,
+    "y": 10
+  },
+  "solaceon-ruins-1f": {
+    "label": "Solaceon Ruins 1F",
+    "x": 60,
+    "y": 64
+  },
+  "solaceon-ruins-2f": {
+    "label": "Solaceon Ruins 2F",
+    "x": 60,
+    "y": 64
+  },
+  "solaceon-ruins-b1f-a": {
+    "label": "Solaceon Ruins B1 A",
+    "x": 60,
+    "y": 64
+  },
+  "solaceon-ruins-b1f-b": {
+    "label": "Solaceon Ruins B1 B",
+    "x": 60,
+    "y": 64
+  },
+  "solaceon-ruins-b1f-c": {
+    "label": "Solaceon Ruins B1 C",
+    "x": 60,
+    "y": 64
+  },
+  "solaceon-ruins-b2f-a": {
+    "label": "Solaceon Ruins B2 A",
+    "x": 60,
+    "y": 64
+  },
+  "solaceon-ruins-b2f-b": {
+    "label": "Solaceon Ruins B2 B",
+    "x": 60,
+    "y": 64
+  },
+  "solaceon-ruins-b2f-c": {
+    "label": "Solaceon Ruins B2 C",
+    "x": 60,
+    "y": 64
+  },
+  "solaceon-ruins-b3f-a": {
+    "label": "Solaceon Ruins B3 A",
+    "x": 60,
+    "y": 64
+  },
+  "solaceon-ruins-b3f-b": {
+    "label": "Solaceon Ruins B3 B",
+    "x": 60,
+    "y": 64
+  },
+  "solaceon-ruins-b3f-c": {
+    "label": "Solaceon Ruins B3 C",
+    "x": 60,
+    "y": 64
+  },
+  "solaceon-ruins-b3f-d": {
+    "label": "Solaceon Ruins B3 D",
+    "x": 60,
+    "y": 64
+  },
+  "solaceon-ruins-b3f-e": {
+    "label": "Solaceon Ruins B3 E",
+    "x": 60,
+    "y": 64
+  },
+  "solaceon-ruins-b4f-a": {
+    "label": "Solaceon Ruins B4 A",
+    "x": 60,
+    "y": 64
+  },
+  "solaceon-ruins-b4f-b": {
+    "label": "Solaceon Ruins B4 B",
+    "x": 60,
+    "y": 64
+  },
+  "solaceon-ruins-b4f-c": {
+    "label": "Solaceon Ruins B4 C",
+    "x": 60,
+    "y": 64
+  },
+  "solaceon-ruins-b4f-d": {
+    "label": "Solaceon Ruins B4 D",
+    "x": 60,
+    "y": 64
+  },
+  "solaceon-ruins-b5f": {
+    "label": "Solaceon Ruins B5F",
+    "x": 60,
+    "y": 64
+  },
+  "spear-pillar-area": {
+    "label": "Spear Pillar",
+    "x": 42,
+    "y": 48
+  },
+  "stark-mountain-area": {
+    "label": "Stark Mountain",
+    "x": 72,
+    "y": 15
+  },
+  "stark-mountain-entrance": {
+    "label": "Stark Mountain Entrance",
+    "x": 72,
+    "y": 15
+  },
+  "stark-mountain-heatran-chamber": {
+    "label": "Stark Mountain Heatran Chamber",
+    "x": 72,
+    "y": 15
+  },
+  "stark-mountain-inside": {
+    "label": "Stark Mountain Inside",
+    "x": 72,
+    "y": 15
+  },
+  "sunyshore-city-area": {
+    "label": "Sunyshore City",
+    "x": 88.3,
+    "y": 76.9
+  },
+  "trainers-school-area": {
+    "label": "Trainer's School",
+    "x": 17,
+    "y": 77
+  },
+  "trophy-garden-area": {
+    "label": "Trophy Garden",
+    "x": 56,
+    "y": 76
+  },
+  "turnback-cave-after-pillar-3": {
+    "label": "Turnback Cave After Pillar 3",
+    "x": 44,
+    "y": 52
+  },
+  "turnback-cave-before-pillar-1": {
+    "label": "Turnback Cave Before Pillar 1",
+    "x": 44,
+    "y": 52
+  },
+  "turnback-cave-between-pillars-1-and-2": {
+    "label": "Turnback Cave Between Pillars 1 And 2",
+    "x": 44,
+    "y": 52
+  },
+  "turnback-cave-between-pillars-2-and-3": {
+    "label": "Turnback Cave Between Pillars 2 And 3",
+    "x": 44,
+    "y": 52
+  },
+  "turnback-cave-pillar-1": {
+    "label": "Turnback Cave Pillar 1",
+    "x": 44,
+    "y": 52
+  },
+  "turnback-cave-pillar-2": {
+    "label": "Turnback Cave Pillar 2",
+    "x": 44,
+    "y": 52
+  },
+  "turnback-cave-pillar-3": {
+    "label": "Turnback Cave Pillar 3",
+    "x": 44,
+    "y": 52
+  },
+  "twinleaf-town-area": {
+    "label": "Twinleaf Town",
+    "x": 12.1,
+    "y": 91.9
+  },
+  "valley-windworks-area": {
+    "label": "Valley Windworks",
+    "x": 19,
+    "y": 64
+  },
+  "valor-lakefront-area": {
+    "label": "Valor Lakefront",
+    "x": 69,
+    "y": 63
+  },
+  "veilstone-city-area": {
+    "label": "Veilstone City",
+    "x": 72.1,
+    "y": 56.5
+  },
+  "wayward-cave-1f": {
+    "label": "Wayward Cave 1F",
+    "x": 26,
+    "y": 66
+  },
+  "wayward-cave-b1f": {
+    "label": "Wayward Cave B1",
+    "x": 26,
+    "y": 66
+  }
+}

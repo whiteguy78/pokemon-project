@@ -1,0 +1,1224 @@
+/* ==================================================================
+   THE MAIN STYLESHEET -- used by BOTH pages.
+
+   index.html loads only this file. pokedex.html loads this file and
+   then style-pokedex.css on top, so anything shared (cards, pills,
+   stat bars, carousels, the evolution chart) is defined once, here.
+
+   Two ideas run through the whole file:
+
+   1. Nothing on the page ever scrolls as a whole. The layout is a fixed
+      full-height frame, and only individual panels scroll inside
+      themselves. That's what all the height/overflow rules are for.
+
+   2. The accent colour isn't hardcoded. JavaScript sets --type-color and
+      --version-color on the page as the pokemon changes, and everything
+      that should follow along uses var(--type-color). Change it in one
+      place, the whole page recolours.
+
+   Sections are marked with dashed NAME headers below; search for one to
+   jump to the part you care about.
+   ================================================================== */
+
+/* Reset some browser defaults so spacing is predictable */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  /* padding counts INSIDE a set width, not on top of it */
+}
+
+/* Slapped on anything JS wants to temporarily hide. !important so it
+   always wins, whatever the element's normal display rule is. */
+.hidden {
+    display: none !important;
+}
+
+/* ---------------- THEME SWITCHER (top-right, both pages) ---------------- */
+
+#theme-switcher {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    gap: 2px;
+    background: rgba(0, 0, 0, 0.55);
+    border-radius: 999px;
+    padding: 3px;
+    z-index: 200;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.theme-option {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 4px 10px 4px 6px;
+    border-radius: 999px;
+    font-size: 11px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.theme-option .radio-dot {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    border: 1.5px solid rgba(255, 255, 255, 0.6);
+    flex-shrink: 0;
+}
+
+.theme-option.active {
+    background: white;
+    color: #222;
+}
+
+.theme-option.active .radio-dot {
+    border-color: #e74c3c;
+    background: #e74c3c;
+}
+
+/* --type-color: set by JS from the pokemon's primary type, drives the
+     "identity" elements (name badge, pills, tag chips).
+   --version-color: set by JS from whichever game the description shown
+     right now is from, drives just the description banner.
+   --habitat-bg: set by JS from the pokemon's habitat, drives the
+     background behind the sprite. */
+:root {
+    --type-color: #2b2f77;
+    --version-color: #2b2f77;
+    --habitat-bg: linear-gradient(180deg, #e8eaf6, #ffffff);
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden; /* the whole point: nothing on this page scrolls */
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background:
+        radial-gradient(ellipse at 50% 0%, #2c2f45 0%, #1c1c28 55%, #121218 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Thin, unobtrusive scrollbars everywhere something scrolls */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(0, 0, 0, 0.2) transparent;
+}
+
+*::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+*::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.18);
+    border-radius: 999px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.32);
+}
+
+/* The app frame. Wider than a strict phone width, since content needs to
+   sit beside the sprite rather than stacked under it. Floats as a card on
+   the dark backdrop rather than filling the viewport edge-to-edge. */
+#app {
+    width: 100%;
+    max-width: 640px;
+    height: min(100vh, 900px);
+    background: #f4f6fb;
+    border-radius: 20px;
+    box-shadow:
+        0 1px 0 rgba(255, 255, 255, 0.06) inset,
+        0 20px 60px rgba(0, 0, 0, 0.45),
+        0 4px 16px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    gap: 12px;
+}
+
+/* ---------------- SEARCH BAR ---------------- */
+
+#search-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.flip-btn {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: none;
+    background:
+        linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.12)),
+        var(--type-color);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+    transition: transform 0.12s ease, box-shadow 0.12s ease;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+#search-wrapper {
+    position: relative;
+    flex: 1;
+}
+
+#search-input {
+    width: 100%;
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    font-size: 16px;
+    background: white;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.15s ease, border-color 0.15s ease;
+}
+
+#search-input:focus {
+    outline: none;
+    border-color: var(--type-color);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.18);
+}
+
+#search-suggestions {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    border-radius: 8px;
+    margin-top: 4px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    z-index: 30;
+}
+
+.suggestion-item {
+    padding: 10px 14px;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    transition: background 0.1s ease;
+}
+
+.suggestion-item:hover {
+    background: #eef0fb;
+}
+
+/* ---------------- MAIN TWO COLUMN LAYOUT ---------------- */
+
+#main-content {
+    flex: 1;
+    display: flex;
+    gap: 14px;
+    min-height: 0;
+}
+
+#left-column {
+    width: 44%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-height: 0;
+}
+
+#right-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    min-height: 0;
+}
+
+/* ---------------- SPRITE BOX ---------------- */
+
+#sprite-box {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    background: var(--habitat-bg);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow:
+        0 1px 0 rgba(255, 255, 255, 0.5) inset,
+        0 4px 12px rgba(0, 0, 0, 0.18);
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+/* soft contact shadow the rocking sprite "sits" on */
+#sprite-box::after {
+    content: "";
+    position: absolute;
+    bottom: 16%;
+    left: 50%;
+    width: 42%;
+    height: 8%;
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.28), transparent 72%);
+    transform: translateX(-50%);
+    z-index: 0;
+}
+
+#sprite-image {
+    width: 65%;
+    height: 65%;
+    object-fit: contain;
+    image-rendering: pixelated;
+    z-index: 1;
+    /* rocks like an idle sprite in the game menus: pivoting around a point
+       in the lower third, near the middle, instead of spinning around its
+       own center */
+    transform-origin: 50% 78%;
+    animation: rock 1.4s ease-in-out infinite;
+}
+
+@keyframes rock {
+    0%, 100% { transform: rotate(-5deg); }
+    50% { transform: rotate(5deg); }
+}
+
+#name-badge {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background:
+        linear-gradient(135deg, rgba(255, 255, 255, 0.18), rgba(0, 0, 0, 0.14)),
+        var(--type-color);
+    color: white;
+    border-radius: 16px 16px 0 0;
+    z-index: 5;
+    padding: 9px 12px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.15) inset;
+}
+
+#pokemon-name {
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 0.2px;
+    line-height: 1.2;
+}
+
+#dex-number {
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+/* sits BELOW the sprite box now (not overlapping the image) */
+#back-to-base-btn {
+    width: 100%;
+    background:
+        linear-gradient(135deg, rgba(255, 255, 255, 0.18), rgba(0, 0, 0, 0.14)),
+        var(--type-color);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    flex-shrink: 0;
+    transition: filter 0.12s ease;
+}
+
+#back-to-base-btn:hover {
+    filter: brightness(1.08);
+}
+
+/* ---------------- SPRITE VARIANT TAG ---------------- */
+
+#sprite-variant-tag {
+    position: absolute;
+    bottom: 6px;
+    right: 6px;
+    max-width: 70%;
+    background: rgba(20, 20, 30, 0.28);
+    backdrop-filter: blur(2px);
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 3px 8px;
+    border-radius: 6px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+    z-index: 3;
+    text-align: right;
+    line-height: 1.3;
+}
+
+/* shown instead of the plain translucent tab when a shiny sprite is up */
+#sprite-variant-tag.shiny-tag {
+    background: repeating-linear-gradient(
+        45deg,
+        rgba(255, 0, 0, 0.35) 0px, rgba(255, 0, 0, 0.35) 4px,
+        rgba(255, 165, 0, 0.35) 4px, rgba(255, 165, 0, 0.35) 8px,
+        rgba(255, 255, 0, 0.35) 8px, rgba(255, 255, 0, 0.35) 12px,
+        rgba(0, 200, 0, 0.35) 12px, rgba(0, 200, 0, 0.35) 16px,
+        rgba(0, 120, 255, 0.35) 16px, rgba(0, 120, 255, 0.35) 20px,
+        rgba(160, 0, 220, 0.35) 20px, rgba(160, 0, 220, 0.35) 24px
+    );
+}
+
+/* ---------------- SPRITE ARROWS ---------------- */
+
+.sprite-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.15);
+    border: none;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    font-size: 12px;
+    cursor: pointer;
+    z-index: 2;
+    transition: background 0.12s ease, transform 0.12s ease;
+}
+
+.sprite-arrow:hover {
+    background: rgba(0, 0, 0, 0.28);
+}
+
+.sprite-arrow:active {
+    transform: translateY(-50%) scale(0.9);
+}
+
+#sprite-prev {
+    left: 6px;
+}
+
+#sprite-next {
+    right: 6px;
+}
+
+/* ---------------- TYPE ROW (pills + compact matchup summary) ---------------- */
+
+#type-row {
+    display: flex;
+    gap: 8px;
+    flex-shrink: 0;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    padding: 8px;
+    min-height: 44px;
+}
+
+#type-row-pills {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    flex-shrink: 0;
+    justify-content: center;
+}
+
+#type-row-matchups {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 4px;
+    min-width: 0;
+    border-left: 1px solid #eee;
+    padding-left: 8px;
+}
+
+.matchup-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    padding: 2px 6px;
+    border-radius: 6px;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.matchup-chip .mult-badge {
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    padding: 0 3px;
+}
+
+/* ---------------- BIO / EGG PILLS ---------------- */
+
+#bio-pills-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    flex-shrink: 0;
+}
+
+.pill {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background: var(--type-color);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.pill svg {
+    width: 13px;
+    height: 13px;
+    flex-shrink: 0;
+}
+
+/* ---------------- DESCRIPTION CAROUSEL ---------------- */
+
+#description-box {
+    position: relative;
+    background:
+        radial-gradient(ellipse at 100% 100%, color-mix(in srgb, var(--type-color) 8%, transparent), transparent 60%),
+        white;
+    border-radius: 14px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 6px 16px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+}
+
+/* colored by which GAME the entry is from, not the pokemon's type */
+#description-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:
+        linear-gradient(135deg, rgba(255, 255, 255, 0.18), rgba(0, 0, 0, 0.14)),
+        var(--version-color);
+    color: white;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+#description-banner .carousel-arrow {
+    font-size: 12px;
+}
+
+#description-text {
+    font-size: 13px;
+    line-height: 1.5;
+    color: #333;
+    padding: 12px;
+    overflow-y: auto;
+}
+
+/* ---------------- MAP SECTION (right column, top) ---------------- */
+
+#map-section {
+    background: white;
+    border-radius: 14px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 6px 16px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    flex-shrink: 0;
+    max-height: 46%;
+    display: flex;
+    flex-direction: column;
+}
+
+#map-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:
+        linear-gradient(135deg, rgba(255, 255, 255, 0.18), rgba(0, 0, 0, 0.14)),
+        var(--type-color);
+    color: white;
+    padding: 7px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+/* Map on top, location list below. The map gets a fixed share of the
+   panel height and the image is scaled to fit inside it WHOLE, however
+   tall or wide that region happens to be -- Galar is 240x612 (2.5x
+   taller than wide) while Hoenn is 520x340, so sizing off width alone
+   cropped the tall ones badly. */
+#map-body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-height: 0;
+    overflow: hidden;
+    padding: 6px 6px 0;
+    gap: 6px;
+}
+
+#map-image-wrap {
+    position: relative;
+    flex: 0 0 60%;
+    min-height: 0;
+    line-height: 0;
+}
+
+/* contain-fit: the whole map is always visible, letterboxed in whatever
+   space is going, at any aspect ratio */
+#map-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+    image-rendering: pixelated;
+}
+
+/* Sized and offset in px by fitMapPins() to sit exactly on top of the
+   letterboxed artwork -- the pins inside are positioned as a % of THIS
+   box, so it has to track the image's real rendered rect, not the
+   (possibly wider/taller) wrap. */
+#map-pins {
+    position: absolute;
+}
+
+/* Yellow by default -- a pin only exists at all when its location is in
+   the current side list, so "visible" already means "relevant". Turns
+   red only once you click it, to point at the one you actually picked. */
+.map-pin {
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    background: #f1c40f;
+    border: 1px solid #a67c00;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    transition: transform 0.15s, background 0.15s;
+}
+
+.map-pin.highlighted {
+    background: #e74c3c;
+    border-color: #7a1f1f;
+    transform: translate(-50%, -50%) scale(1.8);
+    z-index: 2;
+}
+
+#map-location-list {
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto;
+    padding: 4px 4px 6px;
+    font-size: 11px;
+    min-width: 0;
+    border-top: 1px solid #eee;
+}
+
+.location-item {
+    padding: 3px 4px;
+    border-bottom: 1px solid #eee;
+    border-radius: 4px;
+    cursor: default;
+}
+
+.location-item.pinned {
+    cursor: pointer;
+}
+
+.location-item.highlighted {
+    background: #fbdcd8;
+}
+
+.location-item .loc-name {
+    display: block;
+    font-weight: bold;
+    color: #333;
+}
+
+.location-item .loc-versions {
+    color: #888;
+}
+
+/* ---------------- DATA CAROUSEL ---------------- */
+
+#data-carousel {
+    flex: 1;
+    background:
+        radial-gradient(ellipse at 100% 100%, color-mix(in srgb, var(--type-color) 7%, transparent), transparent 55%),
+        white;
+    border-radius: 14px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 6px 16px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+    overflow: hidden;
+}
+
+#carousel-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:
+        linear-gradient(135deg, rgba(255, 255, 255, 0.18), rgba(0, 0, 0, 0.14)),
+        var(--type-color);
+    color: white;
+    padding: 9px 14px;
+    flex-shrink: 0;
+}
+
+#carousel-title {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.carousel-arrow {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    opacity: 0.85;
+    transition: opacity 0.12s ease, transform 0.12s ease;
+}
+
+.carousel-arrow:hover {
+    opacity: 1;
+    transform: scale(1.15);
+}
+
+#carousel-slides {
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto;
+    padding: 8px 14px;
+}
+
+.slide {
+    display: none;
+}
+
+.slide.active {
+    display: block;
+}
+
+/* ---------------- COLLAPSIBLE SECTIONS ---------------- */
+
+.section {
+    margin-bottom: 4px;
+}
+
+.section-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #888;
+    padding: 8px 2px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.section-header .caret {
+    font-size: 10px;
+    transition: transform 0.15s;
+}
+
+.section-header.collapsed .caret {
+    transform: rotate(-90deg);
+}
+
+.section-body {
+    overflow: hidden;
+}
+
+.section-body.collapsed {
+    display: none;
+}
+
+.hint-text {
+    font-size: 11px;
+    color: #aaa;
+    margin-bottom: 8px;
+}
+
+.row-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 0;
+    font-size: 13px;
+    border-bottom: 1px solid #eee;
+    gap: 8px;
+}
+
+.row-item .row-left {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    min-width: 0;
+}
+
+.row-item .row-left span:first-child {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.tag {
+    display: inline-block;
+    background: #eef0fb;
+    color: var(--type-color);
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-size: 12px;
+    margin: 2px 4px 2px 0;
+}
+
+/* small colored chip showing a move's type, colored via inline style */
+.type-chip {
+    display: inline-block;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 999px;
+    font-size: 10px;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+.tm-code {
+    font-size: 11px;
+    color: #888;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+.vinyl-icon {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+}
+
+/* marks a move that was actually learned by a pre-evolution, not this
+   pokemon directly */
+.move-source-sprite {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+    image-rendering: pixelated;
+    flex-shrink: 0;
+}
+
+/* ---------------- STAT BARS ---------------- */
+/* No numeric label -- the bar length + color IS the value. Track is a
+   flat light-gray groove; the fill is colored along a red (low) -> yellow
+   (mid) -> green (high) gradient based on where this stat sits between
+   the real min/max for that stat across every pokemon. */
+
+.stat-bar-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 4px 0;
+}
+
+.stat-bar-name {
+    width: 40px;
+    flex-shrink: 0;
+    font-size: 11px;
+    color: #888;
+    text-transform: uppercase;
+}
+
+.stat-bar-value {
+    width: 28px;
+    flex-shrink: 0;
+    font-size: 12px;
+    font-weight: bold;
+    color: #333;
+    text-align: right;
+}
+
+.stat-bar-track {
+    flex: 1;
+    height: 10px;
+    background: #eee;
+    border-radius: 999px;
+    overflow: hidden;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08) inset;
+}
+
+.stat-bar-fill {
+    height: 100%;
+    border-radius: 999px;
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0));
+    transition: width 0.3s ease;
+}
+
+/* ---------------- FORMS (clickable cards) ---------------- */
+
+.form-card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px;
+    border-radius: 10px;
+    background: #f7f8fc;
+    margin-bottom: 8px;
+    cursor: pointer;
+    transition: background 0.12s ease, transform 0.12s ease;
+}
+
+.form-card:hover {
+    background: #eef0fb;
+    transform: translateX(2px);
+}
+
+.form-card img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    image-rendering: pixelated;
+}
+
+.form-card .form-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.form-card .form-name {
+    font-size: 13px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 3px;
+}
+
+/* ---------------- EVOLUTION FLOW CHART ---------------- */
+
+.evo-node {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.evo-arrow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #aaa;
+    line-height: 1.1;
+    margin: 2px 0;
+}
+
+.evo-arrow-line {
+    font-size: 14px;
+}
+
+.evo-arrow-label {
+    font-size: 9px;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.evo-children {
+    display: flex;
+    gap: 14px;
+    overflow-x: auto;
+    max-width: 100%;
+    padding: 4px 2px 8px;
+}
+
+.evo-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    padding: 8px 10px;
+    border-radius: 10px;
+    background: #f7f8fc;
+    border: 2px solid transparent;
+    cursor: pointer;
+    flex-shrink: 0;
+    transition: background 0.12s ease, transform 0.12s ease;
+}
+
+.evo-card:hover {
+    transform: translateY(-2px);
+    background: #eef0fb;
+}
+
+.evo-card img {
+    width: 44px;
+    height: 44px;
+    object-fit: contain;
+    image-rendering: pixelated;
+}
+
+.evo-card-name {
+    font-size: 11px;
+    font-weight: bold;
+    color: #333;
+    white-space: nowrap;
+}
+
+/* the pokemon whose page this is */
+.evo-card.current {
+    border-color: var(--type-color);
+    background: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+/* a sibling branch, not on this pokemon's own line (e.g. the other
+   Eeveelutions when you're looking at Umbreon) -- visually quieter */
+.evo-card.alternate {
+    opacity: 0.55;
+}
+
+.evo-alt-badge {
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #2ecc71;
+    color: white;
+    font-weight: bold;
+    font-size: 11px;
+    border-radius: 4px;
+    border: 1px solid #24a35f;
+}
+
+/* things you can click for a side effect (evolution links, etc) */
+.clickable {
+    cursor: pointer;
+}
+
+.clickable:hover {
+    text-decoration: underline;
+}
+
+/* ---------------- UNIFORM GEN3-STYLE TYPE PILLS ---------------- */
+/* Fixed size so pills never jitter as you switch between pokemon with
+   short ("Ice") vs long ("Fighting") type names. Styled after the little
+   type badges from the Gen3 summary screen: solid color, bold white
+   uppercase text, beveled edges for a GBA-UI feel. */
+
+.type-pill {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 76px;
+    height: 20px;
+    color: white;
+    font-family: "Menlo", "Monaco", "Courier New", monospace;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 0.45),
+        inset 0 -2px 0 rgba(0, 0, 0, 0.25);
+    margin: 1px 0;
+    cursor: pointer;
+}
+
+/* ---------------- TYPE CHART MODAL ---------------- */
+
+#type-modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+#type-modal {
+    width: min(94vw, 620px);
+    max-height: 88vh;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+#type-modal-header {
+    background:
+        linear-gradient(135deg, rgba(255, 255, 255, 0.18), rgba(0, 0, 0, 0.14)),
+        var(--type-color);
+    color: white;
+    padding: 10px 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+#type-modal-close {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 22px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+#type-modal-body {
+    overflow: auto;
+    padding: 10px;
+}
+
+#type-chart-grid {
+    display: grid;
+    font-family: "Menlo", "Monaco", "Courier New", monospace;
+    font-size: 9px;
+    width: max-content;
+}
+
+.chart-cell {
+    width: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+/* super effective (>1x): attacker has the advantage */
+.chart-cell.mult-weak {
+    background: #e74c3c;
+}
+
+/* not very effective (<1x, >0x): defender resists */
+.chart-cell.mult-resist {
+    background: #27ae60;
+}
+
+/* no effect (0x) */
+.chart-cell.mult-immune {
+    background: #2c2c2c;
+}
+
+.chart-header-cell {
+    width: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-size: 8px;
+}
+
+.chart-row-label {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 4px;
+    color: white;
+    font-weight: bold;
+    font-size: 9px;
+    white-space: nowrap;
+}
+
+/* ---------------- ASSET POPOVER (move/ability flavor text) ---------------- */
+/* Floating + dismissible so it never permanently occupies layout space. */
+
+#asset-popover-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.35);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    z-index: 90;
+}
+
+#asset-popover {
+    width: min(94vw, 480px);
+    max-height: 60vh;
+    background: white;
+    border-radius: 14px 14px 0 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.3);
+}
+
+#asset-popover-header {
+    background:
+        linear-gradient(135deg, rgba(255, 255, 255, 0.18), rgba(0, 0, 0, 0.14)),
+        var(--type-color);
+    color: white;
+    padding: 10px 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+#asset-popover-close {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 22px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+#asset-popover-body {
+    padding: 12px 14px;
+    overflow-y: auto;
+    font-size: 13px;
+    color: #333;
+    line-height: 1.5;
+}
+
+#asset-popover-body .detail-stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 10px;
+}
+
+#asset-popover-body .detail-stat {
+    background: #eef0fb;
+    color: var(--type-color);
+    font-size: 11px;
+    font-weight: bold;
+    padding: 3px 9px;
+    border-radius: 999px;
+}

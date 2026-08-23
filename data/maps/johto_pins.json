@@ -1,0 +1,592 @@
+{
+  "azalea-town-area": {
+    "label": "Azalea Town",
+    "x": 38,
+    "y": 84
+  },
+  "bell-tower-10f": {
+    "label": "Bell Tower 10F",
+    "x": 37,
+    "y": 26
+  },
+  "bell-tower-1f": {
+    "label": "Bell Tower 1F",
+    "x": 37,
+    "y": 26
+  },
+  "bell-tower-2f": {
+    "label": "Bell Tower 2F",
+    "x": 37,
+    "y": 26
+  },
+  "bell-tower-3f": {
+    "label": "Bell Tower 3F",
+    "x": 37,
+    "y": 26
+  },
+  "bell-tower-4f": {
+    "label": "Bell Tower 4F",
+    "x": 37,
+    "y": 26
+  },
+  "bell-tower-5f": {
+    "label": "Bell Tower 5F",
+    "x": 37,
+    "y": 26
+  },
+  "bell-tower-6f": {
+    "label": "Bell Tower 6F",
+    "x": 37,
+    "y": 26
+  },
+  "bell-tower-7f": {
+    "label": "Bell Tower 7F",
+    "x": 37,
+    "y": 26
+  },
+  "bell-tower-8f": {
+    "label": "Bell Tower 8F",
+    "x": 37,
+    "y": 26
+  },
+  "bell-tower-9f": {
+    "label": "Bell Tower 9F",
+    "x": 37,
+    "y": 26
+  },
+  "bell-tower-roof": {
+    "label": "Bell Tower Roof",
+    "x": 37,
+    "y": 26
+  },
+  "blackthorn-city-area": {
+    "label": "Blackthorn City",
+    "x": 68,
+    "y": 29
+  },
+  "burned-tower-1f": {
+    "label": "Burned Tower 1F",
+    "x": 40,
+    "y": 29
+  },
+  "burned-tower-b1f": {
+    "label": "Burned Tower B1",
+    "x": 40,
+    "y": 29
+  },
+  "cherrygrove-city-area": {
+    "label": "Cherrygrove City",
+    "x": 57,
+    "y": 69
+  },
+  "cianwood-city-area": {
+    "label": "Cianwood City",
+    "x": 12,
+    "y": 66
+  },
+  "cianwood-city-kirks-house": {
+    "label": "Cianwood City Kirks House",
+    "x": 12,
+    "y": 66
+  },
+  "cianwood-city-manias-house": {
+    "label": "Cianwood City Manias House",
+    "x": 12,
+    "y": 66
+  },
+  "cianwood-city-pokemon-center": {
+    "label": "Cianwood City Pokemon Center",
+    "x": 12,
+    "y": 66
+  },
+  "dark-cave-blackthorn-city-entrance": {
+    "label": "Dark Cave Blackthorn City Entrance",
+    "x": 54,
+    "y": 48
+  },
+  "dark-cave-violet-city-entrance": {
+    "label": "Dark Cave Violet City Entrance",
+    "x": 54,
+    "y": 48
+  },
+  "dragons-den-area": {
+    "label": "Dragon's Den",
+    "x": 68,
+    "y": 35
+  },
+  "ecruteak-city-area": {
+    "label": "Ecruteak City",
+    "x": 39,
+    "y": 29
+  },
+  "embedded-tower-groundon-room": {
+    "label": "Embedded Tower Groundon Room",
+    "x": 39,
+    "y": 31
+  },
+  "embedded-tower-kyogre-room": {
+    "label": "Embedded Tower Kyogre Room",
+    "x": 39,
+    "y": 31
+  },
+  "embedded-tower-rayquaza-room": {
+    "label": "Embedded Tower Rayquaza Room",
+    "x": 39,
+    "y": 31
+  },
+  "goldenrod-city-bills-house": {
+    "label": "Goldenrod City Bills House",
+    "x": 33,
+    "y": 66
+  },
+  "goldenrod-city-department-store-5f": {
+    "label": "Goldenrod City Department Store 5F",
+    "x": 33,
+    "y": 66
+  },
+  "goldenrod-city-game-corner": {
+    "label": "Goldenrod City Game Corner",
+    "x": 33,
+    "y": 66
+  },
+  "goldenrod-city-north-gate": {
+    "label": "Goldenrod City (N) Gate",
+    "x": 33,
+    "y": 66
+  },
+  "ice-path-1f": {
+    "label": "Ice Path 1F",
+    "x": 62,
+    "y": 25
+  },
+  "ice-path-b1f": {
+    "label": "Ice Path B1",
+    "x": 62,
+    "y": 25
+  },
+  "ice-path-b2f": {
+    "label": "Ice Path B2",
+    "x": 62,
+    "y": 25
+  },
+  "ice-path-b3f": {
+    "label": "Ice Path B3",
+    "x": 62,
+    "y": 25
+  },
+  "ilex-forest-area": {
+    "label": "Ilex Forest",
+    "x": 35,
+    "y": 78
+  },
+  "johto-pokemart-area": {
+    "label": "PokeMart",
+    "x": 33,
+    "y": 66
+  },
+  "johto-route-29-area": {
+    "label": "Route 29",
+    "x": 64,
+    "y": 69
+  },
+  "johto-route-30-area": {
+    "label": "Route 30",
+    "x": 52,
+    "y": 58
+  },
+  "johto-route-31-area": {
+    "label": "Route 31",
+    "x": 50,
+    "y": 50
+  },
+  "johto-route-32-area": {
+    "label": "Route 32",
+    "x": 43,
+    "y": 58
+  },
+  "johto-route-33-area": {
+    "label": "Route 33",
+    "x": 38,
+    "y": 72
+  },
+  "johto-route-34-area": {
+    "label": "Route 34",
+    "x": 34,
+    "y": 72
+  },
+  "johto-route-35-area": {
+    "label": "Route 35",
+    "x": 31,
+    "y": 54
+  },
+  "johto-route-36-area": {
+    "label": "Route 36",
+    "x": 33,
+    "y": 40
+  },
+  "johto-route-37-area": {
+    "label": "Route 37",
+    "x": 37,
+    "y": 34
+  },
+  "johto-route-38-area": {
+    "label": "Route 38",
+    "x": 30,
+    "y": 32
+  },
+  "johto-route-39-area": {
+    "label": "Route 39",
+    "x": 26,
+    "y": 40
+  },
+  "johto-route-42-area": {
+    "label": "Route 42",
+    "x": 46,
+    "y": 29
+  },
+  "johto-route-43-area": {
+    "label": "Route 43",
+    "x": 56,
+    "y": 22
+  },
+  "johto-route-44-area": {
+    "label": "Route 44",
+    "x": 60,
+    "y": 26
+  },
+  "johto-route-45-area": {
+    "label": "Route 45",
+    "x": 65,
+    "y": 40
+  },
+  "johto-route-46-area": {
+    "label": "Route 46",
+    "x": 60,
+    "y": 46
+  },
+  "johto-route-47-area": {
+    "label": "Route 47",
+    "x": 72,
+    "y": 20
+  },
+  "johto-route-47-cave-gate": {
+    "label": "Route 47 Cave Gate",
+    "x": 72,
+    "y": 20
+  },
+  "johto-route-47-inside-cave": {
+    "label": "Route 47 Inside Cave",
+    "x": 72,
+    "y": 20
+  },
+  "johto-route-48-area": {
+    "label": "Route 48",
+    "x": 16,
+    "y": 68
+  },
+  "johto-safari-zone-desert": {
+    "label": "Johto Safari Zone Desert",
+    "x": 10,
+    "y": 74
+  },
+  "johto-safari-zone-forest": {
+    "label": "Johto Safari Zone Forest",
+    "x": 10,
+    "y": 74
+  },
+  "johto-safari-zone-marshland": {
+    "label": "Johto Safari Zone Marshland",
+    "x": 10,
+    "y": 74
+  },
+  "johto-safari-zone-meadow": {
+    "label": "Johto Safari Zone Meadow",
+    "x": 10,
+    "y": 74
+  },
+  "johto-safari-zone-mountain": {
+    "label": "Johto Safari Zone Mountain",
+    "x": 10,
+    "y": 74
+  },
+  "johto-safari-zone-peak": {
+    "label": "Johto Safari Zone Peak",
+    "x": 10,
+    "y": 74
+  },
+  "johto-safari-zone-plains": {
+    "label": "Johto Safari Zone Plains",
+    "x": 10,
+    "y": 74
+  },
+  "johto-safari-zone-rocky-beach": {
+    "label": "Johto Safari Zone Rocky Beach",
+    "x": 10,
+    "y": 74
+  },
+  "johto-safari-zone-savannah": {
+    "label": "Johto Safari Zone Savannah",
+    "x": 10,
+    "y": 74
+  },
+  "johto-safari-zone-swamp": {
+    "label": "Johto Safari Zone Swamp",
+    "x": 10,
+    "y": 74
+  },
+  "johto-safari-zone-wasteland": {
+    "label": "Johto Safari Zone Wasteland",
+    "x": 10,
+    "y": 74
+  },
+  "johto-safari-zone-wetland": {
+    "label": "Johto Safari Zone Wetland",
+    "x": 10,
+    "y": 74
+  },
+  "johto-sea-route-40-area": {
+    "label": "Sea Route 40",
+    "x": 18,
+    "y": 54
+  },
+  "johto-sea-route-41-area": {
+    "label": "Sea Route 41",
+    "x": 12,
+    "y": 63
+  },
+  "lake-of-rage-area": {
+    "label": "Lake of Rage",
+    "x": 58,
+    "y": 17
+  },
+  "mahogany-town-area": {
+    "label": "Mahogany Town",
+    "x": 53,
+    "y": 29
+  },
+  "mt-mortar-1f": {
+    "label": "Mt Mortar 1F",
+    "x": 46,
+    "y": 32
+  },
+  "mt-mortar-b1f": {
+    "label": "Mt Mortar B1",
+    "x": 46,
+    "y": 32
+  },
+  "mt-mortar-lower-cave": {
+    "label": "Mt Mortar Lower Cave",
+    "x": 46,
+    "y": 32
+  },
+  "mt-mortar-upper-cave": {
+    "label": "Mt Mortar Upper Cave",
+    "x": 46,
+    "y": 32
+  },
+  "mt-silver-1f": {
+    "label": "Mt Silver 1F",
+    "x": 92,
+    "y": 8
+  },
+  "mt-silver-1f-top": {
+    "label": "Mt Silver 1F Top",
+    "x": 92,
+    "y": 8
+  },
+  "mt-silver-2f": {
+    "label": "Mt Silver 2F",
+    "x": 92,
+    "y": 8
+  },
+  "mt-silver-3f": {
+    "label": "Mt Silver 3F",
+    "x": 92,
+    "y": 8
+  },
+  "mt-silver-4f": {
+    "label": "Mt Silver 4F",
+    "x": 92,
+    "y": 8
+  },
+  "mt-silver-mountainside": {
+    "label": "Mt Silver Mountainside",
+    "x": 92,
+    "y": 8
+  },
+  "mt-silver-outside": {
+    "label": "Mt Silver Outside",
+    "x": 92,
+    "y": 8
+  },
+  "mt-silver-top": {
+    "label": "Mt Silver Top",
+    "x": 92,
+    "y": 8
+  },
+  "national-park-area": {
+    "label": "National Park",
+    "x": 30,
+    "y": 48
+  },
+  "new-bark-town-area": {
+    "label": "New Bark Town",
+    "x": 71,
+    "y": 69
+  },
+  "olivine-city-area": {
+    "label": "Olivine City",
+    "x": 23,
+    "y": 48
+  },
+  "roaming-johto-area": {
+    "label": "Roaming Johto",
+    "x": 33,
+    "y": 66
+  },
+  "ruins-of-alph-interior-a": {
+    "label": "Ruins of Alph Interior A",
+    "x": 34,
+    "y": 58
+  },
+  "ruins-of-alph-interior-b": {
+    "label": "Ruins of Alph Interior B",
+    "x": 34,
+    "y": 58
+  },
+  "ruins-of-alph-interior-c": {
+    "label": "Ruins of Alph Interior C",
+    "x": 34,
+    "y": 58
+  },
+  "ruins-of-alph-interior-d": {
+    "label": "Ruins of Alph Interior D",
+    "x": 34,
+    "y": 58
+  },
+  "ruins-of-alph-outside": {
+    "label": "Ruins of Alph Outside",
+    "x": 34,
+    "y": 58
+  },
+  "safari-zone-gate-area": {
+    "label": "Safari Zone Gate",
+    "x": 14,
+    "y": 70
+  },
+  "sinjoh-ruins-area": {
+    "label": "Sinjoh Ruins",
+    "x": 76,
+    "y": 14
+  },
+  "slowpoke-well-1f": {
+    "label": "Slowpoke Well 1F",
+    "x": 40,
+    "y": 86
+  },
+  "slowpoke-well-b1f": {
+    "label": "Slowpoke Well B1",
+    "x": 40,
+    "y": 86
+  },
+  "sprout-tower-2f": {
+    "label": "Sprout Tower 2F",
+    "x": 47,
+    "y": 44
+  },
+  "sprout-tower-3f": {
+    "label": "Sprout Tower 3F",
+    "x": 47,
+    "y": 44
+  },
+  "team-rocket-hq-area": {
+    "label": "Team Rocket HQ",
+    "x": 53,
+    "y": 31
+  },
+  "tohjo-falls-area": {
+    "label": "Tohjo Falls",
+    "x": 85,
+    "y": 10
+  },
+  "union-cave-1f": {
+    "label": "Union Cave 1F",
+    "x": 42,
+    "y": 60
+  },
+  "union-cave-b1f": {
+    "label": "Union Cave B1",
+    "x": 42,
+    "y": 60
+  },
+  "union-cave-b2f": {
+    "label": "Union Cave B2",
+    "x": 42,
+    "y": 60
+  },
+  "unknown-all-bugs-area": {
+    "label": "Bug Catching Contest",
+    "x": 33,
+    "y": 66
+  },
+  "unknown-all-poliwag-area": {
+    "label": "Poliwag Fishing Spot",
+    "x": 33,
+    "y": 66
+  },
+  "unknown-all-rattata-area": {
+    "label": "Rattata Encounter",
+    "x": 33,
+    "y": 66
+  },
+  "violet-city-area": {
+    "label": "Violet City",
+    "x": 48,
+    "y": 46
+  },
+  "violet-city-poke-mart": {
+    "label": "Violet City Poke Mart",
+    "x": 48,
+    "y": 46
+  },
+  "violet-city-pokemon-center": {
+    "label": "Violet City Pokemon Center",
+    "x": 48,
+    "y": 46
+  },
+  "violet-city-southwest-house": {
+    "label": "Violet City Southwest House",
+    "x": 48,
+    "y": 46
+  },
+  "whirl-islands-1f": {
+    "label": "Whirl Islands 1F",
+    "x": 14,
+    "y": 60
+  },
+  "whirl-islands-b1f": {
+    "label": "Whirl Islands B1",
+    "x": 14,
+    "y": 60
+  },
+  "whirl-islands-b2f": {
+    "label": "Whirl Islands B2",
+    "x": 14,
+    "y": 60
+  },
+  "whirl-islands-b3f": {
+    "label": "Whirl Islands B3",
+    "x": 14,
+    "y": 60
+  },
+  "whirl-islands-empty-floor-x": {
+    "label": "Whirl Islands Empty Floor X",
+    "x": 14,
+    "y": 60
+  },
+  "whirl-islands-empty-floor-y": {
+    "label": "Whirl Islands Empty Floor Y",
+    "x": 14,
+    "y": 60
+  }
+}

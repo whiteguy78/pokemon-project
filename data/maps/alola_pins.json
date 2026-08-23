@@ -1,0 +1,682 @@
+{
+  "aether-paradise-2f": {
+    "label": "Aether Paradise 2F",
+    "x": 45,
+    "y": 45
+  },
+  "akala-outskirts-area": {
+    "label": "Akala Outskirts",
+    "x": 51,
+    "y": 34
+  },
+  "alola-berry-fields-area": {
+    "label": "Berry Fields",
+    "x": 4,
+    "y": 13
+  },
+  "alola-route-1-east": {
+    "label": "Route 1 (E)",
+    "x": 19,
+    "y": 24
+  },
+  "alola-route-1-hauoli-outskirts": {
+    "label": "Route 1 Hauoli Outskirts",
+    "x": 19,
+    "y": 24
+  },
+  "alola-route-1-south": {
+    "label": "Route 1 (S)",
+    "x": 19,
+    "y": 24
+  },
+  "alola-route-1-trainers-school": {
+    "label": "Route 1 Trainers School",
+    "x": 19,
+    "y": 24
+  },
+  "alola-route-1-west": {
+    "label": "Route 1 (W)",
+    "x": 19,
+    "y": 24
+  },
+  "alola-route-10-area": {
+    "label": "Route 10",
+    "x": 78,
+    "y": 46
+  },
+  "alola-route-11-area": {
+    "label": "Route 11",
+    "x": 85,
+    "y": 47
+  },
+  "alola-route-12-area": {
+    "label": "Route 12",
+    "x": 92,
+    "y": 46
+  },
+  "alola-route-13-area": {
+    "label": "Route 13",
+    "x": 90,
+    "y": 55
+  },
+  "alola-route-14-area": {
+    "label": "Route 14",
+    "x": 77,
+    "y": 62
+  },
+  "alola-route-15-aether-house": {
+    "label": "Route 15 Aether House",
+    "x": 66,
+    "y": 44
+  },
+  "alola-route-15-main": {
+    "label": "Route 15 Main",
+    "x": 66,
+    "y": 44
+  },
+  "alola-route-16-east": {
+    "label": "Route 16 (E)",
+    "x": 66,
+    "y": 47
+  },
+  "alola-route-16-main": {
+    "label": "Route 16 Main",
+    "x": 66,
+    "y": 47
+  },
+  "alola-route-16-west": {
+    "label": "Route 16 (W)",
+    "x": 66,
+    "y": 47
+  },
+  "alola-route-17-all-areas": {
+    "label": "Route 17 All Areas",
+    "x": 68,
+    "y": 39
+  },
+  "alola-route-17-northeast": {
+    "label": "Route 17 Northeast",
+    "x": 68,
+    "y": 39
+  },
+  "alola-route-17-west": {
+    "label": "Route 17 (W)",
+    "x": 68,
+    "y": 39
+  },
+  "alola-route-2-main": {
+    "label": "Route 2 Main",
+    "x": 9,
+    "y": 17
+  },
+  "alola-route-2-north": {
+    "label": "Route 2 (N)",
+    "x": 9,
+    "y": 17
+  },
+  "alola-route-2-south": {
+    "label": "Route 2 (S)",
+    "x": 9,
+    "y": 17
+  },
+  "alola-route-3-main": {
+    "label": "Route 3 Main",
+    "x": 19,
+    "y": 10
+  },
+  "alola-route-3-north": {
+    "label": "Route 3 (N)",
+    "x": 19,
+    "y": 10
+  },
+  "alola-route-3-south": {
+    "label": "Route 3 (S)",
+    "x": 19,
+    "y": 10
+  },
+  "alola-route-4-area": {
+    "label": "Route 4",
+    "x": 38,
+    "y": 21
+  },
+  "alola-route-5-area": {
+    "label": "Route 5",
+    "x": 52,
+    "y": 16
+  },
+  "alola-route-6-north": {
+    "label": "Route 6 (N)",
+    "x": 52,
+    "y": 28
+  },
+  "alola-route-6-south": {
+    "label": "Route 6 (S)",
+    "x": 52,
+    "y": 28
+  },
+  "alola-route-7-area": {
+    "label": "Route 7",
+    "x": 63,
+    "y": 18
+  },
+  "alola-route-8-fossil-restoration-center": {
+    "label": "Route 8 Fossil Restoration Center",
+    "x": 53,
+    "y": 8
+  },
+  "alola-route-8-main": {
+    "label": "Route 8 Main",
+    "x": 53,
+    "y": 8
+  },
+  "alola-route-9-main": {
+    "label": "Route 9 Main",
+    "x": 45,
+    "y": 37
+  },
+  "alola-route-9-police-station": {
+    "label": "Route 9 Police Station",
+    "x": 45,
+    "y": 37
+  },
+  "altar-of-the-moone-area": {
+    "label": "Altar of the Moone",
+    "x": 16,
+    "y": 60
+  },
+  "altar-of-the-sunne-area": {
+    "label": "Altar of the Sunne",
+    "x": 16,
+    "y": 60
+  },
+  "ancient-poni-path-area": {
+    "label": "Ancient Poni Path",
+    "x": 20,
+    "y": 60
+  },
+  "blush-mountain-area": {
+    "label": "Blush Mountain",
+    "x": 89,
+    "y": 51
+  },
+  "brooklet-hill-main": {
+    "label": "Brooklet Hill Main",
+    "x": 37,
+    "y": 12
+  },
+  "brooklet-hill-north": {
+    "label": "Brooklet Hill (N)",
+    "x": 37,
+    "y": 12
+  },
+  "brooklet-hill-south": {
+    "label": "Brooklet Hill (S)",
+    "x": 37,
+    "y": 12
+  },
+  "brooklet-hill-totems-den": {
+    "label": "Brooklet Hill Totems Den",
+    "x": 37,
+    "y": 12
+  },
+  "digletts-tunnel-area": {
+    "label": "Diglett's Tunnel",
+    "x": 45,
+    "y": 32
+  },
+  "dividing-peak-tunnel-area": {
+    "label": "Dividing Peak Tunnel",
+    "x": 73,
+    "y": 47
+  },
+  "exeggutor-island-area": {
+    "label": "Exeggutor Island",
+    "x": 9,
+    "y": 87
+  },
+  "haina-desert-area": {
+    "label": "Haina Desert",
+    "x": 78,
+    "y": 53
+  },
+  "hano-beach-area": {
+    "label": "Hano Beach",
+    "x": 59,
+    "y": 30
+  },
+  "hauoli-cemetery-area": {
+    "label": "Hau'oli Cemetery",
+    "x": 4,
+    "y": 22
+  },
+  "hauoli-city-beachfront": {
+    "label": "Hau'oli City Beachfront",
+    "x": 13,
+    "y": 30
+  },
+  "hauoli-city-main": {
+    "label": "Hau'oli City Main",
+    "x": 13,
+    "y": 30
+  },
+  "hauoli-city-shopping-district": {
+    "label": "Hau'oli City Shopping District",
+    "x": 13,
+    "y": 30
+  },
+  "heahea-beach-area": {
+    "label": "Heahea Beach",
+    "x": 43,
+    "y": 29
+  },
+  "heahea-city-surf-association": {
+    "label": "Heahea City Surf Association",
+    "x": 41,
+    "y": 27
+  },
+  "iki-town-area": {
+    "label": "Iki Town",
+    "x": 17,
+    "y": 26
+  },
+  "kalae-bay-area": {
+    "label": "Kala'e Bay",
+    "x": 23,
+    "y": 9
+  },
+  "konikoni-city-area": {
+    "label": "Konikoni City",
+    "x": 38,
+    "y": 33
+  },
+  "lake-of-the-moone-area": {
+    "label": "Lake of the Moone",
+    "x": 67,
+    "y": 44
+  },
+  "lake-of-the-sunne-area": {
+    "label": "Lake of the Sunne",
+    "x": 67,
+    "y": 44
+  },
+  "lush-jungle-all-areas": {
+    "label": "Lush Jungle All Areas",
+    "x": 52,
+    "y": 5
+  },
+  "lush-jungle-east-cave": {
+    "label": "Lush Jungle (E) Cave",
+    "x": 52,
+    "y": 5
+  },
+  "lush-jungle-north": {
+    "label": "Lush Jungle (N)",
+    "x": 52,
+    "y": 5
+  },
+  "lush-jungle-south": {
+    "label": "Lush Jungle (S)",
+    "x": 52,
+    "y": 5
+  },
+  "lush-jungle-west": {
+    "label": "Lush Jungle (W)",
+    "x": 52,
+    "y": 5
+  },
+  "mahalo-trail-area": {
+    "label": "Mahalo Trail",
+    "x": 16,
+    "y": 22
+  },
+  "malie-city-main": {
+    "label": "Malie City Main",
+    "x": 86,
+    "y": 41
+  },
+  "malie-city-outer-cape": {
+    "label": "Malie City Outer Cape",
+    "x": 86,
+    "y": 41
+  },
+  "malie-garden-area": {
+    "label": "Malie Garden",
+    "x": 89,
+    "y": 44
+  },
+  "melemele-meadow-area": {
+    "label": "Melemele Meadow",
+    "x": 14,
+    "y": 6
+  },
+  "melemele-sea-area": {
+    "label": "Melemele Sea",
+    "x": 30,
+    "y": 33
+  },
+  "memorial-hill-area": {
+    "label": "Memorial Hill",
+    "x": 52,
+    "y": 37
+  },
+  "mount-hokulani-east": {
+    "label": "Mount Hokulani (E)",
+    "x": 80,
+    "y": 40
+  },
+  "mount-hokulani-main": {
+    "label": "Mount Hokulani Main",
+    "x": 80,
+    "y": 40
+  },
+  "mount-hokulani-west": {
+    "label": "Mount Hokulani (W)",
+    "x": 80,
+    "y": 40
+  },
+  "mount-lanakila-base": {
+    "label": "Mount Lanakila Base",
+    "x": 80,
+    "y": 50
+  },
+  "mount-lanakila-cave": {
+    "label": "Mount Lanakila Cave",
+    "x": 80,
+    "y": 50
+  },
+  "mount-lanakila-crater": {
+    "label": "Mount Lanakila Crater",
+    "x": 80,
+    "y": 50
+  },
+  "mount-lanakila-outside": {
+    "label": "Mount Lanakila Outside",
+    "x": 80,
+    "y": 50
+  },
+  "paniola-ranch-area": {
+    "label": "Paniola Ranch",
+    "x": 50,
+    "y": 15
+  },
+  "paniola-town-area": {
+    "label": "Paniola Town",
+    "x": 47,
+    "y": 19
+  },
+  "poke-pelago-elite-four-defeated": {
+    "label": "Poke Pelago Elite Four Defeated",
+    "x": 15,
+    "y": 84
+  },
+  "poke-pelago-poni-island-reached": {
+    "label": "Poke Pelago Poni Island Reached",
+    "x": 15,
+    "y": 84
+  },
+  "poke-pelago-ulaula-island-reached": {
+    "label": "Poke Pelago Ulaula Island Reached",
+    "x": 15,
+    "y": 84
+  },
+  "poni-breaker-coast-area": {
+    "label": "Poni Breaker Coast",
+    "x": 18,
+    "y": 88
+  },
+  "poni-coast-area": {
+    "label": "Poni Coast",
+    "x": 30,
+    "y": 65
+  },
+  "poni-gauntlet-area": {
+    "label": "Poni Gauntlet",
+    "x": 23,
+    "y": 63
+  },
+  "poni-grove-area": {
+    "label": "Poni Grove",
+    "x": 20,
+    "y": 82
+  },
+  "poni-meadow-area": {
+    "label": "Poni Meadow",
+    "x": 24,
+    "y": 77
+  },
+  "poni-plains-center": {
+    "label": "Poni Plains Center",
+    "x": 24,
+    "y": 72
+  },
+  "poni-plains-east": {
+    "label": "Poni Plains (E)",
+    "x": 24,
+    "y": 72
+  },
+  "poni-plains-north": {
+    "label": "Poni Plains (N)",
+    "x": 24,
+    "y": 72
+  },
+  "poni-plains-west": {
+    "label": "Poni Plains (W)",
+    "x": 24,
+    "y": 72
+  },
+  "poni-wilds-area": {
+    "label": "Poni Wilds",
+    "x": 15,
+    "y": 60
+  },
+  "resolution-cave-area": {
+    "label": "Resolution Cave",
+    "x": 28,
+    "y": 58
+  },
+  "royal-avenue-area": {
+    "label": "Royal Avenue",
+    "x": 56,
+    "y": 30
+  },
+  "ruins-of-abundance-area": {
+    "label": "Ruins of Abundance",
+    "x": 84,
+    "y": 44
+  },
+  "ruins-of-conflict-area": {
+    "label": "Ruins of Conflict",
+    "x": 15,
+    "y": 20
+  },
+  "ruins-of-hope-area": {
+    "label": "Ruins of Hope",
+    "x": 20,
+    "y": 79
+  },
+  "ruins-of-life-area": {
+    "label": "Ruins of Life",
+    "x": 48,
+    "y": 32
+  },
+  "sandy-cave-area": {
+    "label": "Sandy Cave",
+    "x": 78,
+    "y": 53
+  },
+  "seafolk-village-huntail-boat": {
+    "label": "Seafolk Village Huntail Boat",
+    "x": 15,
+    "y": 84
+  },
+  "seafolk-village-main": {
+    "label": "Seafolk Village Main",
+    "x": 15,
+    "y": 84
+  },
+  "seaward-cave-area": {
+    "label": "Seaward Cave",
+    "x": 9,
+    "y": 9
+  },
+  "secluded-shore-area": {
+    "label": "Secluded Shore",
+    "x": 94,
+    "y": 51
+  },
+  "tapu-village-area": {
+    "label": "Tapu Village",
+    "x": 76,
+    "y": 60
+  },
+  "team-rockets-castle-area": {
+    "label": "Po Town",
+    "x": 69,
+    "y": 33
+  },
+  "ten-carat-hill-farthest-hollow": {
+    "label": "Ten Carat Hill Farthest Hollow",
+    "x": 31,
+    "y": 27
+  },
+  "ten-carat-hill-inside": {
+    "label": "Ten Carat Hill Inside",
+    "x": 31,
+    "y": 27
+  },
+  "thrifty-megamart-abandoned-site": {
+    "label": "Thrifty Megamart Abandoned Site",
+    "x": 74,
+    "y": 61
+  },
+  "ulaula-beach-area": {
+    "label": "Ula'ula Beach",
+    "x": 70,
+    "y": 46
+  },
+  "ulaula-meadow-area": {
+    "label": "Ula'ula Meadow",
+    "x": 65,
+    "y": 41
+  },
+  "ultra-megalopolis-area": {
+    "label": "Ultra Megalopolis",
+    "x": 67,
+    "y": 44
+  },
+  "ultra-space-ultra-crater": {
+    "label": "Ultra Space Ultra Crater",
+    "x": 67,
+    "y": 44
+  },
+  "ultra-space-ultra-deep-sea": {
+    "label": "Ultra Space Ultra Deep Sea",
+    "x": 67,
+    "y": 44
+  },
+  "ultra-space-ultra-desert": {
+    "label": "Ultra Space Ultra Desert",
+    "x": 67,
+    "y": 44
+  },
+  "ultra-space-ultra-forest": {
+    "label": "Ultra Space Ultra Forest",
+    "x": 67,
+    "y": 44
+  },
+  "ultra-space-ultra-jungle": {
+    "label": "Ultra Space Ultra Jungle",
+    "x": 67,
+    "y": 44
+  },
+  "ultra-space-ultra-plant": {
+    "label": "Ultra Space Ultra Plant",
+    "x": 67,
+    "y": 44
+  },
+  "ultra-space-ultra-ruin": {
+    "label": "Ultra Space Ultra Ruin",
+    "x": 67,
+    "y": 44
+  },
+  "ultra-space-ultra-space-wilds-cave": {
+    "label": "Ultra Space Ultra Space Wilds Cave",
+    "x": 67,
+    "y": 44
+  },
+  "ultra-space-ultra-space-wilds-cliff": {
+    "label": "Ultra Space Ultra Space Wilds Cliff",
+    "x": 67,
+    "y": 44
+  },
+  "ultra-space-ultra-space-wilds-rocky": {
+    "label": "Ultra Space Ultra Space Wilds Rocky",
+    "x": 67,
+    "y": 44
+  },
+  "ultra-space-ultra-space-wilds-water": {
+    "label": "Ultra Space Ultra Space Wilds Water",
+    "x": 67,
+    "y": 44
+  },
+  "ultra-space-wilds-cave": {
+    "label": "Ultra Space Wilds Cave",
+    "x": 67,
+    "y": 44
+  },
+  "ultra-space-wilds-cliff": {
+    "label": "Ultra Space Wilds Cliff",
+    "x": 67,
+    "y": 44
+  },
+  "ultra-space-wilds-crag": {
+    "label": "Ultra Space Wilds Crag",
+    "x": 67,
+    "y": 44
+  },
+  "ultra-space-wilds-waterfall": {
+    "label": "Ultra Space Wilds Waterfall",
+    "x": 67,
+    "y": 44
+  },
+  "vast-poni-canyon-inside": {
+    "label": "Vast Poni Canyon Inside",
+    "x": 30,
+    "y": 68
+  },
+  "vast-poni-canyon-northwest": {
+    "label": "Vast Poni Canyon Northwest",
+    "x": 30,
+    "y": 68
+  },
+  "vast-poni-canyon-outside": {
+    "label": "Vast Poni Canyon Outside",
+    "x": 30,
+    "y": 68
+  },
+  "verdant-cavern--trial-site-area": {
+    "label": "Verdant Cavern Trial Site",
+    "x": 13,
+    "y": 18
+  },
+  "verdant-cavern-totems-den": {
+    "label": "Verdant Cavern Totems Den",
+    "x": 13,
+    "y": 18
+  },
+  "verdant-cavern-trial-site": {
+    "label": "Verdant Cavern Trial Site",
+    "x": 13,
+    "y": 18
+  },
+  "wela-volcano-park-area": {
+    "label": "Wela Volcano Park",
+    "x": 58,
+    "y": 12
+  },
+  "wela-volcano-park-totems-den": {
+    "label": "Wela Volcano Park Totems Den",
+    "x": 58,
+    "y": 12
+  }
+}

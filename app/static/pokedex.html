@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<!--
+    The "Pokedex" view -- the same app dressed up as a handheld device.
+    Served at "/pokedex".
+
+    Same data and the same script.js as index.html; the difference is
+    entirely presentational. It loads style.css FIRST and then
+    style-pokedex.css on top, so the second file only has to override the
+    bits that differ rather than restate everything.
+
+    <body class="pokedex-theme"> is the switch script.js checks whenever
+    the two layouts need to behave differently.
+
+    The layout is a tri-fold: a left flap (the map), the centre screen
+    (sprite + pokedex entry), and a right flap (stats/moves/evolution),
+    hinged like an open science-fair board. Elements whose ids start with
+    "shell-" are the physical device around it -- lens, bevel, lights,
+    D-pad. Those are decoration; only the search box in the top bevel
+    actually does anything.
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="/static/style-pokedex.css">
+</head>
+<body class="pokedex-theme">
+
+    <div id="theme-switcher">
+        <a href="/" class="theme-option"><span class="radio-dot"></span>Clean</a>
+        <a href="/pokedex" class="theme-option active"><span class="radio-dot"></span>Pokedex</a>
+    </div>
+
+    <!-- Hand-drawn device chrome around the SAME #app content/screen as
+         the clean view -- same data, same script.js, just wearing a
+         handheld-Pokedex shell. -->
+    <div id="shell">
+
+        <div id="shell-top-bar">
+            <div id="shell-lens">
+                <div id="shell-lens-inner"></div>
+                <div id="shell-lens-glint"></div>
+            </div>
+            <div id="shell-top-bevel">
+                <button id="shell-nav-prev" class="shell-nav-arrow">&#8249;</button>
+                <div id="shell-search-wrap">
+                    <input type="text" id="shell-name-input" placeholder="Name or #" maxlength="20" autocomplete="off">
+                    <div id="shell-search-suggestions"></div>
+                </div>
+                <span id="shell-dex-badge">#000</span>
+                <button id="shell-nav-next" class="shell-nav-arrow">&#8250;</button>
+            </div>
+            <div id="shell-indicator-lights">
+                <span class="shell-light red"></span>
+                <span class="shell-light yellow"></span>
+                <span class="shell-light green"></span>
+            </div>
+        </div>
+
+        <div id="shell-screen-bezel">
+            <div id="shell-screen">
+
+                <div id="app">
+
+                    <!-- Three screens in a row: two side panels that read as
+                         flip-open doors hinged to the center screen, plus the
+                         main center screen itself. -->
+                    <div id="pokedex-layout">
+
+                        <!-- LEFT FLIP SCREEN: region map -->
+                        <div id="flip-panel-left" class="flip-panel">
+                            <div class="flip-hinge"></div>
+                            <div class="flip-inner-screen">
+                                <div id="map-section">
+                                    <div id="map-header">
+                                        <button id="map-gen-prev" class="carousel-arrow">&#10094;</button>
+                                        <span id="map-gen-title">--</span>
+                                        <button id="map-gen-next" class="carousel-arrow">&#10095;</button>
+                                    </div>
+                                    <div id="map-body">
+                                        <div id="map-image-wrap" class="hidden">
+                                            <img id="map-image" src="" alt="region map">
+                                            <div id="map-pins"></div>
+                                        </div>
+                                        <div id="map-location-list"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- CENTER SCREEN: two columns.
+                             Left column: sprite (70%) / height+weight (30%).
+                             Right column: pokedex entry (50%) / type badges (20%) / info popup (30%).
+                             Framed the same way as the two side flaps so all three
+                             read as one hinged board. -->
+                        <div id="flip-panel-center" class="flip-panel">
+                            <div id="center-screen" class="flip-inner-screen">
+
+                                <!-- only shown while looking at a Mega/Gmax/regional form -->
+                                <button id="back-to-base-btn" class="hidden">&#8592; Back to base form</button>
+
+                                <div id="center-columns">
+
+                                    <div id="center-left-col">
+                                        <div id="sprite-box">
+                                            <div id="name-badge">
+                                                <h1 id="pokemon-name">--</h1>
+                                                <p id="dex-number">#000</p>
+                                            </div>
+
+                                            <img id="sprite-image" src="" alt="pokemon sprite">
+
+                                            <!-- semi-transparent tab naming the current sprite variant,
+                                                 e.g. "Pikachu: Shiny" -- rainbow-striped if shiny -->
+                                            <div id="sprite-variant-tag"></div>
+
+                                            <button id="sprite-prev" class="sprite-arrow">&#10094;</button>
+                                            <button id="sprite-next" class="sprite-arrow">&#10095;</button>
+                                        </div>
+
+                                        <!-- Height and weight pills, below the sprite box -->
+                                        <div id="sprite-height-weight"></div>
+                                    </div>
+
+                                    <div id="center-right-col">
+                                        <div id="description-box">
+                                            <div id="description-banner">
+                                                <button id="desc-prev" class="carousel-arrow">&#10094;</button>
+                                                <span id="description-version">--</span>
+                                                <button id="desc-next" class="carousel-arrow">&#10095;</button>
+                                            </div>
+                                            <p id="description-text">Loading...</p>
+                                        </div>
+
+                                        <!-- Type badges: stacked or horizontal depending on count -->
+                                        <div id="type-badges-row"></div>
+
+                                        <!-- Info popup window: move/ability detail renders here (pokedex theme only) -->
+                                        <div id="info-popup-window">
+                                            <p class="hint-text">Tap a move or ability to see details here.</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- RIGHT FLIP SCREEN: battle stats / moves / tm-hm / forms / evolution -->
+                        <div id="flip-panel-right" class="flip-panel">
+                            <div class="flip-hinge"></div>
+                            <div class="flip-inner-screen">
+                                <div id="data-carousel">
+                                    <div id="carousel-header">
+                                        <button id="carousel-prev" class="carousel-arrow">&#10094;</button>
+                                        <span id="carousel-title">Battle Info</span>
+                                        <button id="carousel-next" class="carousel-arrow">&#10095;</button>
+                                    </div>
+
+                                    <div id="carousel-slides">
+                                        <!-- Slide 0: battle stats + abilities -->
+                                        <div class="slide" id="slide-battle">
+                                            <div class="section">
+                                                <h3 class="section-header">Stats <span class="caret">&#9662;</span></h3>
+                                                <div class="section-body" id="stats-list"></div>
+                                            </div>
+                                            <div class="section">
+                                                <h3 class="section-header">Abilities <span class="caret">&#9662;</span></h3>
+                                                <div class="section-body" id="abilities-list"></div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Slide 1: moves (level-up / egg / tutor / etc) -->
+                                        <div class="slide" id="slide-moves">
+                                            <div class="section">
+                                                <h3 class="section-header no-collapse">Moves</h3>
+                                                <div class="section-body" id="moves-list"></div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Slide 2: TM / HM list -->
+                                        <div class="slide" id="slide-tmhm">
+                                            <div class="section">
+                                                <h3 class="section-header no-collapse">TM / HM</h3>
+                                                <div class="section-body" id="tmhm-list"></div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Slide 3: forms -->
+                                        <div class="slide" id="slide-forms">
+                                            <div class="section">
+                                                <h3 class="section-header">Alternate Forms <span class="caret">&#9662;</span></h3>
+                                                <div class="section-body">
+                                                    <p class="hint-text">Tap a form to view its stats</p>
+                                                    <div id="forms-list"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Slide 4: evolution -->
+                                        <div class="slide" id="slide-evolution">
+                                            <div class="section">
+                                                <h3 class="section-header no-collapse">Evolution</h3>
+                                                <div class="section-body">
+                                                    <div id="evolution-list"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Slide 5: field survey info (egg groups, height, weight, etc) -->
+                                        <div class="slide" id="slide-field-survey">
+                                            <div class="section">
+                                                <h3 class="section-header">Field Survey <span class="caret">&#9662;</span></h3>
+                                                <div class="section-body" id="field-survey-body"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- /#app -->
+
+            </div>
+        </div>
+
+        <div id="shell-bottom-bar">
+            <div id="shell-dpad-island">
+                <div id="shell-dpad">
+                    <div class="dpad-arm dpad-up"></div>
+                    <div class="dpad-arm dpad-down"></div>
+                    <div class="dpad-arm dpad-left"></div>
+                    <div class="dpad-arm dpad-right"></div>
+                    <div class="dpad-center"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Floating, dismissible popup for move/ability flavor text. Doesn't
+         reserve any permanent layout space -- appears on click, closes on
+         the X or an outside click. -->
+    <div id="asset-popover-overlay" class="hidden">
+        <div id="asset-popover">
+            <div id="asset-popover-header">
+                <span id="asset-popover-title">--</span>
+                <button id="asset-popover-close">&times;</button>
+            </div>
+            <div id="asset-popover-body"></div>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>

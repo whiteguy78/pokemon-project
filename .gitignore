@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Large / regenerable data (rebuild via prep/pokeapi_rip.py + prep/sprite_rip.py)
+data/raw/
+data/sprites/
+data/pokemon.db.bak-*
+
+# Dead-code leftovers
+prep/old/Pokemon_data.db
+
+# Stray junk files
+/13_front_default
+/hi tbag
+
+# Editor / local config
+.claude/settings.local.json
+.DS_Store

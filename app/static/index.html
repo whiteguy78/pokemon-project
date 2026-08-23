@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<!--
+    The "clean" view -- the plain, no-frills layout. Served at "/".
+
+    There's a second page, pokedex.html, which shows the SAME data through
+    the SAME script.js, just wrapped in handheld-Pokedex device chrome.
+    The radio buttons at the top switch between them.
+
+    Everything here is an empty shell: no pokemon data is written into
+    this file. Every element with an id gets filled in by script.js once
+    it has fetched the data from the server. If you're wondering where
+    some text on screen comes from, search script.js for that id.
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+    <div id="theme-switcher">
+        <a href="/" class="theme-option active"><span class="radio-dot"></span>Clean</a>
+        <a href="/pokedex" class="theme-option"><span class="radio-dot"></span>Pokedex</a>
+    </div>
+
+    <div id="app">
+
+        <!-- Search bar: type a name, pick a suggestion. Flip arrows move
+             to the previous/next dex number without needing to search. -->
+        <div id="search-bar">
+            <button id="flip-prev" class="flip-btn">&#8249;</button>
+
+            <div id="search-wrapper">
+                <input type="text" id="search-input" placeholder="Search pokemon..." autocomplete="off">
+                <div id="search-suggestions"></div>
+            </div>
+
+            <button id="flip-next" class="flip-btn">&#8250;</button>
+        </div>
+
+        <!-- Everything else sits in a two column row so nothing scrolls -->
+        <div id="main-content">
+
+            <!-- LEFT: sprite -> type row -> description -> bio/egg pills -->
+            <div id="left-column">
+
+                <div id="sprite-box">
+                    <div id="name-badge">
+                        <h1 id="pokemon-name">--</h1>
+                        <p id="dex-number">#000</p>
+                    </div>
+
+                    <img id="sprite-image" src="" alt="pokemon sprite">
+
+                    <!-- semi-transparent tab naming the current sprite variant,
+                         e.g. "Pikachu: Shiny" -- rainbow-striped if shiny -->
+                    <div id="sprite-variant-tag"></div>
+
+                    <button id="sprite-prev" class="sprite-arrow">&#10094;</button>
+                    <button id="sprite-next" class="sprite-arrow">&#10095;</button>
+                </div>
+
+                <!-- only shown while looking at a Mega/Gmax/regional form -->
+                <button id="back-to-base-btn" class="hidden">&#8592; Back to base form</button>
+
+                <!-- type pills on the left, this form's own effectiveness
+                     summary on the right (only the notable rows -- full
+                     18x18 chart is one tap away via the type pills) -->
+                <div id="type-row">
+                    <div id="type-row-pills"></div>
+                    <div id="type-row-matchups"></div>
+                </div>
+
+                <div id="description-box">
+                    <div id="description-banner">
+                        <button id="desc-prev" class="carousel-arrow">&#10094;</button>
+                        <span id="description-version">--</span>
+                        <button id="desc-next" class="carousel-arrow">&#10095;</button>
+                    </div>
+                    <p id="description-text">Loading...</p>
+                </div>
+
+                <!-- height / weight / color / habitat / egg groups, all as
+                     icon pills -->
+                <div id="bio-pills-row"></div>
+
+            </div>
+
+            <!-- RIGHT: map (own generation carousel) on top, data carousel below -->
+            <div id="right-column">
+
+                <div id="map-section">
+                    <div id="map-header">
+                        <button id="map-gen-prev" class="carousel-arrow">&#10094;</button>
+                        <span id="map-gen-title">--</span>
+                        <button id="map-gen-next" class="carousel-arrow">&#10095;</button>
+                    </div>
+                    <div id="map-body">
+                        <div id="map-image-wrap" class="hidden">
+                            <img id="map-image" src="" alt="region map">
+                            <div id="map-pins"></div>
+                        </div>
+                        <div id="map-location-list"></div>
+                    </div>
+                </div>
+
+                <div id="data-carousel">
+                    <div id="carousel-header">
+                        <button id="carousel-prev" class="carousel-arrow">&#10094;</button>
+                        <span id="carousel-title">Battle Info</span>
+                        <button id="carousel-next" class="carousel-arrow">&#10095;</button>
+                    </div>
+
+                    <div id="carousel-slides">
+                        <!-- Slide 0: battle stats + abilities -->
+                        <div class="slide" id="slide-battle">
+                            <div class="section">
+                                <h3 class="section-header">Stats <span class="caret">&#9662;</span></h3>
+                                <div class="section-body" id="stats-list"></div>
+                            </div>
+                            <div class="section">
+                                <h3 class="section-header">Abilities <span class="caret">&#9662;</span></h3>
+                                <div class="section-body" id="abilities-list"></div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 1: moves (level-up / egg / tutor / etc) -->
+                        <div class="slide" id="slide-moves">
+                            <div class="section">
+                                <h3 class="section-header">Moves <span class="caret">&#9662;</span></h3>
+                                <div class="section-body" id="moves-list"></div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 2: TM / HM list -->
+                        <div class="slide" id="slide-tmhm">
+                            <div class="section">
+                                <h3 class="section-header">TM / HM <span class="caret">&#9662;</span></h3>
+                                <div class="section-body" id="tmhm-list"></div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 3: forms -->
+                        <div class="slide" id="slide-forms">
+                            <div class="section">
+                                <h3 class="section-header">Alternate Forms <span class="caret">&#9662;</span></h3>
+                                <div class="section-body">
+                                    <p class="hint-text">Tap a form to view its stats</p>
+                                    <div id="forms-list"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 4: evolution -->
+                        <div class="slide" id="slide-evolution">
+                            <div class="section">
+                                <h3 class="section-header">Evolution <span class="caret">&#9662;</span></h3>
+                                <div class="section-body">
+                                    <p class="hint-text">Tap a name to jump to it</p>
+                                    <div id="evolution-list"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Full type effectiveness chart, opened by clicking any type pill.
+         Attacking types across the top, defending types down the right. -->
+    <div id="type-modal-overlay" class="hidden">
+        <div id="type-modal">
+            <div id="type-modal-header">
+                <span>Type Chart</span>
+                <button id="type-modal-close">&times;</button>
+            </div>
+            <div id="type-modal-body">
+                <div id="type-chart-grid"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Floating, dismissible popup for move/ability flavor text. Doesn't
+         reserve any permanent layout space -- appears on click, closes on
+         the X or an outside click. -->
+    <div id="asset-popover-overlay" class="hidden">
+        <div id="asset-popover">
+            <div id="asset-popover-header">
+                <span id="asset-popover-title">--</span>
+                <button id="asset-popover-close">&times;</button>
+            </div>
+            <div id="asset-popover-body"></div>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>

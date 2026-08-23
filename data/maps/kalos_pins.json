@@ -1,0 +1,397 @@
+{
+  "ambrette-town-area": {
+    "label": "Ambrette Town",
+    "x": 22.7,
+    "y": 75.9
+  },
+  "aquacorde-town-area": {
+    "label": "Aquacorde Town",
+    "x": 66.5,
+    "y": 74.7
+  },
+  "azure-bay-area": {
+    "label": "Azure Bay",
+    "x": 17,
+    "y": 30
+  },
+  "connecting-cave-area": {
+    "label": "Connecting Cave",
+    "x": 25,
+    "y": 58
+  },
+  "couriway-town-area": {
+    "label": "Couriway Town",
+    "x": 92.7,
+    "y": 46.5
+  },
+  "cyllage-city-area": {
+    "label": "Cyllage City",
+    "x": 17.3,
+    "y": 57.1
+  },
+  "friend-safari-bug": {
+    "label": "Friend Safari Bug",
+    "x": 75,
+    "y": 90
+  },
+  "friend-safari-dark": {
+    "label": "Friend Safari Dark",
+    "x": 75,
+    "y": 90
+  },
+  "friend-safari-dragon": {
+    "label": "Friend Safari Dragon",
+    "x": 75,
+    "y": 90
+  },
+  "friend-safari-electric": {
+    "label": "Friend Safari Electric",
+    "x": 75,
+    "y": 90
+  },
+  "friend-safari-fairy": {
+    "label": "Friend Safari Fairy",
+    "x": 75,
+    "y": 90
+  },
+  "friend-safari-fighting": {
+    "label": "Friend Safari Fighting",
+    "x": 75,
+    "y": 90
+  },
+  "friend-safari-fire": {
+    "label": "Friend Safari Fire",
+    "x": 75,
+    "y": 90
+  },
+  "friend-safari-flying": {
+    "label": "Friend Safari Flying",
+    "x": 75,
+    "y": 90
+  },
+  "friend-safari-ghost": {
+    "label": "Friend Safari Ghost",
+    "x": 75,
+    "y": 90
+  },
+  "friend-safari-grass": {
+    "label": "Friend Safari Grass",
+    "x": 75,
+    "y": 90
+  },
+  "friend-safari-ground": {
+    "label": "Friend Safari Ground",
+    "x": 75,
+    "y": 90
+  },
+  "friend-safari-ice": {
+    "label": "Friend Safari Ice",
+    "x": 75,
+    "y": 90
+  },
+  "friend-safari-normal": {
+    "label": "Friend Safari Normal",
+    "x": 75,
+    "y": 90
+  },
+  "friend-safari-poison": {
+    "label": "Friend Safari Poison",
+    "x": 75,
+    "y": 90
+  },
+  "friend-safari-psychic": {
+    "label": "Friend Safari Psychic",
+    "x": 75,
+    "y": 90
+  },
+  "friend-safari-rock": {
+    "label": "Friend Safari Rock",
+    "x": 75,
+    "y": 90
+  },
+  "friend-safari-steel": {
+    "label": "Friend Safari Steel",
+    "x": 75,
+    "y": 90
+  },
+  "friend-safari-water": {
+    "label": "Friend Safari Water",
+    "x": 75,
+    "y": 90
+  },
+  "frost-cavern-unknown-area-313": {
+    "label": "Frost Cavern Unknown Area 313",
+    "x": 64,
+    "y": 27
+  },
+  "frost-cavern-unknown-area-314": {
+    "label": "Frost Cavern Unknown Area 314",
+    "x": 64,
+    "y": 27
+  },
+  "frost-cavern-unknown-area-315": {
+    "label": "Frost Cavern Unknown Area 315",
+    "x": 64,
+    "y": 27
+  },
+  "frost-cavern-unknown-area-316": {
+    "label": "Frost Cavern Unknown Area 316",
+    "x": 64,
+    "y": 27
+  },
+  "frost-cavern-unknown-area-317": {
+    "label": "Frost Cavern Unknown Area 317",
+    "x": 64,
+    "y": 27
+  },
+  "glittering-cave-unknown-area-303": {
+    "label": "Glittering Cave Unknown Area 303",
+    "x": 18,
+    "y": 60
+  },
+  "glittering-cave-unknown-area-304": {
+    "label": "Glittering Cave Unknown Area 304",
+    "x": 18,
+    "y": 60
+  },
+  "kalos-berry-fields-area": {
+    "label": "Berry Fields",
+    "x": 54,
+    "y": 34
+  },
+  "kalos-route-10-area": {
+    "label": "Route 10",
+    "x": 13,
+    "y": 52
+  },
+  "kalos-route-11-area": {
+    "label": "Route 11",
+    "x": 11,
+    "y": 42
+  },
+  "kalos-route-12-area": {
+    "label": "Route 12",
+    "x": 24,
+    "y": 33
+  },
+  "kalos-route-13-area": {
+    "label": "Route 13",
+    "x": 60,
+    "y": 25
+  },
+  "kalos-route-14-area": {
+    "label": "Route 14",
+    "x": 58,
+    "y": 15
+  },
+  "kalos-route-15-area": {
+    "label": "Route 15",
+    "x": 48,
+    "y": 15
+  },
+  "kalos-route-16-area": {
+    "label": "Route 16",
+    "x": 68,
+    "y": 10
+  },
+  "kalos-route-17-area": {
+    "label": "Route 17",
+    "x": 90,
+    "y": 38
+  },
+  "kalos-route-18-area": {
+    "label": "Route 18",
+    "x": 85,
+    "y": 42
+  },
+  "kalos-route-19-area": {
+    "label": "Route 19",
+    "x": 78,
+    "y": 48
+  },
+  "kalos-route-2-area": {
+    "label": "Route 2",
+    "x": 63,
+    "y": 65
+  },
+  "kalos-route-20-area": {
+    "label": "Route 20",
+    "x": 82,
+    "y": 58
+  },
+  "kalos-route-21-area": {
+    "label": "Route 21",
+    "x": 72,
+    "y": 80
+  },
+  "kalos-route-22-area": {
+    "label": "Route 22",
+    "x": 75,
+    "y": 45
+  },
+  "kalos-route-3-area": {
+    "label": "Route 3",
+    "x": 55,
+    "y": 50
+  },
+  "kalos-route-4-area": {
+    "label": "Route 4",
+    "x": 48,
+    "y": 55
+  },
+  "kalos-route-5-area": {
+    "label": "Route 5",
+    "x": 30,
+    "y": 58
+  },
+  "kalos-route-6-area": {
+    "label": "Route 6",
+    "x": 52,
+    "y": 40
+  },
+  "kalos-route-7-area": {
+    "label": "Route 7",
+    "x": 46,
+    "y": 48
+  },
+  "kalos-route-8-area": {
+    "label": "Route 8",
+    "x": 28,
+    "y": 50
+  },
+  "kalos-route-9-area": {
+    "label": "Route 9",
+    "x": 20,
+    "y": 62
+  },
+  "kalos-victory-road-outside": {
+    "label": "Victory Road Outside",
+    "x": 76,
+    "y": 42
+  },
+  "kalos-victory-road-unknown-area-322": {
+    "label": "Victory Road Unknown Area 322",
+    "x": 76,
+    "y": 42
+  },
+  "kalos-victory-road-unknown-area-324": {
+    "label": "Victory Road Unknown Area 324",
+    "x": 76,
+    "y": 42
+  },
+  "kalos-victory-road-unknown-area-326": {
+    "label": "Victory Road Unknown Area 326",
+    "x": 76,
+    "y": 42
+  },
+  "kalos-victory-road-unknown-area-328": {
+    "label": "Victory Road Unknown Area 328",
+    "x": 76,
+    "y": 42
+  },
+  "laverre-city-area": {
+    "label": "Laverre City",
+    "x": 51.9,
+    "y": 11.8
+  },
+  "lost-hotel-area": {
+    "label": "Lost Hotel",
+    "x": 58,
+    "y": 22
+  },
+  "lumiose-city-area": {
+    "label": "Lumiose City",
+    "x": 51.9,
+    "y": 37.1
+  },
+  "parfum-palace-area": {
+    "label": "Parfum Palace",
+    "x": 44,
+    "y": 50
+  },
+  "pokemon-village-area": {
+    "label": "Pokemon Village",
+    "x": 78,
+    "y": 55
+  },
+  "reflection-cave-unknown-area-305": {
+    "label": "Reflection Cave Unknown Area 305",
+    "x": 13,
+    "y": 50
+  },
+  "reflection-cave-unknown-area-306": {
+    "label": "Reflection Cave Unknown Area 306",
+    "x": 13,
+    "y": 50
+  },
+  "reflection-cave-unknown-area-307": {
+    "label": "Reflection Cave Unknown Area 307",
+    "x": 13,
+    "y": 50
+  },
+  "reflection-cave-unknown-area-308": {
+    "label": "Reflection Cave Unknown Area 308",
+    "x": 13,
+    "y": 50
+  },
+  "roaming-kalos-area": {
+    "label": "Roaming Kalos",
+    "x": 51.9,
+    "y": 37.1
+  },
+  "santalune-forest-area": {
+    "label": "Santalune Forest",
+    "x": 58,
+    "y": 52
+  },
+  "sea-spirits-den-area": {
+    "label": "Sea Spirit's Den",
+    "x": 16,
+    "y": 28
+  },
+  "shalour-city-area": {
+    "label": "Shalour City",
+    "x": 15.0,
+    "y": 35.9
+  },
+  "team-flare-secret-hq-area": {
+    "label": "Team Flare Secret HQ",
+    "x": 51,
+    "y": 40
+  },
+  "terminus-cave-1f": {
+    "label": "Terminus Cave 1F",
+    "x": 78,
+    "y": 85
+  },
+  "terminus-cave-b1f-left": {
+    "label": "Terminus Cave B1 Left",
+    "x": 78,
+    "y": 85
+  },
+  "terminus-cave-b1f-right": {
+    "label": "Terminus Cave B1 Right",
+    "x": 78,
+    "y": 85
+  },
+  "terminus-cave-b2f": {
+    "label": "Terminus Cave B2",
+    "x": 78,
+    "y": 85
+  },
+  "terminus-cave-zygardes-chamber": {
+    "label": "Terminus Cave Zygardes Chamber",
+    "x": 78,
+    "y": 85
+  },
+  "tower-of-mastery-area": {
+    "label": "Tower of Mastery",
+    "x": 14,
+    "y": 33
+  },
+  "unknown-dungeon-area": {
+    "label": "Unknown Dungeon",
+    "x": 78,
+    "y": 92
+  }
+}

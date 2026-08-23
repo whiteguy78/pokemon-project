@@ -1,0 +1,832 @@
+{
+  "abundant-shrine-area": {
+    "label": "Abundant Shrine",
+    "x": 35,
+    "y": 48
+  },
+  "abundant-shrine-hidden-grotto-near-youngster": {
+    "label": "Abundant Shrine Hidden Grotto Near Youngster",
+    "x": 35,
+    "y": 48
+  },
+  "abundant-shrine-hidden-grotto-shrine": {
+    "label": "Abundant Shrine Hidden Grotto Shrine",
+    "x": 35,
+    "y": 48
+  },
+  "accumula-town-area": {
+    "label": "Accumula Town",
+    "x": 91,
+    "y": 82
+  },
+  "aspertia-city-area": {
+    "label": "Aspertia City",
+    "x": 5.8,
+    "y": 91.2
+  },
+  "castelia-city-area": {
+    "label": "Castelia City",
+    "x": 52,
+    "y": 77
+  },
+  "castelia-city-game-freak-hq-1f": {
+    "label": "Castelia City Game Freak Hq 1F",
+    "x": 52,
+    "y": 77
+  },
+  "castelia-sewers-area": {
+    "label": "Castelia Sewers",
+    "x": 52,
+    "y": 80
+  },
+  "castelia-sewers-unknown-area-38": {
+    "label": "Castelia Sewers Unknown Area 38",
+    "x": 52,
+    "y": 80
+  },
+  "celestial-tower-2f": {
+    "label": "Celestial Tower 2F",
+    "x": 25,
+    "y": 46
+  },
+  "celestial-tower-3f": {
+    "label": "Celestial Tower 3F",
+    "x": 25,
+    "y": 46
+  },
+  "celestial-tower-4f": {
+    "label": "Celestial Tower 4F",
+    "x": 25,
+    "y": 46
+  },
+  "celestial-tower-5f": {
+    "label": "Celestial Tower 5F",
+    "x": 25,
+    "y": 46
+  },
+  "challengers-cave-1f": {
+    "label": "Challenger's Cave 1F",
+    "x": 66,
+    "y": 22
+  },
+  "challengers-cave-b1f": {
+    "label": "Challenger's Cave B1",
+    "x": 66,
+    "y": 22
+  },
+  "challengers-cave-b2f": {
+    "label": "Challenger's Cave B2",
+    "x": 66,
+    "y": 22
+  },
+  "chargestone-cave-1f": {
+    "label": "Chargestone Cave 1F",
+    "x": 18,
+    "y": 48
+  },
+  "chargestone-cave-b1f": {
+    "label": "Chargestone Cave B1",
+    "x": 18,
+    "y": 48
+  },
+  "chargestone-cave-b2f": {
+    "label": "Chargestone Cave B2",
+    "x": 18,
+    "y": 48
+  },
+  "clay-tunnel-area": {
+    "label": "Clay Tunnel",
+    "x": 16,
+    "y": 78
+  },
+  "cold-storage-area": {
+    "label": "Cold Storage",
+    "x": 26,
+    "y": 52
+  },
+  "desert-resort-area": {
+    "label": "Desert Resort",
+    "x": 60,
+    "y": 68
+  },
+  "desert-resort-entrance": {
+    "label": "Desert Resort Entrance",
+    "x": 60,
+    "y": 68
+  },
+  "dragonspiral-tower-1f": {
+    "label": "Dragonspiral Tower 1F",
+    "x": 30,
+    "y": 20
+  },
+  "dragonspiral-tower-2f": {
+    "label": "Dragonspiral Tower 2F",
+    "x": 30,
+    "y": 20
+  },
+  "dragonspiral-tower-7f": {
+    "label": "Dragonspiral Tower 7F",
+    "x": 30,
+    "y": 20
+  },
+  "dragonspiral-tower-entrance": {
+    "label": "Dragonspiral Tower Entrance",
+    "x": 30,
+    "y": 20
+  },
+  "dragonspiral-tower-outside": {
+    "label": "Dragonspiral Tower Outside",
+    "x": 30,
+    "y": 20
+  },
+  "dreamyard-area": {
+    "label": "Dreamyard",
+    "x": 86,
+    "y": 74
+  },
+  "dreamyard-b1f": {
+    "label": "Dreamyard B1",
+    "x": 86,
+    "y": 74
+  },
+  "driftveil-city-area": {
+    "label": "Driftveil City",
+    "x": 28.8,
+    "y": 54.7
+  },
+  "driftveil-drawbridge-area": {
+    "label": "Driftveil Drawbridge",
+    "x": 22,
+    "y": 54
+  },
+  "floccesy-ranch-hidden-grotto": {
+    "label": "Floccesy Ranch Hidden Grotto",
+    "x": 10,
+    "y": 74
+  },
+  "floccesy-ranch-inner": {
+    "label": "Floccesy Ranch Inner",
+    "x": 10,
+    "y": 74
+  },
+  "floccesy-ranch-outer": {
+    "label": "Floccesy Ranch Outer",
+    "x": 10,
+    "y": 74
+  },
+  "floccesy-town-area": {
+    "label": "Floccesy Town",
+    "x": 12.7,
+    "y": 75.9
+  },
+  "giant-chasm-area": {
+    "label": "Giant Chasm",
+    "x": 76,
+    "y": 32
+  },
+  "giant-chasm-forest": {
+    "label": "Giant Chasm Forest",
+    "x": 76,
+    "y": 32
+  },
+  "giant-chasm-forest-cave": {
+    "label": "Giant Chasm Forest Cave",
+    "x": 76,
+    "y": 32
+  },
+  "giant-chasm-hidden-grotto": {
+    "label": "Giant Chasm Hidden Grotto",
+    "x": 76,
+    "y": 32
+  },
+  "giant-chasm-outside": {
+    "label": "Giant Chasm Outside",
+    "x": 76,
+    "y": 32
+  },
+  "glacier-room-area": {
+    "label": "Glacier Room",
+    "x": 25,
+    "y": 30
+  },
+  "guidance-chamber-area": {
+    "label": "Guidance Chamber",
+    "x": 62,
+    "y": 69
+  },
+  "humilau-city-area": {
+    "label": "Humilau City",
+    "x": 91.9,
+    "y": 21.8
+  },
+  "icirrus-city-area": {
+    "label": "Icirrus City",
+    "x": 28.8,
+    "y": 25.3
+  },
+  "iron-room-area": {
+    "label": "Iron Room",
+    "x": 27,
+    "y": 31
+  },
+  "liberty-garden-lighthouse-basement": {
+    "label": "Liberty Garden Lighthouse Basement",
+    "x": 48,
+    "y": 80
+  },
+  "lostlorn-forest-area": {
+    "label": "Lostlorn Forest",
+    "x": 34,
+    "y": 66
+  },
+  "lostlorn-forest-hidden-grotto": {
+    "label": "Lostlorn Forest Hidden Grotto",
+    "x": 34,
+    "y": 66
+  },
+  "marvelous-bridge-area": {
+    "label": "Marvelous Bridge",
+    "x": 52,
+    "y": 63
+  },
+  "mistralton-cave-area": {
+    "label": "Mistralton Cave",
+    "x": 10,
+    "y": 38
+  },
+  "moor-of-icirrus-area": {
+    "label": "Moor of Icirrus",
+    "x": 32,
+    "y": 30
+  },
+  "nacrene-city-nacrene-museum": {
+    "label": "Nacrene City Nacrene Museum",
+    "x": 80,
+    "y": 71
+  },
+  "nacrene-city-west-gate": {
+    "label": "Nacrene City (W) Gate",
+    "x": 80,
+    "y": 71
+  },
+  "nature-sanctuary-area": {
+    "label": "Nature Sanctuary",
+    "x": 33,
+    "y": 46
+  },
+  "ns-castle-throne-room": {
+    "label": "N's Castle Throne Room",
+    "x": 44,
+    "y": 52
+  },
+  "nuvema-town-area": {
+    "label": "Nuvema Town",
+    "x": 94,
+    "y": 95
+  },
+  "p2-laboratory-area": {
+    "label": "P2 Laboratory",
+    "x": 61,
+    "y": 8
+  },
+  "pinwheel-forest-hidden-grotto-inner-area": {
+    "label": "Pinwheel Forest Hidden Grotto Inner Area",
+    "x": 18,
+    "y": 80
+  },
+  "pinwheel-forest-hidden-grotto-outer-area": {
+    "label": "Pinwheel Forest Hidden Grotto Outer Area",
+    "x": 18,
+    "y": 80
+  },
+  "pinwheel-forest-inside": {
+    "label": "Pinwheel Forest Inside",
+    "x": 18,
+    "y": 80
+  },
+  "pinwheel-forest-outside": {
+    "label": "Pinwheel Forest Outside",
+    "x": 18,
+    "y": 80
+  },
+  "pinwheel-forest-rumination-field": {
+    "label": "Pinwheel Forest Rumination Field",
+    "x": 18,
+    "y": 80
+  },
+  "relic-castle-a": {
+    "label": "Relic Castle A",
+    "x": 62,
+    "y": 70
+  },
+  "relic-castle-b": {
+    "label": "Relic Castle B",
+    "x": 62,
+    "y": 70
+  },
+  "relic-castle-c": {
+    "label": "Relic Castle C",
+    "x": 62,
+    "y": 70
+  },
+  "relic-castle-d": {
+    "label": "Relic Castle D",
+    "x": 62,
+    "y": 70
+  },
+  "relic-passage-castelia-sewers-entrance": {
+    "label": "Relic Passage Castelia Sewers Entrance",
+    "x": 60,
+    "y": 76
+  },
+  "relic-passage-pwt-entrance": {
+    "label": "Relic Passage Pwt Entrance",
+    "x": 60,
+    "y": 76
+  },
+  "relic-passage-relic-castle-entrance": {
+    "label": "Relic Passage Relic Castle Entrance",
+    "x": 60,
+    "y": 76
+  },
+  "reversal-mountain-b1f": {
+    "label": "Reversal Mountain B1",
+    "x": 65,
+    "y": 44
+  },
+  "reversal-mountain-unknown-area-48": {
+    "label": "Reversal Mountain Unknown Area 48",
+    "x": 65,
+    "y": 44
+  },
+  "reversal-mountain-unknown-area-49": {
+    "label": "Reversal Mountain Unknown Area 49",
+    "x": 65,
+    "y": 44
+  },
+  "reversal-mountain-unknown-area-50": {
+    "label": "Reversal Mountain Unknown Area 50",
+    "x": 65,
+    "y": 44
+  },
+  "reversal-mountain-unknown-area-51": {
+    "label": "Reversal Mountain Unknown Area 51",
+    "x": 65,
+    "y": 44
+  },
+  "reversal-mountain-unknown-area-52": {
+    "label": "Reversal Mountain Unknown Area 52",
+    "x": 65,
+    "y": 44
+  },
+  "reversal-mountain-unknown-area-53": {
+    "label": "Reversal Mountain Unknown Area 53",
+    "x": 65,
+    "y": 44
+  },
+  "reversal-mountain-unknown-area-54": {
+    "label": "Reversal Mountain Unknown Area 54",
+    "x": 65,
+    "y": 44
+  },
+  "reversal-mountain-unknown-area-55": {
+    "label": "Reversal Mountain Unknown Area 55",
+    "x": 65,
+    "y": 44
+  },
+  "reversal-mountain-unknown-area-56": {
+    "label": "Reversal Mountain Unknown Area 56",
+    "x": 65,
+    "y": 44
+  },
+  "reversal-mountain-unknown-area-57": {
+    "label": "Reversal Mountain Unknown Area 57",
+    "x": 65,
+    "y": 44
+  },
+  "reversal-mountain-unknown-area-58": {
+    "label": "Reversal Mountain Unknown Area 58",
+    "x": 65,
+    "y": 44
+  },
+  "reversal-mountain-unknown-area-59": {
+    "label": "Reversal Mountain Unknown Area 59",
+    "x": 65,
+    "y": 44
+  },
+  "reversal-mountain-unknown-area-60": {
+    "label": "Reversal Mountain Unknown Area 60",
+    "x": 65,
+    "y": 44
+  },
+  "roaming-unova-area": {
+    "label": "Roaming Unova",
+    "x": 51.5,
+    "y": 54.7
+  },
+  "rocky-mountain-room-area": {
+    "label": "Rocky Mountain Room",
+    "x": 26,
+    "y": 33
+  },
+  "seaside-cave-1f": {
+    "label": "Seaside Cave 1F",
+    "x": 95,
+    "y": 20
+  },
+  "seaside-cave-b1f": {
+    "label": "Seaside Cave B1",
+    "x": 95,
+    "y": 20
+  },
+  "strange-house-1f": {
+    "label": "Strange House 1F",
+    "x": 36,
+    "y": 56
+  },
+  "strange-house-b1f": {
+    "label": "Strange House B1",
+    "x": 36,
+    "y": 56
+  },
+  "striaton-city-area": {
+    "label": "Striaton City",
+    "x": 90,
+    "y": 70
+  },
+  "trial-chamber-area": {
+    "label": "Trial Chamber",
+    "x": 94,
+    "y": 24
+  },
+  "twist-mountain-b1f-3f": {
+    "label": "Twist Mountain B1 3F",
+    "x": 26,
+    "y": 32
+  },
+  "twist-mountain-b4f": {
+    "label": "Twist Mountain B4",
+    "x": 26,
+    "y": 32
+  },
+  "undella-bay-area": {
+    "label": "Undella Bay",
+    "x": 86,
+    "y": 44
+  },
+  "undella-town-area": {
+    "label": "Undella Town",
+    "x": 87.3,
+    "y": 40.0
+  },
+  "underground-ruins-area": {
+    "label": "Underground Ruins",
+    "x": 58,
+    "y": 70
+  },
+  "unova-route-1-area": {
+    "label": "Route 1",
+    "x": 92,
+    "y": 88
+  },
+  "unova-route-10-area": {
+    "label": "Route 10",
+    "x": 58,
+    "y": 20
+  },
+  "unova-route-10-victory-road-gate": {
+    "label": "Route 10 Victory Road Gate",
+    "x": 58,
+    "y": 20
+  },
+  "unova-route-11-area": {
+    "label": "Route 11",
+    "x": 40,
+    "y": 58
+  },
+  "unova-route-12-area": {
+    "label": "Route 12",
+    "x": 36,
+    "y": 64
+  },
+  "unova-route-13-area": {
+    "label": "Route 13",
+    "x": 74,
+    "y": 30
+  },
+  "unova-route-13-hidden-grotto-giant-chasm": {
+    "label": "Route 13 Hidden Grotto Giant Chasm",
+    "x": 74,
+    "y": 30
+  },
+  "unova-route-13-hidden-grotto-stairs": {
+    "label": "Route 13 Hidden Grotto Stairs",
+    "x": 74,
+    "y": 30
+  },
+  "unova-route-14-area": {
+    "label": "Route 14",
+    "x": 70,
+    "y": 36
+  },
+  "unova-route-15-area": {
+    "label": "Route 15",
+    "x": 88,
+    "y": 26
+  },
+  "unova-route-16-area": {
+    "label": "Route 16",
+    "x": 68,
+    "y": 44
+  },
+  "unova-route-17-area": {
+    "label": "Route 17",
+    "x": 80,
+    "y": 38
+  },
+  "unova-route-18-area": {
+    "label": "Route 18",
+    "x": 90,
+    "y": 32
+  },
+  "unova-route-18-hidden-grotto": {
+    "label": "Route 18 Hidden Grotto",
+    "x": 90,
+    "y": 32
+  },
+  "unova-route-19-area": {
+    "label": "Route 19",
+    "x": 88,
+    "y": 18
+  },
+  "unova-route-2-area": {
+    "label": "Route 2",
+    "x": 89,
+    "y": 76
+  },
+  "unova-route-2-hidden-grotto": {
+    "label": "Route 2 Hidden Grotto",
+    "x": 89,
+    "y": 76
+  },
+  "unova-route-20-area": {
+    "label": "Route 20",
+    "x": 85,
+    "y": 20
+  },
+  "unova-route-21-area": {
+    "label": "Route 21",
+    "x": 78,
+    "y": 14
+  },
+  "unova-route-22-area": {
+    "label": "Route 22",
+    "x": 60,
+    "y": 12
+  },
+  "unova-route-22-hidden-grotto": {
+    "label": "Route 22 Hidden Grotto",
+    "x": 60,
+    "y": 12
+  },
+  "unova-route-23-area": {
+    "label": "Route 23",
+    "x": 63,
+    "y": 10
+  },
+  "unova-route-23-hidden-grotto": {
+    "label": "Route 23 Hidden Grotto",
+    "x": 63,
+    "y": 10
+  },
+  "unova-route-3-area": {
+    "label": "Route 3",
+    "x": 85,
+    "y": 71
+  },
+  "unova-route-3-hidden-grotto-dark-grass": {
+    "label": "Route 3 Hidden Grotto Dark Grass",
+    "x": 85,
+    "y": 71
+  },
+  "unova-route-3-hidden-grotto-pond": {
+    "label": "Route 3 Hidden Grotto Pond",
+    "x": 85,
+    "y": 71
+  },
+  "unova-route-4-area": {
+    "label": "Route 4",
+    "x": 66,
+    "y": 74
+  },
+  "unova-route-5-area": {
+    "label": "Route 5",
+    "x": 52,
+    "y": 66
+  },
+  "unova-route-5-hidden-grotto": {
+    "label": "Route 5 Hidden Grotto",
+    "x": 52,
+    "y": 66
+  },
+  "unova-route-6-area": {
+    "label": "Route 6",
+    "x": 40,
+    "y": 50
+  },
+  "unova-route-6-hidden-grotto-mistralton-cave": {
+    "label": "Route 6 Hidden Grotto Mistralton Cave",
+    "x": 40,
+    "y": 50
+  },
+  "unova-route-6-hidden-grotto-near-pokemon-breeder": {
+    "label": "Route 6 Hidden Grotto Near Pokemon Breeder",
+    "x": 40,
+    "y": 50
+  },
+  "unova-route-6-weather-institute": {
+    "label": "Route 6 Weather Institute",
+    "x": 40,
+    "y": 50
+  },
+  "unova-route-7-area": {
+    "label": "Route 7",
+    "x": 30,
+    "y": 48
+  },
+  "unova-route-7-hidden-grotto": {
+    "label": "Route 7 Hidden Grotto",
+    "x": 30,
+    "y": 48
+  },
+  "unova-route-8-area": {
+    "label": "Route 8",
+    "x": 24,
+    "y": 42
+  },
+  "unova-route-9-area": {
+    "label": "Route 9",
+    "x": 24,
+    "y": 35
+  },
+  "unova-route-9-hidden-grotto": {
+    "label": "Route 9 Hidden Grotto",
+    "x": 24,
+    "y": 35
+  },
+  "unova-victory-road-1f-unknown-room": {
+    "label": "Victory Road 1F Unknown Room",
+    "x": 65,
+    "y": 12
+  },
+  "unova-victory-road-2-unknown-area-71": {
+    "label": "Victory Road 2 Unknown Area 71",
+    "x": 68,
+    "y": 20
+  },
+  "unova-victory-road-2-unknown-area-72": {
+    "label": "Victory Road 2 Unknown Area 72",
+    "x": 68,
+    "y": 20
+  },
+  "unova-victory-road-2-unknown-area-73": {
+    "label": "Victory Road 2 Unknown Area 73",
+    "x": 68,
+    "y": 20
+  },
+  "unova-victory-road-2-unknown-area-74": {
+    "label": "Victory Road 2 Unknown Area 74",
+    "x": 68,
+    "y": 20
+  },
+  "unova-victory-road-2-unknown-area-75": {
+    "label": "Victory Road 2 Unknown Area 75",
+    "x": 68,
+    "y": 20
+  },
+  "unova-victory-road-2-unknown-area-76": {
+    "label": "Victory Road 2 Unknown Area 76",
+    "x": 68,
+    "y": 20
+  },
+  "unova-victory-road-2-unknown-area-77": {
+    "label": "Victory Road 2 Unknown Area 77",
+    "x": 68,
+    "y": 20
+  },
+  "unova-victory-road-2-unknown-area-78": {
+    "label": "Victory Road 2 Unknown Area 78",
+    "x": 68,
+    "y": 20
+  },
+  "unova-victory-road-2-unknown-area-79": {
+    "label": "Victory Road 2 Unknown Area 79",
+    "x": 68,
+    "y": 20
+  },
+  "unova-victory-road-2-unknown-area-80": {
+    "label": "Victory Road 2 Unknown Area 80",
+    "x": 68,
+    "y": 20
+  },
+  "unova-victory-road-4f-middle-room": {
+    "label": "Victory Road 4F Middle Room",
+    "x": 65,
+    "y": 12
+  },
+  "unova-victory-road-7f": {
+    "label": "Victory Road 7F",
+    "x": 65,
+    "y": 12
+  },
+  "unova-victory-road-outside": {
+    "label": "Victory Road Outside",
+    "x": 65,
+    "y": 12
+  },
+  "unova-victory-road-unknown-area-53": {
+    "label": "Victory Road Unknown Area 53",
+    "x": 65,
+    "y": 12
+  },
+  "unova-victory-road-unknown-area-54": {
+    "label": "Victory Road Unknown Area 54",
+    "x": 65,
+    "y": 12
+  },
+  "unova-victory-road-unknown-area-55": {
+    "label": "Victory Road Unknown Area 55",
+    "x": 65,
+    "y": 12
+  },
+  "unova-victory-road-unknown-area-57": {
+    "label": "Victory Road Unknown Area 57",
+    "x": 65,
+    "y": 12
+  },
+  "unova-victory-road-unknown-area-59": {
+    "label": "Victory Road Unknown Area 59",
+    "x": 65,
+    "y": 12
+  },
+  "unova-victory-road-unknown-area-60": {
+    "label": "Victory Road Unknown Area 60",
+    "x": 65,
+    "y": 12
+  },
+  "unova-victory-road-unknown-area-61": {
+    "label": "Victory Road Unknown Area 61",
+    "x": 65,
+    "y": 12
+  },
+  "unova-victory-road-unknown-area-62": {
+    "label": "Victory Road Unknown Area 62",
+    "x": 65,
+    "y": 12
+  },
+  "unova-victory-road-unknown-area-63": {
+    "label": "Victory Road Unknown Area 63",
+    "x": 65,
+    "y": 12
+  },
+  "unova-victory-road-unknown-area-64": {
+    "label": "Victory Road Unknown Area 64",
+    "x": 65,
+    "y": 12
+  },
+  "unova-victory-road-unknown-area-65": {
+    "label": "Victory Road Unknown Area 65",
+    "x": 65,
+    "y": 12
+  },
+  "unova-victory-road-unknown-area-66": {
+    "label": "Victory Road Unknown Area 66",
+    "x": 65,
+    "y": 12
+  },
+  "village-bridge-area": {
+    "label": "Village Bridge",
+    "x": 38,
+    "y": 60
+  },
+  "virbank-city-area": {
+    "label": "Virbank City",
+    "x": 26.9,
+    "y": 75.9
+  },
+  "virbank-complex-inner": {
+    "label": "Virbank Complex Inner",
+    "x": 24,
+    "y": 74
+  },
+  "virbank-complex-outer": {
+    "label": "Virbank Complex Outer",
+    "x": 24,
+    "y": 74
+  },
+  "wellspring-cave-area": {
+    "label": "Wellspring Cave",
+    "x": 83,
+    "y": 72
+  }
+}

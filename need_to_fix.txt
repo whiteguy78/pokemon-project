@@ -1,0 +1,23 @@
+ok so firstly, we are donig an awsome job. I do not see
+maps for every region. I think I AM seeing them for each pokemon???
+dont do that. build an image with points that you can
+turn on and off on. can you also make the maps a little
+more detailed? it doesnt seem like a map but a circle, but maybe
+thats jusst kanto? we shouldnt make maps for every pokemon. it should
+be a image for each region with points mapped on top and clear until that
+location is shown in the side, and then only when it's clicked should it highlght
+red instead of yellow. ok? can we also sort the the moves by learn level?
+I also wanna see all of the pre evolution moves too, but before we sort them
+by learn level we add in the ones from pre evolutons? and i think we put a 
+little spirte next to it of the pokemon/evolutiion that learns it if it 
+isnt the pokemon who's page we are on. I also want that super enriched pokedex
+version with the radion button. can we also get the evolution sprite in the 
+evolution meni? I also think we should have the whole chain. if we are on charmander,
+in the menu it shows a small up arrow and then charmelion, and then under thata big
+one with charizard. if we are on charmelion, we have a small down arrow, and then
+a small one for charizard. I wanna show the whole line in order though. it'd slso be 
+cool if it was in a flow chart with the metthod, and then the evo method by the arrow?
+i also want the labels on the stats page, but seperate from the 
+bars, like they come before on the row. for those colors i want likenuclear green and 
+extremely crimson red, and a kinda normal saturation yellow. also, on the evo chain
+part, lets have a dash in a green box to show that evoluton is either sleected or an alternate option

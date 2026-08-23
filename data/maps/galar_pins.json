@@ -1,0 +1,1937 @@
+{
+  "axews-eye-area": {
+    "label": "Axew's Eye",
+    "x": 35,
+    "y": 77
+  },
+  "axews-eye-max-den-a": {
+    "label": "Axew's Eye Max Den A",
+    "x": 35,
+    "y": 77
+  },
+  "ballimere-lake-area": {
+    "label": "Ballimere Lake",
+    "x": 51,
+    "y": 5
+  },
+  "ballimere-lake-max-den-a": {
+    "label": "Ballimere Lake Max Den A",
+    "x": 51,
+    "y": 5
+  },
+  "ballimere-lake-max-den-b": {
+    "label": "Ballimere Lake Max Den B",
+    "x": 51,
+    "y": 5
+  },
+  "ballimere-lake-max-den-c": {
+    "label": "Ballimere Lake Max Den C",
+    "x": 51,
+    "y": 5
+  },
+  "ballimere-lake-max-den-d": {
+    "label": "Ballimere Lake Max Den D",
+    "x": 51,
+    "y": 5
+  },
+  "ballimere-lake-max-den-e": {
+    "label": "Ballimere Lake Max Den E",
+    "x": 51,
+    "y": 5
+  },
+  "ballimere-lake-max-den-f": {
+    "label": "Ballimere Lake Max Den F",
+    "x": 51,
+    "y": 5
+  },
+  "ballimere-lake-max-den-g": {
+    "label": "Ballimere Lake Max Den G",
+    "x": 51,
+    "y": 5
+  },
+  "ballimere-lake-max-den-h": {
+    "label": "Ballimere Lake Max Den H",
+    "x": 51,
+    "y": 5
+  },
+  "ballimere-lake-max-den-i": {
+    "label": "Ballimere Lake Max Den I",
+    "x": 51,
+    "y": 5
+  },
+  "ballimere-lake-max-den-j": {
+    "label": "Ballimere Lake Max Den J",
+    "x": 51,
+    "y": 5
+  },
+  "ballimere-lake-max-den-k": {
+    "label": "Ballimere Lake Max Den K",
+    "x": 51,
+    "y": 5
+  },
+  "ballimere-lake-max-den-l": {
+    "label": "Ballimere Lake Max Den L",
+    "x": 51,
+    "y": 5
+  },
+  "ballimere-lake-max-den-m": {
+    "label": "Ballimere Lake Max Den M",
+    "x": 51,
+    "y": 5
+  },
+  "ballimere-lake-max-den-n": {
+    "label": "Ballimere Lake Max Den N",
+    "x": 51,
+    "y": 5
+  },
+  "ballimere-lake-max-den-o": {
+    "label": "Ballimere Lake Max Den O",
+    "x": 51,
+    "y": 5
+  },
+  "ballimere-lake-max-den-p": {
+    "label": "Ballimere Lake Max Den P",
+    "x": 51,
+    "y": 5
+  },
+  "ballimere-lake-max-den-q": {
+    "label": "Ballimere Lake Max Den Q",
+    "x": 51,
+    "y": 5
+  },
+  "ballonlea-area": {
+    "label": "Ballonlea",
+    "x": 18,
+    "y": 33
+  },
+  "ballonlea-gym": {
+    "label": "Ballonlea Gym",
+    "x": 18,
+    "y": 33
+  },
+  "brawlers-cave-area": {
+    "label": "Brawler's Cave",
+    "x": 76,
+    "y": 88
+  },
+  "brawlers-cave-max-den-a": {
+    "label": "Brawler's Cave Max Den A",
+    "x": 76,
+    "y": 88
+  },
+  "bridge-field-area": {
+    "label": "Bridge Field",
+    "x": 48,
+    "y": 63
+  },
+  "bridge-field-max-den-a": {
+    "label": "Bridge Field Max Den A",
+    "x": 48,
+    "y": 63
+  },
+  "bridge-field-max-den-b": {
+    "label": "Bridge Field Max Den B",
+    "x": 48,
+    "y": 63
+  },
+  "bridge-field-max-den-c": {
+    "label": "Bridge Field Max Den C",
+    "x": 48,
+    "y": 63
+  },
+  "bridge-field-max-den-d": {
+    "label": "Bridge Field Max Den D",
+    "x": 48,
+    "y": 63
+  },
+  "bridge-field-max-den-e": {
+    "label": "Bridge Field Max Den E",
+    "x": 48,
+    "y": 63
+  },
+  "bridge-field-max-den-f": {
+    "label": "Bridge Field Max Den F",
+    "x": 48,
+    "y": 63
+  },
+  "bridge-field-max-den-g": {
+    "label": "Bridge Field Max Den G",
+    "x": 48,
+    "y": 63
+  },
+  "bridge-field-max-den-h": {
+    "label": "Bridge Field Max Den H",
+    "x": 48,
+    "y": 63
+  },
+  "bridge-field-max-den-i": {
+    "label": "Bridge Field Max Den I",
+    "x": 48,
+    "y": 63
+  },
+  "challenge-beach-area": {
+    "label": "Challenge Beach",
+    "x": 75,
+    "y": 96
+  },
+  "challenge-beach-max-den-a": {
+    "label": "Challenge Beach Max Den A",
+    "x": 75,
+    "y": 96
+  },
+  "challenge-beach-max-den-b": {
+    "label": "Challenge Beach Max Den B",
+    "x": 75,
+    "y": 96
+  },
+  "challenge-beach-max-den-c": {
+    "label": "Challenge Beach Max Den C",
+    "x": 75,
+    "y": 96
+  },
+  "challenge-beach-max-den-d": {
+    "label": "Challenge Beach Max Den D",
+    "x": 75,
+    "y": 96
+  },
+  "challenge-beach-max-den-e": {
+    "label": "Challenge Beach Max Den E",
+    "x": 75,
+    "y": 96
+  },
+  "challenge-beach-max-den-f": {
+    "label": "Challenge Beach Max Den F",
+    "x": 75,
+    "y": 96
+  },
+  "challenge-beach-max-den-g": {
+    "label": "Challenge Beach Max Den G",
+    "x": 75,
+    "y": 96
+  },
+  "challenge-beach-max-den-h": {
+    "label": "Challenge Beach Max Den H",
+    "x": 75,
+    "y": 96
+  },
+  "challenge-road-area": {
+    "label": "Challenge Road",
+    "x": 78,
+    "y": 92
+  },
+  "challenge-road-max-den-a": {
+    "label": "Challenge Road Max Den A",
+    "x": 78,
+    "y": 92
+  },
+  "challenge-road-max-den-b": {
+    "label": "Challenge Road Max Den B",
+    "x": 78,
+    "y": 92
+  },
+  "challenge-road-max-den-c": {
+    "label": "Challenge Road Max Den C",
+    "x": 78,
+    "y": 92
+  },
+  "challenge-road-max-den-d": {
+    "label": "Challenge Road Max Den D",
+    "x": 78,
+    "y": 92
+  },
+  "circhester-area": {
+    "label": "Circhester",
+    "x": 85,
+    "y": 38
+  },
+  "courageous-cavern-area": {
+    "label": "Courageous Cavern",
+    "x": 53,
+    "y": 6
+  },
+  "courageous-cavern-max-den-a": {
+    "label": "Courageous Cavern Max Den A",
+    "x": 53,
+    "y": 6
+  },
+  "courageous-cavern-max-den-b": {
+    "label": "Courageous Cavern Max Den B",
+    "x": 53,
+    "y": 6
+  },
+  "courageous-cavern-max-den-c": {
+    "label": "Courageous Cavern Max Den C",
+    "x": 53,
+    "y": 6
+  },
+  "courageous-cavern-max-den-d": {
+    "label": "Courageous Cavern Max Den D",
+    "x": 53,
+    "y": 6
+  },
+  "courageous-cavern-max-den-e": {
+    "label": "Courageous Cavern Max Den E",
+    "x": 53,
+    "y": 6
+  },
+  "courageous-cavern-max-den-f": {
+    "label": "Courageous Cavern Max Den F",
+    "x": 53,
+    "y": 6
+  },
+  "crown-shrine-area": {
+    "label": "Crown Shrine",
+    "x": 47,
+    "y": 4
+  },
+  "crown-shrine-max-den-a": {
+    "label": "Crown Shrine Max Den A",
+    "x": 47,
+    "y": 4
+  },
+  "dappled-grove-area": {
+    "label": "Dappled Grove",
+    "x": 28,
+    "y": 79
+  },
+  "dappled-grove-max-den-a": {
+    "label": "Dappled Grove Max Den A",
+    "x": 28,
+    "y": 79
+  },
+  "dappled-grove-max-den-b": {
+    "label": "Dappled Grove Max Den B",
+    "x": 28,
+    "y": 79
+  },
+  "dappled-grove-max-den-c": {
+    "label": "Dappled Grove Max Den C",
+    "x": 28,
+    "y": 79
+  },
+  "dappled-grove-max-den-d": {
+    "label": "Dappled Grove Max Den D",
+    "x": 28,
+    "y": 79
+  },
+  "dappled-grove-max-den-e": {
+    "label": "Dappled Grove Max Den E",
+    "x": 28,
+    "y": 79
+  },
+  "dusty-bowl-area": {
+    "label": "Dusty Bowl",
+    "x": 40,
+    "y": 55
+  },
+  "dusty-bowl-max-den-a": {
+    "label": "Dusty Bowl Max Den A",
+    "x": 40,
+    "y": 55
+  },
+  "dusty-bowl-max-den-b": {
+    "label": "Dusty Bowl Max Den B",
+    "x": 40,
+    "y": 55
+  },
+  "dusty-bowl-max-den-c": {
+    "label": "Dusty Bowl Max Den C",
+    "x": 40,
+    "y": 55
+  },
+  "dusty-bowl-max-den-d": {
+    "label": "Dusty Bowl Max Den D",
+    "x": 40,
+    "y": 55
+  },
+  "dusty-bowl-max-den-e": {
+    "label": "Dusty Bowl Max Den E",
+    "x": 40,
+    "y": 55
+  },
+  "dusty-bowl-max-den-f": {
+    "label": "Dusty Bowl Max Den F",
+    "x": 40,
+    "y": 55
+  },
+  "dusty-bowl-max-den-g": {
+    "label": "Dusty Bowl Max Den G",
+    "x": 40,
+    "y": 55
+  },
+  "dusty-bowl-max-den-h": {
+    "label": "Dusty Bowl Max Den H",
+    "x": 40,
+    "y": 55
+  },
+  "dusty-bowl-max-den-i": {
+    "label": "Dusty Bowl Max Den I",
+    "x": 40,
+    "y": 55
+  },
+  "dyna-tree-hill-area": {
+    "label": "Dyna Tree Hill",
+    "x": 47,
+    "y": 1
+  },
+  "dyna-tree-hill-max-den-a": {
+    "label": "Dyna Tree Hill Max Den A",
+    "x": 47,
+    "y": 1
+  },
+  "east-lake-axewell-area": {
+    "label": "East Lake Axewell",
+    "x": 40,
+    "y": 73
+  },
+  "east-lake-axewell-max-den-a": {
+    "label": "East Lake Axewell Max Den A",
+    "x": 40,
+    "y": 73
+  },
+  "east-lake-axewell-max-den-b": {
+    "label": "East Lake Axewell Max Den B",
+    "x": 40,
+    "y": 73
+  },
+  "east-lake-axewell-max-den-c": {
+    "label": "East Lake Axewell Max Den C",
+    "x": 40,
+    "y": 73
+  },
+  "east-lake-axewell-max-den-d": {
+    "label": "East Lake Axewell Max Den D",
+    "x": 40,
+    "y": 73
+  },
+  "east-lake-axewell-max-den-e": {
+    "label": "East Lake Axewell Max Den E",
+    "x": 40,
+    "y": 73
+  },
+  "energy-plant-tower-summit": {
+    "label": "Energy Plant Tower Summit",
+    "x": 45,
+    "y": 55
+  },
+  "fields-of-honor-area": {
+    "label": "Fields of Honor",
+    "x": 68,
+    "y": 90
+  },
+  "fields-of-honor-max-den-a": {
+    "label": "Fields of Honor Max Den A",
+    "x": 68,
+    "y": 90
+  },
+  "fields-of-honor-max-den-b": {
+    "label": "Fields of Honor Max Den B",
+    "x": 68,
+    "y": 90
+  },
+  "fields-of-honor-max-den-c": {
+    "label": "Fields of Honor Max Den C",
+    "x": 68,
+    "y": 90
+  },
+  "fields-of-honor-max-den-d": {
+    "label": "Fields of Honor Max Den D",
+    "x": 68,
+    "y": 90
+  },
+  "fields-of-honor-max-den-e": {
+    "label": "Fields of Honor Max Den E",
+    "x": 68,
+    "y": 90
+  },
+  "fields-of-honor-max-den-f": {
+    "label": "Fields of Honor Max Den F",
+    "x": 68,
+    "y": 90
+  },
+  "fields-of-honor-max-den-g": {
+    "label": "Fields of Honor Max Den G",
+    "x": 68,
+    "y": 90
+  },
+  "fields-of-honor-max-den-h": {
+    "label": "Fields of Honor Max Den H",
+    "x": 68,
+    "y": 90
+  },
+  "fields-of-honor-max-den-i": {
+    "label": "Fields of Honor Max Den I",
+    "x": 68,
+    "y": 90
+  },
+  "fields-of-honor-max-den-j": {
+    "label": "Fields of Honor Max Den J",
+    "x": 68,
+    "y": 90
+  },
+  "forest-of-focus-area": {
+    "label": "Forest of Focus",
+    "x": 73,
+    "y": 90
+  },
+  "forest-of-focus-max-den-a": {
+    "label": "Forest of Focus Max Den A",
+    "x": 73,
+    "y": 90
+  },
+  "forest-of-focus-max-den-b": {
+    "label": "Forest of Focus Max Den B",
+    "x": 73,
+    "y": 90
+  },
+  "forest-of-focus-max-den-c": {
+    "label": "Forest of Focus Max Den C",
+    "x": 73,
+    "y": 90
+  },
+  "forest-of-focus-max-den-d": {
+    "label": "Forest of Focus Max Den D",
+    "x": 73,
+    "y": 90
+  },
+  "forest-of-focus-max-den-e": {
+    "label": "Forest of Focus Max Den E",
+    "x": 73,
+    "y": 90
+  },
+  "forest-of-focus-max-den-f": {
+    "label": "Forest of Focus Max Den F",
+    "x": 73,
+    "y": 90
+  },
+  "freezington-area": {
+    "label": "Freezington",
+    "x": 45,
+    "y": 3
+  },
+  "frigid-sea-area": {
+    "label": "Frigid Sea",
+    "x": 55,
+    "y": 2
+  },
+  "frigid-sea-max-den-a": {
+    "label": "Frigid Sea Max Den A",
+    "x": 55,
+    "y": 2
+  },
+  "frigid-sea-max-den-b": {
+    "label": "Frigid Sea Max Den B",
+    "x": 55,
+    "y": 2
+  },
+  "frigid-sea-max-den-c": {
+    "label": "Frigid Sea Max Den C",
+    "x": 55,
+    "y": 2
+  },
+  "frigid-sea-max-den-d": {
+    "label": "Frigid Sea Max Den D",
+    "x": 55,
+    "y": 2
+  },
+  "frigid-sea-max-den-e": {
+    "label": "Frigid Sea Max Den E",
+    "x": 55,
+    "y": 2
+  },
+  "frigid-sea-max-den-f": {
+    "label": "Frigid Sea Max Den F",
+    "x": 55,
+    "y": 2
+  },
+  "frigid-sea-max-den-g": {
+    "label": "Frigid Sea Max Den G",
+    "x": 55,
+    "y": 2
+  },
+  "frigid-sea-max-den-h": {
+    "label": "Frigid Sea Max Den H",
+    "x": 55,
+    "y": 2
+  },
+  "frigid-sea-max-den-i": {
+    "label": "Frigid Sea Max Den I",
+    "x": 55,
+    "y": 2
+  },
+  "frigid-sea-max-den-j": {
+    "label": "Frigid Sea Max Den J",
+    "x": 55,
+    "y": 2
+  },
+  "frigid-sea-max-den-k": {
+    "label": "Frigid Sea Max Den K",
+    "x": 55,
+    "y": 2
+  },
+  "frigid-sea-max-den-l": {
+    "label": "Frigid Sea Max Den L",
+    "x": 55,
+    "y": 2
+  },
+  "frigid-sea-max-den-m": {
+    "label": "Frigid Sea Max Den M",
+    "x": 55,
+    "y": 2
+  },
+  "frigid-sea-max-den-n": {
+    "label": "Frigid Sea Max Den N",
+    "x": 55,
+    "y": 2
+  },
+  "frostpoint-field-area": {
+    "label": "Frostpoint Field",
+    "x": 49,
+    "y": 2
+  },
+  "frostpoint-field-max-den-a": {
+    "label": "Frostpoint Field Max Den A",
+    "x": 49,
+    "y": 2
+  },
+  "frostpoint-field-max-den-b": {
+    "label": "Frostpoint Field Max Den B",
+    "x": 49,
+    "y": 2
+  },
+  "frostpoint-field-max-den-c": {
+    "label": "Frostpoint Field Max Den C",
+    "x": 49,
+    "y": 2
+  },
+  "frostpoint-field-max-den-d": {
+    "label": "Frostpoint Field Max Den D",
+    "x": 49,
+    "y": 2
+  },
+  "frostpoint-field-max-den-e": {
+    "label": "Frostpoint Field Max Den E",
+    "x": 49,
+    "y": 2
+  },
+  "galar-battle-tower-area": {
+    "label": "Battle Tower",
+    "x": 48,
+    "y": 18
+  },
+  "galar-iceberg-ruins-area": {
+    "label": "Iceberg Ruins",
+    "x": 44,
+    "y": 2
+  },
+  "galar-iron-ruins-area": {
+    "label": "Iron Ruins",
+    "x": 47,
+    "y": 6
+  },
+  "galar-mine-area": {
+    "label": "Galar Mine",
+    "x": 10,
+    "y": 63
+  },
+  "galar-mine-no-2-area": {
+    "label": "Galar Mine No. 2",
+    "x": 50,
+    "y": 63
+  },
+  "galar-rock-peak-ruins-area": {
+    "label": "Rock Peak Ruins",
+    "x": 50,
+    "y": 2
+  },
+  "galar-route-1-area": {
+    "label": "Route 1",
+    "x": 50,
+    "y": 93
+  },
+  "galar-route-10-main": {
+    "label": "Route 10 Main",
+    "x": 47,
+    "y": 25
+  },
+  "galar-route-10-near-station": {
+    "label": "Route 10 Near Station",
+    "x": 47,
+    "y": 25
+  },
+  "galar-route-2-lake": {
+    "label": "Route 2 Lake",
+    "x": 58,
+    "y": 88
+  },
+  "galar-route-2-lakeside": {
+    "label": "Route 2 Lakeside",
+    "x": 58,
+    "y": 88
+  },
+  "galar-route-2-main": {
+    "label": "Route 2 Main",
+    "x": 58,
+    "y": 88
+  },
+  "galar-route-3-east": {
+    "label": "Route 3 (E)",
+    "x": 15,
+    "y": 65
+  },
+  "galar-route-3-west": {
+    "label": "Route 3 (W)",
+    "x": 15,
+    "y": 65
+  },
+  "galar-route-4-area": {
+    "label": "Route 4",
+    "x": 12,
+    "y": 60
+  },
+  "galar-route-5-area": {
+    "label": "Route 5",
+    "x": 27,
+    "y": 56
+  },
+  "galar-route-6-area": {
+    "label": "Route 6",
+    "x": 20,
+    "y": 47
+  },
+  "galar-route-7-area": {
+    "label": "Route 7",
+    "x": 18,
+    "y": 35
+  },
+  "galar-route-8-main": {
+    "label": "Route 8 Main",
+    "x": 65,
+    "y": 44
+  },
+  "galar-route-8-steamdrift-way": {
+    "label": "Route 8 Steamdrift Way",
+    "x": 65,
+    "y": 44
+  },
+  "galar-route-9-circhester-bay": {
+    "label": "Route 9 Circhester Bay",
+    "x": 78,
+    "y": 48
+  },
+  "galar-route-9-main": {
+    "label": "Route 9 Main",
+    "x": 78,
+    "y": 48
+  },
+  "galar-route-9-outer-spikemuth": {
+    "label": "Route 9 Outer Spikemuth",
+    "x": 78,
+    "y": 48
+  },
+  "galar-wild-area-max-dens-area": {
+    "label": "Wild Area Max Dens",
+    "x": 40,
+    "y": 60
+  },
+  "giants-bed-area": {
+    "label": "Giant's Bed",
+    "x": 51,
+    "y": 3
+  },
+  "giants-bed-max-den-a": {
+    "label": "Giant's Bed Max Den A",
+    "x": 51,
+    "y": 3
+  },
+  "giants-bed-max-den-b": {
+    "label": "Giant's Bed Max Den B",
+    "x": 51,
+    "y": 3
+  },
+  "giants-bed-max-den-c": {
+    "label": "Giant's Bed Max Den C",
+    "x": 51,
+    "y": 3
+  },
+  "giants-bed-max-den-d": {
+    "label": "Giant's Bed Max Den D",
+    "x": 51,
+    "y": 3
+  },
+  "giants-bed-max-den-e": {
+    "label": "Giant's Bed Max Den E",
+    "x": 51,
+    "y": 3
+  },
+  "giants-bed-max-den-f": {
+    "label": "Giant's Bed Max Den F",
+    "x": 51,
+    "y": 3
+  },
+  "giants-bed-max-den-g": {
+    "label": "Giant's Bed Max Den G",
+    "x": 51,
+    "y": 3
+  },
+  "giants-bed-max-den-h": {
+    "label": "Giant's Bed Max Den H",
+    "x": 51,
+    "y": 3
+  },
+  "giants-bed-max-den-i": {
+    "label": "Giant's Bed Max Den I",
+    "x": 51,
+    "y": 3
+  },
+  "giants-bed-max-den-j": {
+    "label": "Giant's Bed Max Den J",
+    "x": 51,
+    "y": 3
+  },
+  "giants-bed-max-den-k": {
+    "label": "Giant's Bed Max Den K",
+    "x": 51,
+    "y": 3
+  },
+  "giants-bed-max-den-l": {
+    "label": "Giant's Bed Max Den L",
+    "x": 51,
+    "y": 3
+  },
+  "giants-bed-max-den-m": {
+    "label": "Giant's Bed Max Den M",
+    "x": 51,
+    "y": 3
+  },
+  "giants-bed-max-den-n": {
+    "label": "Giant's Bed Max Den N",
+    "x": 51,
+    "y": 3
+  },
+  "giants-bed-max-den-o": {
+    "label": "Giant's Bed Max Den O",
+    "x": 51,
+    "y": 3
+  },
+  "giants-bed-max-den-p": {
+    "label": "Giant's Bed Max Den P",
+    "x": 51,
+    "y": 3
+  },
+  "giants-bed-max-den-q": {
+    "label": "Giant's Bed Max Den Q",
+    "x": 51,
+    "y": 3
+  },
+  "giants-bed-max-den-r": {
+    "label": "Giant's Bed Max Den R",
+    "x": 51,
+    "y": 3
+  },
+  "giants-bed-max-den-s": {
+    "label": "Giant's Bed Max Den S",
+    "x": 51,
+    "y": 3
+  },
+  "giants-bed-max-den-t": {
+    "label": "Giant's Bed Max Den T",
+    "x": 51,
+    "y": 3
+  },
+  "giants-bed-max-den-u": {
+    "label": "Giant's Bed Max Den U",
+    "x": 51,
+    "y": 3
+  },
+  "giants-cap-area-2": {
+    "label": "Giant's Cap Area 2",
+    "x": 28,
+    "y": 53
+  },
+  "giants-cap-area-3": {
+    "label": "Giant's Cap Area 3",
+    "x": 28,
+    "y": 53
+  },
+  "giants-cap-main": {
+    "label": "Giant's Cap Main",
+    "x": 28,
+    "y": 53
+  },
+  "giants-cap-max-den-a": {
+    "label": "Giant's Cap Max Den A",
+    "x": 28,
+    "y": 53
+  },
+  "giants-cap-max-den-b": {
+    "label": "Giant's Cap Max Den B",
+    "x": 28,
+    "y": 53
+  },
+  "giants-cap-max-den-c": {
+    "label": "Giant's Cap Max Den C",
+    "x": 28,
+    "y": 53
+  },
+  "giants-cap-max-den-d": {
+    "label": "Giant's Cap Max Den D",
+    "x": 28,
+    "y": 53
+  },
+  "giants-cap-max-den-e": {
+    "label": "Giant's Cap Max Den E",
+    "x": 28,
+    "y": 53
+  },
+  "giants-foot-area": {
+    "label": "Giant's Foot",
+    "x": 43,
+    "y": 4
+  },
+  "giants-foot-max-den-a": {
+    "label": "Giant's Foot Max Den A",
+    "x": 43,
+    "y": 4
+  },
+  "giants-foot-max-den-b": {
+    "label": "Giant's Foot Max Den B",
+    "x": 43,
+    "y": 4
+  },
+  "giants-foot-max-den-c": {
+    "label": "Giant's Foot Max Den C",
+    "x": 43,
+    "y": 4
+  },
+  "giants-foot-max-den-d": {
+    "label": "Giant's Foot Max Den D",
+    "x": 43,
+    "y": 4
+  },
+  "giants-foot-max-den-e": {
+    "label": "Giant's Foot Max Den E",
+    "x": 43,
+    "y": 4
+  },
+  "giants-mirror-area-2": {
+    "label": "Giant's Mirror Area 2",
+    "x": 58,
+    "y": 58
+  },
+  "giants-mirror-main": {
+    "label": "Giant's Mirror Main",
+    "x": 58,
+    "y": 58
+  },
+  "giants-mirror-max-den-a": {
+    "label": "Giant's Mirror Max Den A",
+    "x": 58,
+    "y": 58
+  },
+  "giants-mirror-max-den-b": {
+    "label": "Giant's Mirror Max Den B",
+    "x": 58,
+    "y": 58
+  },
+  "giants-mirror-max-den-c": {
+    "label": "Giant's Mirror Max Den C",
+    "x": 58,
+    "y": 58
+  },
+  "giants-mirror-max-den-d": {
+    "label": "Giant's Mirror Max Den D",
+    "x": 58,
+    "y": 58
+  },
+  "giants-mirror-max-den-e": {
+    "label": "Giant's Mirror Max Den E",
+    "x": 58,
+    "y": 58
+  },
+  "giants-seat-area": {
+    "label": "Giant's Seat",
+    "x": 52,
+    "y": 76
+  },
+  "giants-seat-max-den-a": {
+    "label": "Giant's Seat Max Den A",
+    "x": 52,
+    "y": 76
+  },
+  "giants-seat-max-den-b": {
+    "label": "Giant's Seat Max Den B",
+    "x": 52,
+    "y": 76
+  },
+  "giants-seat-max-den-c": {
+    "label": "Giant's Seat Max Den C",
+    "x": 52,
+    "y": 76
+  },
+  "giants-seat-max-den-d": {
+    "label": "Giant's Seat Max Den D",
+    "x": 52,
+    "y": 76
+  },
+  "giants-seat-max-den-e": {
+    "label": "Giant's Seat Max Den E",
+    "x": 52,
+    "y": 76
+  },
+  "glimwood-tangle-area": {
+    "label": "Glimwood Tangle",
+    "x": 20,
+    "y": 37
+  },
+  "hammerlocke-area": {
+    "label": "Hammerlocke",
+    "x": 48,
+    "y": 49
+  },
+  "hammerlocke-hills-area": {
+    "label": "Hammerlocke Hills",
+    "x": 48,
+    "y": 53
+  },
+  "hammerlocke-hills-max-den-a": {
+    "label": "Hammerlocke Hills Max Den A",
+    "x": 48,
+    "y": 53
+  },
+  "hammerlocke-hills-max-den-b": {
+    "label": "Hammerlocke Hills Max Den B",
+    "x": 48,
+    "y": 53
+  },
+  "hammerlocke-hills-max-den-c": {
+    "label": "Hammerlocke Hills Max Den C",
+    "x": 48,
+    "y": 53
+  },
+  "hammerlocke-hills-max-den-d": {
+    "label": "Hammerlocke Hills Max Den D",
+    "x": 48,
+    "y": 53
+  },
+  "hammerlocke-hills-max-den-e": {
+    "label": "Hammerlocke Hills Max Den E",
+    "x": 48,
+    "y": 53
+  },
+  "hammerlocke-hills-max-den-f": {
+    "label": "Hammerlocke Hills Max Den F",
+    "x": 48,
+    "y": 53
+  },
+  "hammerlocke-hills-max-den-g": {
+    "label": "Hammerlocke Hills Max Den G",
+    "x": 48,
+    "y": 53
+  },
+  "honeycalm-island-area": {
+    "label": "Honeycalm Island",
+    "x": 90,
+    "y": 87
+  },
+  "honeycalm-island-max-den-a": {
+    "label": "Honeycalm Island Max Den A",
+    "x": 90,
+    "y": 87
+  },
+  "honeycalm-island-max-den-b": {
+    "label": "Honeycalm Island Max Den B",
+    "x": 90,
+    "y": 87
+  },
+  "honeycalm-island-max-den-c": {
+    "label": "Honeycalm Island Max Den C",
+    "x": 90,
+    "y": 87
+  },
+  "honeycalm-island-max-den-d": {
+    "label": "Honeycalm Island Max Den D",
+    "x": 90,
+    "y": 87
+  },
+  "honeycalm-island-max-den-e": {
+    "label": "Honeycalm Island Max Den E",
+    "x": 90,
+    "y": 87
+  },
+  "honeycalm-island-max-den-f": {
+    "label": "Honeycalm Island Max Den F",
+    "x": 90,
+    "y": 87
+  },
+  "honeycalm-sea-area": {
+    "label": "Honeycalm Sea",
+    "x": 88,
+    "y": 89
+  },
+  "honeycalm-sea-max-den-a": {
+    "label": "Honeycalm Sea Max Den A",
+    "x": 88,
+    "y": 89
+  },
+  "honeycalm-sea-max-den-b": {
+    "label": "Honeycalm Sea Max Den B",
+    "x": 88,
+    "y": 89
+  },
+  "honeycalm-sea-max-den-c": {
+    "label": "Honeycalm Sea Max Den C",
+    "x": 88,
+    "y": 89
+  },
+  "honeycalm-sea-max-den-d": {
+    "label": "Honeycalm Sea Max Den D",
+    "x": 88,
+    "y": 89
+  },
+  "honeycalm-sea-max-den-e": {
+    "label": "Honeycalm Sea Max Den E",
+    "x": 88,
+    "y": 89
+  },
+  "hulbury-area": {
+    "label": "Hulbury",
+    "x": 70,
+    "y": 57
+  },
+  "insular-sea-area": {
+    "label": "Insular Sea",
+    "x": 85,
+    "y": 92
+  },
+  "insular-sea-max-den-a": {
+    "label": "Insular Sea Max Den A",
+    "x": 85,
+    "y": 92
+  },
+  "insular-sea-max-den-b": {
+    "label": "Insular Sea Max Den B",
+    "x": 85,
+    "y": 92
+  },
+  "insular-sea-max-den-c": {
+    "label": "Insular Sea Max Den C",
+    "x": 85,
+    "y": 92
+  },
+  "insular-sea-max-den-d": {
+    "label": "Insular Sea Max Den D",
+    "x": 85,
+    "y": 92
+  },
+  "insular-sea-max-den-e": {
+    "label": "Insular Sea Max Den E",
+    "x": 85,
+    "y": 92
+  },
+  "isle-of-armor-caves-area": {
+    "label": "Isle of Armor Caves",
+    "x": 79,
+    "y": 86
+  },
+  "lake-of-outrage-area": {
+    "label": "Lake of Outrage",
+    "x": 18,
+    "y": 53
+  },
+  "lake-of-outrage-max-den-a": {
+    "label": "Lake of Outrage Max Den A",
+    "x": 18,
+    "y": 53
+  },
+  "lake-of-outrage-max-den-b": {
+    "label": "Lake of Outrage Max Den B",
+    "x": 18,
+    "y": 53
+  },
+  "lake-of-outrage-max-den-c": {
+    "label": "Lake of Outrage Max Den C",
+    "x": 18,
+    "y": 53
+  },
+  "lake-of-outrage-max-den-d": {
+    "label": "Lake of Outrage Max Den D",
+    "x": 18,
+    "y": 53
+  },
+  "lakeside-cave-area": {
+    "label": "Lakeside Cave",
+    "x": 20,
+    "y": 55
+  },
+  "loop-lagoon-area": {
+    "label": "Loop Lagoon",
+    "x": 72,
+    "y": 94
+  },
+  "loop-lagoon-max-den-a": {
+    "label": "Loop Lagoon Max Den A",
+    "x": 72,
+    "y": 94
+  },
+  "loop-lagoon-max-den-b": {
+    "label": "Loop Lagoon Max Den B",
+    "x": 72,
+    "y": 94
+  },
+  "loop-lagoon-max-den-c": {
+    "label": "Loop Lagoon Max Den C",
+    "x": 72,
+    "y": 94
+  },
+  "loop-lagoon-max-den-d": {
+    "label": "Loop Lagoon Max Den D",
+    "x": 72,
+    "y": 94
+  },
+  "master-dojo-area": {
+    "label": "Master Dojo",
+    "x": 74,
+    "y": 93
+  },
+  "max-lair-area": {
+    "label": "Max Lair",
+    "x": 48,
+    "y": 3
+  },
+  "meetup-spot-area": {
+    "label": "Meetup Spot",
+    "x": 48,
+    "y": 84
+  },
+  "motostoke-gym": {
+    "label": "Motostoke Gym",
+    "x": 38,
+    "y": 66
+  },
+  "motostoke-main": {
+    "label": "Motostoke Main",
+    "x": 38,
+    "y": 66
+  },
+  "motostoke-outskirts-area": {
+    "label": "Motostoke Outskirts",
+    "x": 55,
+    "y": 66
+  },
+  "motostoke-pokemon-center": {
+    "label": "Motostoke Pokemon Center",
+    "x": 38,
+    "y": 66
+  },
+  "motostoke-riverbank-area": {
+    "label": "Motostoke Riverbank",
+    "x": 55,
+    "y": 63
+  },
+  "motostoke-riverbank-max-den-a": {
+    "label": "Motostoke Riverbank Max Den A",
+    "x": 55,
+    "y": 63
+  },
+  "motostoke-riverbank-max-den-b": {
+    "label": "Motostoke Riverbank Max Den B",
+    "x": 55,
+    "y": 63
+  },
+  "motostoke-riverbank-max-den-c": {
+    "label": "Motostoke Riverbank Max Den C",
+    "x": 55,
+    "y": 63
+  },
+  "motostoke-riverbank-max-den-d": {
+    "label": "Motostoke Riverbank Max Den D",
+    "x": 55,
+    "y": 63
+  },
+  "north-lake-miloch-area": {
+    "label": "North Lake Miloch",
+    "x": 48,
+    "y": 73
+  },
+  "north-lake-miloch-max-den-a": {
+    "label": "North Lake Miloch Max Den A",
+    "x": 48,
+    "y": 73
+  },
+  "north-lake-miloch-max-den-b": {
+    "label": "North Lake Miloch Max Den B",
+    "x": 48,
+    "y": 73
+  },
+  "north-lake-miloch-max-den-c": {
+    "label": "North Lake Miloch Max Den C",
+    "x": 48,
+    "y": 73
+  },
+  "north-lake-miloch-max-den-d": {
+    "label": "North Lake Miloch Max Den D",
+    "x": 48,
+    "y": 73
+  },
+  "north-lake-miloch-max-den-e": {
+    "label": "North Lake Miloch Max Den E",
+    "x": 48,
+    "y": 73
+  },
+  "north-lake-miloch-max-den-f": {
+    "label": "North Lake Miloch Max Den F",
+    "x": 48,
+    "y": 73
+  },
+  "old-cemetery-area": {
+    "label": "Old Cemetery",
+    "x": 39,
+    "y": 4
+  },
+  "old-cemetery-max-den-a": {
+    "label": "Old Cemetery Max Den A",
+    "x": 39,
+    "y": 4
+  },
+  "old-cemetery-max-den-b": {
+    "label": "Old Cemetery Max Den B",
+    "x": 39,
+    "y": 4
+  },
+  "path-to-the-peak-area": {
+    "label": "Path to the Peak",
+    "x": 80,
+    "y": 89
+  },
+  "path-to-the-peak-max-den-a": {
+    "label": "Path to the Peak Max Den A",
+    "x": 80,
+    "y": 89
+  },
+  "path-to-the-peak-max-den-b": {
+    "label": "Path to the Peak Max Den B",
+    "x": 80,
+    "y": 89
+  },
+  "path-to-the-peak-max-den-c": {
+    "label": "Path to the Peak Max Den C",
+    "x": 80,
+    "y": 89
+  },
+  "postwick-area": {
+    "label": "Postwick",
+    "x": 58,
+    "y": 95
+  },
+  "postwick-leons-room": {
+    "label": "Postwick Leons Room",
+    "x": 58,
+    "y": 95
+  },
+  "potbottom-desert-area": {
+    "label": "Potbottom Desert",
+    "x": 82,
+    "y": 95
+  },
+  "potbottom-desert-max-den-a": {
+    "label": "Potbottom Desert Max Den A",
+    "x": 82,
+    "y": 95
+  },
+  "potbottom-desert-max-den-b": {
+    "label": "Potbottom Desert Max Den B",
+    "x": 82,
+    "y": 95
+  },
+  "potbottom-desert-max-den-c": {
+    "label": "Potbottom Desert Max Den C",
+    "x": 82,
+    "y": 95
+  },
+  "roaming-crown-tundra-area": {
+    "label": "Roaming Crown Tundra",
+    "x": 47,
+    "y": 4
+  },
+  "roaming-galar-wild-area-area": {
+    "label": "Roaming Wild Area",
+    "x": 40,
+    "y": 60
+  },
+  "roaming-isle-of-armor-area": {
+    "label": "Roaming Isle of Armor",
+    "x": 75,
+    "y": 92
+  },
+  "roaring-sea-caves-area": {
+    "label": "Roaring-Sea Caves",
+    "x": 57,
+    "y": 3
+  },
+  "rolling-fields-area-2": {
+    "label": "Rolling Fields Area 2",
+    "x": 48,
+    "y": 80
+  },
+  "rolling-fields-main": {
+    "label": "Rolling Fields Main",
+    "x": 48,
+    "y": 80
+  },
+  "rolling-fields-max-den-a": {
+    "label": "Rolling Fields Max Den A",
+    "x": 48,
+    "y": 80
+  },
+  "rolling-fields-max-den-b": {
+    "label": "Rolling Fields Max Den B",
+    "x": 48,
+    "y": 80
+  },
+  "rolling-fields-max-den-c": {
+    "label": "Rolling Fields Max Den C",
+    "x": 48,
+    "y": 80
+  },
+  "rolling-fields-max-den-d": {
+    "label": "Rolling Fields Max Den D",
+    "x": 48,
+    "y": 80
+  },
+  "rolling-fields-max-den-e": {
+    "label": "Rolling Fields Max Den E",
+    "x": 48,
+    "y": 80
+  },
+  "rolling-fields-max-den-f": {
+    "label": "Rolling Fields Max Den F",
+    "x": 48,
+    "y": 80
+  },
+  "rolling-fields-max-den-g": {
+    "label": "Rolling Fields Max Den G",
+    "x": 48,
+    "y": 80
+  },
+  "rolling-fields-max-den-h": {
+    "label": "Rolling Fields Max Den H",
+    "x": 48,
+    "y": 80
+  },
+  "rolling-fields-max-den-i": {
+    "label": "Rolling Fields Max Den I",
+    "x": 48,
+    "y": 80
+  },
+  "slippery-slope-area": {
+    "label": "Slippery Slope",
+    "x": 43,
+    "y": 2
+  },
+  "slippery-slope-max-den-a": {
+    "label": "Slippery Slope Max Den A",
+    "x": 43,
+    "y": 2
+  },
+  "slippery-slope-max-den-b": {
+    "label": "Slippery Slope Max Den B",
+    "x": 43,
+    "y": 2
+  },
+  "slippery-slope-max-den-c": {
+    "label": "Slippery Slope Max Den C",
+    "x": 43,
+    "y": 2
+  },
+  "slippery-slope-max-den-d": {
+    "label": "Slippery Slope Max Den D",
+    "x": 43,
+    "y": 2
+  },
+  "slippery-slope-max-den-e": {
+    "label": "Slippery Slope Max Den E",
+    "x": 43,
+    "y": 2
+  },
+  "slippery-slope-max-den-f": {
+    "label": "Slippery Slope Max Den F",
+    "x": 43,
+    "y": 2
+  },
+  "slumbering-weald-deep": {
+    "label": "Slumbering Weald Deep",
+    "x": 20,
+    "y": 95
+  },
+  "slumbering-weald-main": {
+    "label": "Slumbering Weald Main",
+    "x": 20,
+    "y": 95
+  },
+  "snowslide-slope-area": {
+    "label": "Snowslide Slope",
+    "x": 45,
+    "y": 2
+  },
+  "snowslide-slope-max-den-a": {
+    "label": "Snowslide Slope Max Den A",
+    "x": 45,
+    "y": 2
+  },
+  "snowslide-slope-max-den-b": {
+    "label": "Snowslide Slope Max Den B",
+    "x": 45,
+    "y": 2
+  },
+  "snowslide-slope-max-den-c": {
+    "label": "Snowslide Slope Max Den C",
+    "x": 45,
+    "y": 2
+  },
+  "snowslide-slope-max-den-d": {
+    "label": "Snowslide Slope Max Den D",
+    "x": 45,
+    "y": 2
+  },
+  "snowslide-slope-max-den-e": {
+    "label": "Snowslide Slope Max Den E",
+    "x": 45,
+    "y": 2
+  },
+  "snowslide-slope-max-den-f": {
+    "label": "Snowslide Slope Max Den F",
+    "x": 45,
+    "y": 2
+  },
+  "snowslide-slope-max-den-g": {
+    "label": "Snowslide Slope Max Den G",
+    "x": 45,
+    "y": 2
+  },
+  "snowslide-slope-max-den-h": {
+    "label": "Snowslide Slope Max Den H",
+    "x": 45,
+    "y": 2
+  },
+  "snowslide-slope-max-den-i": {
+    "label": "Snowslide Slope Max Den I",
+    "x": 45,
+    "y": 2
+  },
+  "soothing-wetlands-area": {
+    "label": "Soothing Wetlands",
+    "x": 68,
+    "y": 93
+  },
+  "soothing-wetlands-max-den-a": {
+    "label": "Soothing Wetlands Max Den A",
+    "x": 68,
+    "y": 93
+  },
+  "soothing-wetlands-max-den-b": {
+    "label": "Soothing Wetlands Max Den B",
+    "x": 68,
+    "y": 93
+  },
+  "soothing-wetlands-max-den-c": {
+    "label": "Soothing Wetlands Max Den C",
+    "x": 68,
+    "y": 93
+  },
+  "soothing-wetlands-max-den-d": {
+    "label": "Soothing Wetlands Max Den D",
+    "x": 68,
+    "y": 93
+  },
+  "soothing-wetlands-max-den-e": {
+    "label": "Soothing Wetlands Max Den E",
+    "x": 68,
+    "y": 93
+  },
+  "soothing-wetlands-max-den-f": {
+    "label": "Soothing Wetlands Max Den F",
+    "x": 68,
+    "y": 93
+  },
+  "soothing-wetlands-max-den-g": {
+    "label": "Soothing Wetlands Max Den G",
+    "x": 68,
+    "y": 93
+  },
+  "soothing-wetlands-max-den-h": {
+    "label": "Soothing Wetlands Max Den H",
+    "x": 68,
+    "y": 93
+  },
+  "soothing-wetlands-max-den-i": {
+    "label": "Soothing Wetlands Max Den I",
+    "x": 68,
+    "y": 93
+  },
+  "south-lake-miloch-area-2": {
+    "label": "South Lake Miloch Area 2",
+    "x": 46,
+    "y": 78
+  },
+  "south-lake-miloch-main": {
+    "label": "South Lake Miloch Main",
+    "x": 46,
+    "y": 78
+  },
+  "south-lake-miloch-max-den-a": {
+    "label": "South Lake Miloch Max Den A",
+    "x": 46,
+    "y": 78
+  },
+  "south-lake-miloch-max-den-b": {
+    "label": "South Lake Miloch Max Den B",
+    "x": 46,
+    "y": 78
+  },
+  "south-lake-miloch-max-den-c": {
+    "label": "South Lake Miloch Max Den C",
+    "x": 46,
+    "y": 78
+  },
+  "south-lake-miloch-max-den-d": {
+    "label": "South Lake Miloch Max Den D",
+    "x": 46,
+    "y": 78
+  },
+  "south-lake-miloch-max-den-e": {
+    "label": "South Lake Miloch Max Den E",
+    "x": 46,
+    "y": 78
+  },
+  "spikemuth-area": {
+    "label": "Spikemuth",
+    "x": 88,
+    "y": 51
+  },
+  "split-decision-ruins-area": {
+    "label": "Split-Decision Ruins",
+    "x": 53,
+    "y": 4
+  },
+  "stepping-stone-sea-area-2": {
+    "label": "Stepping-Stone Sea Area 2",
+    "x": 86,
+    "y": 96
+  },
+  "stepping-stone-sea-main": {
+    "label": "Stepping-Stone Sea Main",
+    "x": 86,
+    "y": 96
+  },
+  "stepping-stone-sea-max-den-a": {
+    "label": "Stepping-Stone Sea Max Den A",
+    "x": 86,
+    "y": 96
+  },
+  "stepping-stone-sea-max-den-b": {
+    "label": "Stepping-Stone Sea Max Den B",
+    "x": 86,
+    "y": 96
+  },
+  "stepping-stone-sea-max-den-c": {
+    "label": "Stepping-Stone Sea Max Den C",
+    "x": 86,
+    "y": 96
+  },
+  "stepping-stone-sea-max-den-d": {
+    "label": "Stepping-Stone Sea Max Den D",
+    "x": 86,
+    "y": 96
+  },
+  "stepping-stone-sea-max-den-e": {
+    "label": "Stepping-Stone Sea Max Den E",
+    "x": 86,
+    "y": 96
+  },
+  "stepping-stone-sea-max-den-f": {
+    "label": "Stepping-Stone Sea Max Den F",
+    "x": 86,
+    "y": 96
+  },
+  "stepping-stone-sea-max-den-g": {
+    "label": "Stepping-Stone Sea Max Den G",
+    "x": 86,
+    "y": 96
+  },
+  "stepping-stone-sea-max-den-h": {
+    "label": "Stepping-Stone Sea Max Den H",
+    "x": 86,
+    "y": 96
+  },
+  "stepping-stone-sea-max-den-i": {
+    "label": "Stepping-Stone Sea Max Den I",
+    "x": 86,
+    "y": 96
+  },
+  "stony-wilderness-area-2": {
+    "label": "Stony Wilderness Area 2",
+    "x": 35,
+    "y": 58
+  },
+  "stony-wilderness-area-3": {
+    "label": "Stony Wilderness Area 3",
+    "x": 35,
+    "y": 58
+  },
+  "stony-wilderness-main": {
+    "label": "Stony Wilderness Main",
+    "x": 35,
+    "y": 58
+  },
+  "stony-wilderness-max-den-a": {
+    "label": "Stony Wilderness Max Den A",
+    "x": 35,
+    "y": 58
+  },
+  "stony-wilderness-max-den-b": {
+    "label": "Stony Wilderness Max Den B",
+    "x": 35,
+    "y": 58
+  },
+  "stony-wilderness-max-den-c": {
+    "label": "Stony Wilderness Max Den C",
+    "x": 35,
+    "y": 58
+  },
+  "stony-wilderness-max-den-d": {
+    "label": "Stony Wilderness Max Den D",
+    "x": 35,
+    "y": 58
+  },
+  "stony-wilderness-max-den-e": {
+    "label": "Stony Wilderness Max Den E",
+    "x": 35,
+    "y": 58
+  },
+  "stony-wilderness-max-den-f": {
+    "label": "Stony Wilderness Max Den F",
+    "x": 35,
+    "y": 58
+  },
+  "stony-wilderness-max-den-g": {
+    "label": "Stony Wilderness Max Den G",
+    "x": 35,
+    "y": 58
+  },
+  "stony-wilderness-max-den-h": {
+    "label": "Stony Wilderness Max Den H",
+    "x": 35,
+    "y": 58
+  },
+  "stony-wilderness-max-den-i": {
+    "label": "Stony Wilderness Max Den I",
+    "x": 35,
+    "y": 58
+  },
+  "stony-wilderness-max-den-j": {
+    "label": "Stony Wilderness Max Den J",
+    "x": 35,
+    "y": 58
+  },
+  "stony-wilderness-max-den-k": {
+    "label": "Stony Wilderness Max Den K",
+    "x": 35,
+    "y": 58
+  },
+  "stony-wilderness-max-den-l": {
+    "label": "Stony Wilderness Max Den L",
+    "x": 35,
+    "y": 58
+  },
+  "stow-on-side-area": {
+    "label": "Stow-on-Side",
+    "x": 20,
+    "y": 45
+  },
+  "three-point-pass-area": {
+    "label": "Three-Point Pass",
+    "x": 41,
+    "y": 3
+  },
+  "three-point-pass-max-den-a": {
+    "label": "Three-Point Pass Max Den A",
+    "x": 41,
+    "y": 3
+  },
+  "three-point-pass-max-den-b": {
+    "label": "Three-Point Pass Max Den B",
+    "x": 41,
+    "y": 3
+  },
+  "tower-of-darkness-area": {
+    "label": "Tower of Darkness",
+    "x": 19,
+    "y": 36
+  },
+  "tower-of-waters-area": {
+    "label": "Tower of Waters",
+    "x": 21,
+    "y": 36
+  },
+  "training-lowlands-area": {
+    "label": "Training Lowlands",
+    "x": 65,
+    "y": 95
+  },
+  "training-lowlands-max-den-a": {
+    "label": "Training Lowlands Max Den A",
+    "x": 65,
+    "y": 95
+  },
+  "training-lowlands-max-den-b": {
+    "label": "Training Lowlands Max Den B",
+    "x": 65,
+    "y": 95
+  },
+  "training-lowlands-max-den-c": {
+    "label": "Training Lowlands Max Den C",
+    "x": 65,
+    "y": 95
+  },
+  "training-lowlands-max-den-d": {
+    "label": "Training Lowlands Max Den D",
+    "x": 65,
+    "y": 95
+  },
+  "training-lowlands-max-den-e": {
+    "label": "Training Lowlands Max Den E",
+    "x": 65,
+    "y": 95
+  },
+  "training-lowlands-max-den-f": {
+    "label": "Training Lowlands Max Den F",
+    "x": 65,
+    "y": 95
+  },
+  "training-lowlands-max-den-g": {
+    "label": "Training Lowlands Max Den G",
+    "x": 65,
+    "y": 95
+  },
+  "tunnel-to-the-top-area": {
+    "label": "Tunnel to the Top",
+    "x": 45,
+    "y": 5
+  },
+  "turffield-area": {
+    "label": "Turffield",
+    "x": 28,
+    "y": 60
+  },
+  "turffield-gym": {
+    "label": "Turffield Gym",
+    "x": 28,
+    "y": 60
+  },
+  "warm-up-tunnel-area": {
+    "label": "Warm-Up Tunnel",
+    "x": 71,
+    "y": 93
+  },
+  "watchtower-ruins-area": {
+    "label": "Watchtower Ruins",
+    "x": 24,
+    "y": 71
+  },
+  "watchtower-ruins-max-den-a": {
+    "label": "Watchtower Ruins Max Den A",
+    "x": 24,
+    "y": 71
+  },
+  "watchtower-ruins-max-den-c": {
+    "label": "Watchtower Ruins Max Den C",
+    "x": 24,
+    "y": 71
+  },
+  "wedgehurst-area": {
+    "label": "Wedgehurst",
+    "x": 58,
+    "y": 91
+  },
+  "west-lake-axewell-area": {
+    "label": "West Lake Axewell",
+    "x": 22,
+    "y": 76
+  },
+  "west-lake-axewell-max-den-a": {
+    "label": "West Lake Axewell Max Den A",
+    "x": 22,
+    "y": 76
+  },
+  "west-lake-axewell-max-den-b": {
+    "label": "West Lake Axewell Max Den B",
+    "x": 22,
+    "y": 76
+  },
+  "west-lake-axewell-max-den-c": {
+    "label": "West Lake Axewell Max Den C",
+    "x": 22,
+    "y": 76
+  },
+  "west-lake-axewell-max-den-d": {
+    "label": "West Lake Axewell Max Den D",
+    "x": 22,
+    "y": 76
+  },
+  "west-lake-axewell-max-den-e": {
+    "label": "West Lake Axewell Max Den E",
+    "x": 22,
+    "y": 76
+  },
+  "west-lake-axewell-max-den-f": {
+    "label": "West Lake Axewell Max Den F",
+    "x": 22,
+    "y": 76
+  },
+  "workout-sea-area": {
+    "label": "Workout Sea",
+    "x": 70,
+    "y": 97
+  },
+  "workout-sea-max-den-a": {
+    "label": "Workout Sea Max Den A",
+    "x": 70,
+    "y": 97
+  },
+  "workout-sea-max-den-b": {
+    "label": "Workout Sea Max Den B",
+    "x": 70,
+    "y": 97
+  },
+  "workout-sea-max-den-c": {
+    "label": "Workout Sea Max Den C",
+    "x": 70,
+    "y": 97
+  },
+  "workout-sea-max-den-d": {
+    "label": "Workout Sea Max Den D",
+    "x": 70,
+    "y": 97
+  },
+  "workout-sea-max-den-e": {
+    "label": "Workout Sea Max Den E",
+    "x": 70,
+    "y": 97
+  },
+  "workout-sea-max-den-f": {
+    "label": "Workout Sea Max Den F",
+    "x": 70,
+    "y": 97
+  },
+  "workout-sea-max-den-g": {
+    "label": "Workout Sea Max Den G",
+    "x": 70,
+    "y": 97
+  },
+  "wyndon-area": {
+    "label": "Wyndon",
+    "x": 48,
+    "y": 15
+  }
+}
