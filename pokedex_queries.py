@@ -21,9 +21,9 @@ from pathlib import Path
 from typing import List, Dict, Optional
 
 # Where the database file is. Worked out from THIS file's location
-# (app/pokedex_queries.py -> up one level -> data/pokemon.db) so it doesn't
+# (pokedex_queries.py -> data/pokemon.db) so it doesn't
 # matter which folder you launch the app from.
-DB_PATH = Path(__file__).resolve().parent.parent / "data" / "pokemon.db"
+DB_PATH = Path(__file__).resolve().parent / "data" / "pokemon.db"
 
 
 class Pokedex:

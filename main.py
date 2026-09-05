@@ -3,7 +3,7 @@ The web server.
 
 This is the part that runs while you're using the Pokedex. It does two jobs:
 
-  1. Hands the browser the actual web page (the HTML/CSS/JS in app/static/).
+  1. Hands the browser the actual web page (the HTML/CSS/JS in static/).
   2. Answers questions from that page, like "give me everything about
      pokemon #6" -- those are the /api/... routes further down.
 
@@ -11,7 +11,7 @@ It does NOT build any data. All the data was already built once by the
 scripts in prep/ and saved into data/. This file only ever READS.
 
 To run it:
-    python3 app/main.py
+    python3 main.py
 Then open http://localhost:8000 in a browser.
 """
 from fastapi import FastAPI
@@ -31,15 +31,14 @@ app = FastAPI()
 # writing "data/maps/..." and hoping. If we used plain relative paths, the
 # server would only work if you happened to launch it from exactly the
 # right folder. This way it works from anywhere.
-APP_DIR = Path(__file__).resolve().parent          # .../pokemon_project/app
-PROJECT_DIR = APP_DIR.parent                       # .../pokemon_project
-STATIC_DIR = APP_DIR / "static"                    # the web page files
+PROJECT_DIR = Path(__file__).resolve().parent      # .../pokemon_project
+STATIC_DIR = PROJECT_DIR / "static"                # the web page files
 DATA_DIR = PROJECT_DIR / "data"                    # everything prep/ built
 SPRITES_DIR = DATA_DIR / "sprites"                 # the pokemon .png images
 MAPS_DIR = DATA_DIR / "maps"                       # pin coordinates (json)
 
-# This makes everything in app/static available at http://localhost:8000/static/...
-# So app/static/style.css becomes http://localhost:8000/static/style.css
+# This makes everything in static/ available at http://localhost:8000/static/...
+# So static/style.css becomes http://localhost:8000/static/style.css
 app.mount("/static", StaticFiles(directory=STATIC_DIR), name="static")
 
 # Same idea, but for sprite images: data/sprites/6_front_default.png
@@ -546,7 +545,7 @@ def get_type_chart():
     return chart
 
 
-# This block only runs if you start the file directly ("python3 app/main.py").
+# This block only runs if you start the file directly ("python3 main.py").
 # It doesn't run if something else imports this file.
 if __name__ == "__main__":
     import uvicorn
