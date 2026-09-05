@@ -6,7 +6,6 @@ venv/
 
 # Large / regenerable data (rebuild via prep/pokeapi_rip.py + prep/sprite_rip.py)
 data/raw/
-data/sprites/
 data/pokemon.db.bak-*
 
 # Dev scaffolding -- not part of the running app
